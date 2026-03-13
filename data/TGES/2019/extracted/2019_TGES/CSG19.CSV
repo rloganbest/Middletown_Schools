@@ -1,0 +1,708 @@
+GROUP,CONAME,DIST,DISTNAME,FARAT0019,RK0019,FARAT0119,RK0119
+A. K-6,Statewide,N.A.,1. State Average - Operating Type K-6,14.4,N.A.,14.9,N.A.
+A. K-6,Statewide,N.A.,2. State Median - Operating Type K-6,14.4,N.A.,14.9,N.A.
+A. K-6,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+A. K-6,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+A. K-6,Bergen,1270,Edgewater Boro,13.4,28|56,13.5,30|56
+A. K-6,Bergen,3870,Oradell Boro,12.8,31|56,11.3,39|56
+A. K-6,Bergen,4410,River Edge Boro,12.5,34|56,13.4,33|56
+A. K-6,Bergen,4620,Saddle River Boro,5.0,56|56,5.9,55|56
+A. K-6,Burlington,200,Bass River Twp,15.6,23|56,14.6,26|56
+A. K-6,Burlington,830,Chesterfield Twp,13.2,29|56,13.5,30|56
+A. K-6,Burlington,2960,Mansfield Twp,12.9,30|56,15.5,24|56
+A. K-6,Burlington,3650,North Hanover Twp,16.4,16|56,16.6,17|56
+A. K-6,Burlington,5010,Springfield Twp,7.7,53|56,13.4,33|56
+A. K-6,Camden,2540,Laurel Springs Boro,10.7,41|56,9.8,46|56
+A. K-6,Camden,5560,Waterford Twp,15.0,24|56,16.8,16|56
+A. K-6,Cape May,710,Cape May City,7.4,54|56,7.6,54|56
+A. K-6,Cape May,2840,Lower Twp,18.2,8|56,19.4,7|56
+A. K-6,Cape May,5610,West Cape May Boro,5.2,55|56,8.6,51|56
+A. K-6,Essex,1400,Essex Fells Boro,16.9,15|56,18.1,12|56
+A. K-6,Essex,1465,Fairfield Twp,18.9,6|56,18.7,9|56
+A. K-6,Essex,3630,North Caldwell Boro,19.0,5|56,17.7,13|56
+A. K-6,Essex,4530,Roseland Boro,9.0,49|56,16.2,21|56
+A. K-6,Gloucester,1180,East Greenwich Twp,17.4,13|56,16.6,17|56
+A. K-6,Gloucester,1330,Elk Twp,18.0,10|56,35.0,2|56
+A. K-6,Gloucester,1590,Franklin Twp,17.7,12|56,17.0,15|56
+A. K-6,Gloucester,2070,Harrison Twp,16.1,18|56,15.4,25|56
+A. K-6,Gloucester,2990,Mantua Twp,18.5,7|56,21.8,4|56
+A. K-6,Gloucester,3490,National Park Boro,15.8,20|56,9.8,46|56
+A. K-6,Gloucester,4880,South Harrison Twp,36.0,1|56,35.8,1|56
+A. K-6,Gloucester,5120,Swedesboro-Woolwich,15.9,19|56,15.9,22|56
+A. K-6,Gloucester,5590,Wenonah Boro,12.3,36|56,14.3,28|56
+A. K-6,Gloucester,5740,Westville Boro,15.7,22|56,10.7,42|56
+A. K-6,Gloucester,5870,Woodbury Heights Boro,27.4,3|56,27.4,3|56
+A. K-6,Hunterdon,2590,Lebanon Boro,9.0,49|56,14.6,26|56
+A. K-6,Monmouth,130,Atlantic Highlands Boro,10.6,42|56,10.8,41|56
+A. K-6,Monmouth,2160,Highlands Boro,12.1,37|56,12.1,37|56
+A. K-6,Monmouth,4520,Roosevelt Boro,13.7,26|56,14.0,29|56
+A. K-6,Morris,3240,Mine Hill Twp,11.8,39|56,12.2,36|56
+A. K-6,Ocean,230,Beach Haven Boro,12.0,38|56,13.1,35|56
+A. K-6,Ocean,320,Berkeley Twp,17.2,14|56,17.4,14|56
+A. K-6,Ocean,1150,Eagleswood Twp,7.9,52|56,8.4,52|56
+A. K-6,Ocean,2350,Island Heights Boro,9.3,46|56,10.0,44|56
+A. K-6,Ocean,2690,Little Egg Harbor Twp,14.9,25|56,15.6,23|56
+A. K-6,Ocean,2760,Long Beach Island,12.4,35|56,11.7,38|56
+A. K-6,Ocean,3800,Ocean Gate Boro,9.2,47|56,8.7,50|56
+A. K-6,Ocean,3820,Ocean Twp,15.8,20|56,16.3,20|56
+A. K-6,Ocean,4710,Seaside Heights Boro,29.1,2|56,21.2,5|56
+A. K-6,Ocean,5020,Stafford Twp,16.3,17|56,18.2,11|56
+A. K-6,Ocean,5220,Tuckerton Boro,17.9,11|56,18.4,10|56
+A. K-6,Sussex,1630,Fredon Twp,10.6,42|56,10.7,42|56
+A. K-6,Sussex,1980,Hampton Twp,8.7,51|56,9.0,49|56
+A. K-6,Sussex,4650,Sandyston-Walpack Twp,18.2,8|56,19.1,8|56
+A. K-6,Sussex,5040,Stillwater Twp,10.3,44|56,9.4,48|56
+A. K-6,Warren,400,Blairstown Twp,11.1,40|56,11.1,40|56
+A. K-6,Warren,1620,Franklin Twp,10.0,45|56,10.0,44|56
+A. K-6,Warren,1670,Frelinghuysen Twp,12.8,31|56,5.9,55|56
+A. K-6,Warren,2470,Knowlton Twp,9.2,47|56,8.4,52|56
+A. K-6,Warren,2970,Mansfield Twp,20.5,4|56,20.1,6|56
+A. K-6,Warren,5480,Washington Boro,12.8,31|56,16.6,17|56
+A. K-6,Warren,5530,Washington Twp,13.7,26|56,13.5,30|56
+B. K-8 / 0 - 400,Statewide,N.A.,1. State Average - Operating Type K-8,15.1,N.A.,14.8,N.A.
+B. K-8 / 0 - 400,Statewide,N.A.,2. State Median - Operating Type K-8,15.1,N.A.,14.8,N.A.
+B. K-8 / 0 - 400,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+B. K-8 / 0 - 400,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+B. K-8 / 0 - 400,Atlantic,1410,Estell Manor City,7.8,64|75,7.8,63|75
+B. K-8 / 0 - 400,Atlantic,3020,Margate City,11.9,30|75,11.4,35|75
+B. K-8 / 0 - 400,Atlantic,4240,Port Republic City,13.7,18|75,15.9,10|75
+B. K-8 / 0 - 400,Atlantic,5760,Weymouth Twp,7.6,65|75,4.7,73|75
+B. K-8 / 0 - 400,Bergen,80,Alpine Boro,7.0,69|75,8.7,57|75
+B. K-8 / 0 - 400,Bergen,2090,Haworth Boro,11.8,32|75,11.8,33|75
+B. K-8 / 0 - 400,Bergen,3350,Moonachie Boro,10.3,45|75,11.5,34|75
+B. K-8 / 0 - 400,Bergen,4870,South Hackensack Twp,7.3,68|75,12.2,27|75
+B. K-8 / 0 - 400,Burlington,380,Beverly City,5.9,70|75,7.6,65|75
+B. K-8 / 0 - 400,Burlington,3540,New Hanover Twp,10.5,41|75,7.3,67|75
+B. K-8 / 0 - 400,Burlington,4460,Riverton,13.7,18|75,14.3,14|75
+B. K-8 / 0 - 400,Burlington,5890,Woodland Twp,9.9,49|75,10.2,44|75
+B. K-8 / 0 - 400,Camden,580,Brooklawn Boro,27.4,1|75,14.2,15|75
+B. K-8 / 0 - 400,Camden,1720,Gibbsboro Boro,21.5,2|75,22.0,2|75
+B. K-8 / 0 - 400,Camden,2560,Lawnside Boro,5.6,71|75,8.3,61|75
+B. K-8 / 0 - 400,Camden,5900,Woodlynne Boro,12.4,27|75,12.0,29|75
+B. K-8 / 0 - 400,Cape May,170,Avalon Boro,5.6,71|75,6.0,70|75
+B. K-8 / 0 - 400,Cape May,3680,North Wildwood City,10.4,43|75,9.8,45|75
+B. K-8 / 0 - 400,Cape May,5060,Stone Harbor Boro,5.3,73|75,5.9,72|75
+B. K-8 / 0 - 400,Cape May,5800,Wildwood Crest Boro,9.7,52|75,9.2,52|75
+B. K-8 / 0 - 400,Cape May,5840,Woodbine Boro,10.2,46|75,8.2,62|75
+B. K-8 / 0 - 400,Cumberland,1020,Deerfield Twp,11.9,30|75,12.0,29|75
+B. K-8 / 0 - 400,Cumberland,1120,Downe Twp,9.0,58|75,9.0,55|75
+B. K-8 / 0 - 400,Cumberland,1820,Greenwich Twp,9.5,55|75,6.0,70|75
+B. K-8 / 0 - 400,Cumberland,5070,Stow Creek Twp,16.1,13|75,8.4,59|75
+B. K-8 / 0 - 400,Hudson,1200,East Newark Boro,N.R.,N.R.,18.1,6|75
+B. K-8 / 0 - 400,Hunterdon,370,Bethlehem Twp,13.2,20|75,13.3,18|75
+B. K-8 / 0 - 400,Hunterdon,430,Bloomsbury Boro,13.0,23|75,13.3,18|75
+B. K-8 / 0 - 400,Hunterdon,670,Califon Boro,8.4,61|75,9.7,47|75
+B. K-8 / 0 - 400,Hunterdon,910,Clinton-Glen Gardner,16.6,10|75,17.6,7|75
+B. K-8 / 0 - 400,Hunterdon,1040,Delaware Twp,13.1,N.A.,12.7,22|75
+B. K-8 / 0 - 400,Hunterdon,1160,East Amwell Twp,12.9,24|75,11.1,38|75
+B. K-8 / 0 - 400,Hunterdon,1600,Franklin Twp,8.2,63|75,10.9,40|75
+B. K-8 / 0 - 400,Hunterdon,1680,Frenchtown Boro,20.6,4|75,20.7,4|75
+B. K-8 / 0 - 400,Hunterdon,1970,Hampton Boro,10.6,40|75,9.2,52|75
+B. K-8 / 0 - 400,Hunterdon,2140,High Bridge Boro,9.4,56|75,9.3,51|75
+B. K-8 / 0 - 400,Hunterdon,2450,Kingwood Twp,13.1,21|75,12.4,24|75
+B. K-8 / 0 - 400,Hunterdon,3180,Milford Boro,9.7,52|75,6.1,69|75
+B. K-8 / 0 - 400,Monmouth,180,Avon Boro,7.5,67|75,7.6,65|75
+B. K-8 / 0 - 400,Monmouth,500,Bradley Beach Boro,10.1,48|75,13.7,17|75
+B. K-8 / 0 - 400,Monmouth,1000,Deal Boro,8.6,60|75,8.6,58|75
+B. K-8 / 0 - 400,Monmouth,1490,Farmingdale Boro,11.4,35|75,11.9,32|75
+B. K-8 / 0 - 400,Monmouth,3250,Monmouth Beach Boro,12.9,24|75,12.4,24|75
+B. K-8 / 0 - 400,Monmouth,3500,Neptune City,15.2,15|75,9.4,50|75
+B. K-8 / 0 - 400,Monmouth,4690,Sea Girt Boro,10.4,43|75,4.5,74|75
+B. K-8 / 0 - 400,Monmouth,4980,Spring Lake Boro,10.7,38|75,10.3,43|75
+B. K-8 / 0 - 400,Monmouth,4990,Spring Lake Heights Boro,16.3,11|75,16.7,8|75
+B. K-8 / 0 - 400,Morris,2010,Harding Township,14.0,17|75,13.9,16|75
+B. K-8 / 0 - 400,Morris,3410,Mount Arlington Boro,9.8,51|75,14.9,12|75
+B. K-8 / 0 - 400,Morris,3520,Netcong Boro,9.6,54|75,12.5,23|75
+B. K-8 / 0 - 400,Morris,4440,Riverdale Boro,18.1,6|75,12.0,29|75
+B. K-8 / 0 - 400,Ocean,210,Bay Head Boro,12.5,26|75,13.2,21|75
+B. K-8 / 0 - 400,Ocean,2500,Lakehurst Boro,11.5,34|75,11.0,39|75
+B. K-8 / 0 - 400,Ocean,2550,Lavallette Boro,10.9,37|75,8.9,56|75
+B. K-8 / 0 - 400,Salem,60,Alloway Twp,10.7,38|75,9.8,45|75
+B. K-8 / 0 - 400,Salem,1350,Elsinboro Twp,15.0,16|75,15.2,11|75
+B. K-8 / 0 - 400,Salem,2800,Lower Alloways Creek,16.3,11|75,16.3,9|75
+B. K-8 / 0 - 400,Salem,2950,Mannington Twp,8.9,59|75,9.6,48|75
+B. K-8 / 0 - 400,Salem,3860,Oldmans Twp,8.3,62|75,8.4,59|75
+B. K-8 / 0 - 400,Salem,4280,Quinton Twp,11.0,36|75,10.8,42|75
+B. K-8 / 0 - 400,Salem,5320,Upper Pittsgrove Twp,21.4,3|75,21.5,3|75
+B. K-8 / 0 - 400,Sussex,1930,Hamburg Boro,17.4,9|75,14.5,13|75
+B. K-8 / 0 - 400,Sussex,2490,Lafayette Twp,12.3,28|75,11.3,36|75
+B. K-8 / 0 - 400,Sussex,3300,Montague Twp,10.5,41|75,7.1,68|75
+B. K-8 / 0 - 400,Sussex,3840,Ogdensburg Boro,9.9,49|75,7.7,64|75
+B. K-8 / 0 - 400,Sussex,5030,Stanhope Boro,12.3,28|75,12.1,28|75
+B. K-8 / 0 - 400,Union,1710,Garwood Boro,15.6,14|75,9.1,54|75
+B. K-8 / 0 - 400,Union,5810,Winfield Twp,7.6,65|75,9.6,48|75
+B. K-8 / 0 - 400,Warren,70,Alpha Boro,11.7,33|75,13.3,18|75
+B. K-8 / 0 - 400,Warren,2040,Harmony Twp,17.6,8|75,20.3,5|75
+B. K-8 / 0 - 400,Warren,2250,Hope Twp,9.3,57|75,12.3,26|75
+B. K-8 / 0 - 400,Warren,3890,Oxford Twp,17.8,7|75,11.3,36|75
+B. K-8 / 0 - 400,Warren,4200,Pohatcong Twp,10.2,46|75,10.9,40|75
+B. K-8 / 0 - 400,Warren,5780,White Twp,20.6,4|75,26.5,1|75
+C. K-8 / 401 - 750,Statewide,N.A.,1. State Average - Operating Type K-8,15.1,N.A.,14.8,N.A.
+C. K-8 / 401 - 750,Statewide,N.A.,2. State Median - Operating Type K-8,15.1,N.A.,14.8,N.A.
+C. K-8 / 401 - 750,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+C. K-8 / 401 - 750,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+C. K-8 / 401 - 750,Atlantic,570,Brigantine City,18.0,9|70,18.2,7|70
+C. K-8 / 401 - 750,Atlantic,1300,Egg Harbor City,14.0,34|70,14.8,28|70
+C. K-8 / 401 - 750,Atlantic,1540,Folsom Boro,15.3,N.A.,15.3,24|70
+C. K-8 / 401 - 750,Atlantic,3480,Mullica Twp,15.2,27|70,16.0,20|70
+C. K-8 / 401 - 750,Atlantic,5350,Ventnor City,12.8,N.A.,13.3,38|70
+C. K-8 / 401 - 750,Bergen,740,Carlstadt Boro,10.0,66|70,10.3,63|70
+C. K-8 / 401 - 750,Bergen,1070,Demarest Boro,14.1,33|70,13.8,33|70
+C. K-8 / 401 - 750,Bergen,1380,Englewood Cliffs Boro,12.5,51|70,10.2,64|70
+C. K-8 / 401 - 750,Bergen,2050,Harrington Park Boro,15.6,23|70,15.6,22|70
+C. K-8 / 401 - 750,Bergen,2200,Ho Ho Kus Boro,10.8,60|70,10.7,60|70
+C. K-8 / 401 - 750,Bergen,3730,Northvale Boro,13.9,36|70,13.7,34|70
+C. K-8 / 401 - 750,Bergen,3740,Norwood Boro,10.1,65|70,11.4,58|70
+C. K-8 / 401 - 750,Bergen,3850,Old Tappan Boro,10.4,64|70,10.2,64|70
+C. K-8 / 401 - 750,Bergen,4470,Rochelle Park Twp,16.4,18|70,8.5,69|70
+C. K-8 / 401 - 750,Bergen,5880,Woodcliff Lake Boro,15.5,24|70,12.8,41|70
+C. K-8 / 401 - 750,Burlington,1030,Delanco Twp,10.6,63|70,10.1,66|70
+C. K-8 / 401 - 750,Burlington,1250,Eastampton Twp,13.7,40|70,12.5,47|70
+C. K-8 / 401 - 750,Burlington,1910,Hainesport Twp,16.7,16|70,16.6,13|70
+C. K-8 / 401 - 750,Burlington,3070,Medford Lakes Boro,16.7,16|70,12.3,50|70
+C. K-8 / 401 - 750,Burlington,4740,Shamong Twp,12.4,52|70,14.3,29|70
+C. K-8 / 401 - 750,Burlington,4930,Southampton Twp,11.2,57|70,12.8,41|70
+C. K-8 / 401 - 750,Burlington,5130,Tabernacle Twp,12.8,46|70,11.8,53|70
+C. K-8 / 401 - 750,Camden,190,Barrington Boro,14.3,31|70,14.3,29|70
+C. K-8 / 401 - 750,Camden,340,Berlin Twp,12.8,46|70,12.5,47|70
+C. K-8 / 401 - 750,Camden,880,Clementon Boro,11.9,54|70,14.1,31|70
+C. K-8 / 401 - 750,Camden,2890,Magnolia Boro,12.1,53|70,12.6,46|70
+C. K-8 / 401 - 750,Camden,3110,Merchantville Boro,36.8,N.A.,38.5,1|70
+C. K-8 / 401 - 750,Camden,3420,Mount Ephraim Boro,14.4,30|70,17.2,11|70
+C. K-8 / 401 - 750,Camden,4790,Somerdale Boro,17.7,10|70,16.5,14|70
+C. K-8 / 401 - 750,Cape May,1080,Dennis Twp,19.6,6|70,19.0,5|70
+C. K-8 / 401 - 750,Cumberland,950,Commercial Twp,11.8,55|70,12.7,45|70
+C. K-8 / 401 - 750,Cumberland,1460,Fairfield Twp,10.8,60|70,29.5,2|70
+C. K-8 / 401 - 750,Cumberland,2270,Hopewell Twp,16.4,18|70,17.2,11|70
+C. K-8 / 401 - 750,Cumberland,2570,Lawrence Twp,9.7,67|70,12.4,49|70
+C. K-8 / 401 - 750,Cumberland,3050,Maurice River Twp,9.0,69|70,8.8,68|70
+C. K-8 / 401 - 750,Gloucester,1830,Greenwich Twp,13.6,41|70,13.3,38|70
+C. K-8 / 401 - 750,Hunterdon,20,Alexandria Twp,13.9,36|70,13.5,37|70
+C. K-8 / 401 - 750,Hunterdon,2220,Holland Twp,16.3,20|70,16.5,14|70
+C. K-8 / 401 - 750,Hunterdon,2600,Lebanon Twp,16.9,15|70,16.4,17|70
+C. K-8 / 401 - 750,Hunterdon,5180,Tewksbury Twp,34.6,2|70,13.2,40|70
+C. K-8 / 401 - 750,Hunterdon,5270,Union Twp,14.7,28|70,11.8,53|70
+C. K-8 / 401 - 750,Middlesex,970,Cranbury Twp,12.6,50|70,10.4,62|70
+C. K-8 / 401 - 750,Middlesex,2370,Jamesburg Boro,11.0,58|70,10.7,60|70
+C. K-8 / 401 - 750,Monmouth,270,Belmar Boro,15.7,22|70,15.0,26|70
+C. K-8 / 401 - 750,Monmouth,560,Brielle Boro,18.3,8|70,18.9,6|70
+C. K-8 / 401 - 750,Monmouth,3830,Oceanport Boro,14.5,29|70,20.0,4|70
+C. K-8 / 401 - 750,Monmouth,4770,Shrewsbury Boro,14.0,34|70,15.4,23|70
+C. K-8 / 401 - 750,Monmouth,5230,Union Beach,12.9,44|70,12.8,41|70
+C. K-8 / 401 - 750,Monmouth,5640,West Long Branch Boro,13.1,42|70,13.9,32|70
+C. K-8 / 401 - 750,Morris,460,Boonton Twp,13.1,42|70,11.8,53|70
+C. K-8 / 401 - 750,Morris,3090,Mendham Boro,9.4,68|70,12.0,52|70
+C. K-8 / 401 - 750,Morris,3100,Mendham Twp,17.0,14|70,17.3,10|70
+C. K-8 / 401 - 750,Morris,3380,Morris Plains Boro,13.8,39|70,11.6,57|70
+C. K-8 / 401 - 750,Morris,4480,Rockaway Boro,11.5,56|70,12.1,51|70
+C. K-8 / 401 - 750,Morris,5770,Wharton Boro,17.1,13|70,16.3,19|70
+C. K-8 / 401 - 750,Passaic,420,Bloomingdale Boro,10.8,60|70,10.9,59|70
+C. K-8 / 401 - 750,Passaic,3640,North Haledon Boro,10.9,59|70,11.8,53|70
+C. K-8 / 401 - 750,Somerset,240,Bedminster Twp,14.2,32|70,13.6,36|70
+C. K-8 / 401 - 750,Somerset,4850,South Bound Brook,12.7,49|70,5.5,70|70
+C. K-8 / 401 - 750,Somerset,5540,Watchung Boro,16.3,20|70,16.0,20|70
+C. K-8 / 401 - 750,Sussex,90,Andover Reg,8.6,70|70,9.6,67|70
+C. K-8 / 401 - 750,Sussex,1560,Frankford Twp,17.6,12|70,16.4,17|70
+C. K-8 / 401 - 750,Sussex,1570,Franklin Boro,18.5,7|70,13.7,34|70
+C. K-8 / 401 - 750,Sussex,1800,Green Twp,15.5,24|70,14.9,27|70
+C. K-8 / 401 - 750,Sussex,2030,Hardyston Twp,17.7,10|70,17.5,9|70
+C. K-8 / 401 - 750,Union,3470,Mountainside Boro,24.2,4|70,17.7,8|70
+C. K-8 / 401 - 750,Warren,30,Allamuchy Twp,12.9,44|70,12.8,41|70
+C. K-8 / 401 - 750,Warren,1785,Great Meadows Regional,13.9,36|70,16.5,14|70
+C. K-8 / 401 - 750,Warren,1840,Greenwich Twp,26.3,N.A.,26.1,3|70
+C. K-8 / 401 - 750,Warren,2790,Lopatcong Twp,20.9,5|70,15.3,24|70
+D. K-8 / 751 +,Statewide,N.A.,1. State Average - Operating Type K-8,15.1,N.A.,14.8,N.A.
+D. K-8 / 751 +,Statewide,N.A.,2. State Median - Operating Type K-8,15.1,N.A.,14.8,N.A.
+D. K-8 / 751 +,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+D. K-8 / 751 +,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+D. K-8 / 751 +,Atlantic,10,Absecon City,14.7,48|74,16.2,34|74
+D. K-8 / 751 +,Atlantic,1690,Galloway Twp,20.1,5|74,19.1,8|74
+D. K-8 / 751 +,Atlantic,1940,Hamilton Twp,18.6,13|74,21.1,3|74
+D. K-8 / 751 +,Atlantic,2680,Linwood City,13.9,55|74,11.8,68|74
+D. K-8 / 751 +,Atlantic,3720,Northfield City,18.6,13|74,18.2,12|74
+D. K-8 / 751 +,Atlantic,4800,Somers Point City,16.4,34|74,15.9,38|74
+D. K-8 / 751 +,Bergen,40,Allendale Boro,14.1,54|74,13.6,60|74
+D. K-8 / 751 +,Bergen,930,Closter Boro,17.4,25|74,16.5,31|74
+D. K-8 / 751 +,Bergen,1230,East Rutherford Boro,16.2,36|74,16.6,29|74
+D. K-8 / 751 +,Bergen,1470,Fairview Boro,11.3,71|74,11.7,70|74
+D. K-8 / 751 +,Bergen,1580,Franklin Lakes Boro,19.2,9|74,16.6,29|74
+D. K-8 / 751 +,Bergen,2180,Hillsdale Boro,16.7,32|74,17.1,25|74
+D. K-8 / 751 +,Bergen,2710,Little Ferry Boro,15.2,44|74,14.3,56|74
+D. K-8 / 751 +,Bergen,3060,Maywood Boro,16.8,30|74,18.0,14|74
+D. K-8 / 751 +,Bergen,3330,Montvale Boro,12.2,68|74,12.4,67|74
+D. K-8 / 751 +,Bergen,3760,Oakland Boro,14.6,49|74,11.8,68|74
+D. K-8 / 751 +,Bergen,4430,River Vale Twp,15.0,45|74,15.2,45|74
+D. K-8 / 751 +,Bergen,5330,Upper Saddle River Boro,12.6,65|74,12.9,64|74
+D. K-8 / 751 +,Bergen,5920,Wyckoff Twp,17.9,18|74,18.5,10|74
+D. K-8 / 751 +,Burlington,1280,Edgewater Park Twp,13.3,59|74,14.7,51|74
+D. K-8 / 751 +,Burlington,1420,Evesham Twp,19.9,7|74,20.2,4|74
+D. K-8 / 751 +,Burlington,2850,Lumberton Twp,12.2,68|74,15.0,48|74
+D. K-8 / 751 +,Burlington,3080,Medford Twp,17.5,23|74,17.8,17|74
+D. K-8 / 751 +,Burlington,3430,Mount Holly Twp,13.6,57|74,13.8,59|74
+D. K-8 / 751 +,Burlington,3440,Mount Laurel Twp,19.2,9|74,19.2,7|74
+D. K-8 / 751 +,Burlington,5720,Westampton,17.3,27|74,18.2,12|74
+D. K-8 / 751 +,Camden,260,Bellmawr Boro,9.9,72|74,10.4,73|74
+D. K-8 / 751 +,Camden,330,Berlin Boro,15.3,43|74,14.5,53|74
+D. K-8 / 751 +,Camden,1780,Gloucester Twp,17.6,22|74,17.6,19|74
+D. K-8 / 751 +,Camden,4590,Runnemede Boro,14.8,46|74,14.5,53|74
+D. K-8 / 751 +,Camden,5080,Stratford Boro,14.8,46|74,13.1,62|74
+D. K-8 / 751 +,Camden,5400,Voorhees Twp,15.7,39|74,16.1,36|74
+D. K-8 / 751 +,Cape May,5340,Upper Twp,17.9,18|74,18.6,9|74
+D. K-8 / 751 +,Cumberland,5300,Upper Deerfield Twp,18.0,17|74,16.8,28|74
+D. K-8 / 751 +,Gloucester,2750,Logan Twp,14.5,51|74,14.2,58|74
+D. K-8 / 751 +,Hudson,1850,Guttenberg Town,N.R.,N.R.,17.1,25|74
+D. K-8 / 751 +,Hunterdon,920,Clinton Twp,17.5,23|74,17.6,19|74
+D. K-8 / 751 +,Hunterdon,1510,Flemington-Raritan Reg,16.8,30|74,17.2,23|74
+D. K-8 / 751 +,Hunterdon,4350,Readington Twp,16.4,34|74,15.8,41|74
+D. K-8 / 751 +,Middlesex,3220,Milltown Boro,11.8,70|74,12.7,65|74
+D. K-8 / 751 +,Monmouth,945,Colts Neck Twp,14.6,49|74,15.2,45|74
+D. K-8 / 751 +,Monmouth,1260,Eatontown Boro,N.R.,N.R.,15.0,48|74
+D. K-8 / 751 +,Monmouth,1440,Fair Haven Boro,14.4,52|74,14.7,51|74
+D. K-8 / 751 +,Monmouth,1640,Freehold Boro,13.7,56|74,14.5,53|74
+D. K-8 / 751 +,Monmouth,1660,Freehold Twp,17.8,21|74,17.1,25|74
+D. K-8 / 751 +,Monmouth,2290,Howell Twp,15.9,37|74,15.4,44|74
+D. K-8 / 751 +,Monmouth,2720,Little Silver Boro,13.3,59|74,14.8,50|74
+D. K-8 / 751 +,Monmouth,2920,Manalapan-Englishtown Reg,16.9,29|74,16.4,32|74
+D. K-8 / 751 +,Monmouth,3030,Marlboro Twp,18.9,12|74,17.4,22|74
+D. K-8 / 751 +,Monmouth,3200,Millstone Twp,13.2,61|74,11.0,72|74
+D. K-8 / 751 +,Monmouth,4360,Red Bank Boro,12.3,67|74,13.0,63|74
+D. K-8 / 751 +,Monmouth,4570,Rumson Boro,15.5,42|74,15.5,42|74
+D. K-8 / 751 +,Monmouth,5185,Tinton Falls,19.1,11|74,17.5,21|74
+D. K-8 / 751 +,Morris,820,Chester Twp,18.5,15|74,17.8,17|74
+D. K-8 / 751 +,Morris,1090,Denville Twp,17.9,18|74,18.0,14|74
+D. K-8 / 751 +,Morris,1190,East Hanover Twp,12.6,65|74,12.6,66|74
+D. K-8 / 751 +,Morris,1530,Florham Park Boro,13.4,58|74,13.6,60|74
+D. K-8 / 751 +,Morris,2000,Hanover Twp,17.4,25|74,17.2,23|74
+D. K-8 / 751 +,Morris,2650,Lincoln Park Boro,15.8,38|74,15.9,38|74
+D. K-8 / 751 +,Morris,4000,Long Hill Twp,12.8,63|74,16.4,32|74
+D. K-8 / 751 +,Morris,4490,Rockaway Twp,22.9,2|74,23.0,1|74
+D. K-8 / 751 +,Morris,5520,Washington Twp,24.0,1|74,19.8,6|74
+D. K-8 / 751 +,Passaic,1920,Haledon Boro,20.7,3|74,17.9,16|74
+D. K-8 / 751 +,Passaic,2700,Little Falls Twp,20.2,4|74,21.6,2|74
+D. K-8 / 751 +,Passaic,4270,Prospect Park Boro,14.2,53|74,14.3,56|74
+D. K-8 / 751 +,Passaic,4400,Ringwood Boro,15.7,39|74,16.2,34|74
+D. K-8 / 751 +,Passaic,5200,Totowa Boro,13.1,62|74,11.4,71|74
+D. K-8 / 751 +,Passaic,5440,Wanaque Boro,17.0,28|74,15.1,47|74
+D. K-8 / 751 +,Passaic,5690,Woodland Park,12.7,64|74,10.1,74|74
+D. K-8 / 751 +,Somerset,510,Branchburg Twp,19.9,7|74,19.9,5|74
+D. K-8 / 751 +,Somerset,1810,Green Brook Twp,15.7,39|74,15.5,42|74
+D. K-8 / 751 +,Somerset,5470,Warren Twp,20.0,6|74,18.4,11|74
+D. K-8 / 751 +,Sussex,640,Byram Twp,16.6,33|74,16.1,36|74
+D. K-8 / 751 +,Sussex,5100,Sussex-Wantage Regional,18.5,15|74,15.9,38|74
+E. K-12 / 0 - 1800,Statewide,N.A.,1. State Average - Operating Type K-12,15.3,N.A.,15.2,N.A.
+E. K-12 / 0 - 1800,Statewide,N.A.,2. State Median - Operating Type K-12,15.3,N.A.,15.2,N.A.
+E. K-12 / 0 - 1800,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+E. K-12 / 0 - 1800,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+E. K-12 / 0 - 1800,Atlantic,590,Buena Regional,15.2,9|49,12.1,31|49
+E. K-12 / 0 - 1800,Bergen,440,Bogota Boro,17.5,4|49,12.0,33|49
+E. K-12 / 0 - 1800,Bergen,1360,Emerson Boro,10.7,42|49,10.8,42|49
+E. K-12 / 0 - 1800,Bergen,2080,Hasbrouck Heights Boro,16.4,7|49,14.9,7|49
+E. K-12 / 0 - 1800,Bergen,3170,Midland Park Boro,13.2,26|49,14.5,11|49
+E. K-12 / 0 - 1800,Bergen,3910,Palisades Park,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,3940,Park Ridge Boro,10.4,44|49,10.2,45|49
+E. K-12 / 0 - 1800,Bergen,4370,Ridgefield Boro,13.2,26|49,12.3,28|49
+E. K-12 / 0 - 1800,Bergen,4610,Saddle Brook Twp,13.8,17|49,15.4,4|49
+E. K-12 / 0 - 1800,Bergen,5410,Waldwick Boro,13.3,24|49,14.4,12|49
+E. K-12 / 0 - 1800,Bergen,5430,Wallington Boro,9.2,48|49,10.0,46|49
+E. K-12 / 0 - 1800,Bergen,5830,Wood-Ridge Boro,13.7,20|49,12.9,23|49
+E. K-12 / 0 - 1800,Burlington,600,Burlington City,13.1,28|49,13.8,16|49
+E. K-12 / 0 - 1800,Burlington,1520,Florence Twp,20.7,2|49,18.4,1|49
+E. K-12 / 0 - 1800,Burlington,3920,Palmyra Boro,10.2,45|49,9.1,48|49
+E. K-12 / 0 - 1800,Burlington,4450,Riverside Twp,13.8,17|49,13.1,22|49
+E. K-12 / 0 - 1800,Camden,150,Audubon Public School Disrict,13.5,22|49,12.8,25|49
+E. K-12 / 0 - 1800,Camden,1880,Haddon Heights Boro,14.1,15|49,13.7,17|49
+E. K-12 / 0 - 1800,Camden,3770,Oaklyn Boro,21.7,1|49,13.5,19|49
+E. K-12 / 0 - 1800,Cape May,5790,Wildwood City,13.4,23|49,11.6,37|49
+E. K-12 / 0 - 1800,Essex,760,Cedar Grove Twp,14.5,12|49,15.6,3|49
+E. K-12 / 0 - 1800,Gloucester,860,Clayton Boro,14.4,13|49,14.8,8|49
+E. K-12 / 0 - 1800,Gloucester,4020,Paulsboro Boro,13.0,30|49,12.5,27|49
+E. K-12 / 0 - 1800,Gloucester,4140,Pitman Boro,14.3,14|49,14.8,8|49
+E. K-12 / 0 - 1800,Gloucester,5860,Woodbury City,12.5,33|49,12.2,30|49
+E. K-12 / 0 - 1800,Hudson,5580,Weehawken Twp,9.7,46|49,9.7,47|49
+E. K-12 / 0 - 1800,Hunterdon,1376,South Hunterdon Regional School District,14.9,11|49,13.9,15|49
+E. K-12 / 0 - 1800,Middlesex,1140,Dunellen Boro,11.3,39|49,11.9,34|49
+E. K-12 / 0 - 1800,Middlesex,2150,Highland Park Boro,15.2,9|49,12.6,26|49
+E. K-12 / 0 - 1800,Middlesex,4830,South Amboy City,17.0,5|49,13.3,20|49
+E. K-12 / 0 - 1800,Middlesex,4970,Spotswood Boro,18.0,3|49,18.2,2|49
+E. K-12 / 0 - 1800,Monmouth,2400,Keansburg Boro,15.4,8|49,15.4,4|49
+E. K-12 / 0 - 1800,Monmouth,2430,Keyport Boro,10.5,43|49,11.5,38|49
+E. K-12 / 0 - 1800,Monmouth,2930,Manasquan Boro,12.6,32|49,11.8,35|49
+E. K-12 / 0 - 1800,Morris,450,Boonton Town,12.7,31|49,12.1,31|49
+E. K-12 / 0 - 1800,Morris,630,Butler Boro,12.3,35|49,10.9,41|49
+E. K-12 / 0 - 1800,Morris,3460,Mountain Lakes Boro,14.0,16|49,14.3,13|49
+E. K-12 / 0 - 1800,Ocean,4190,Plumsted Twp,11.9,36|49,11.4,40|49
+E. K-12 / 0 - 1800,Ocean,4220,Point Pleasant Beach Boro,12.4,34|49,12.9,23|49
+E. K-12 / 0 - 1800,Passaic,4230,Pompton Lakes Boro,11.3,39|49,11.5,38|49
+E. K-12 / 0 - 1800,Salem,4075,Pennsville,13.7,20|49,14.0,14|49
+E. K-12 / 0 - 1800,Salem,4150,Pittsgrove Twp,9.7,46|49,10.3,44|49
+E. K-12 / 0 - 1800,Salem,4630,Salem City,10.8,41|49,10.6,43|49
+E. K-12 / 0 - 1800,Salem,5910,Woodstown-Pilesgrove Reg,13.8,17|49,13.3,20|49
+E. K-12 / 0 - 1800,Somerset,3000,Manville Boro,13.1,28|49,14.6,10|49
+E. K-12 / 0 - 1800,Sussex,2240,Hopatcong,11.6,38|49,12.3,28|49
+E. K-12 / 0 - 1800,Sussex,3590,Newton Town,16.8,6|49,15.0,6|49
+E. K-12 / 0 - 1800,Union,2420,Kenilworth Boro,13.3,24|49,13.6,18|49
+E. K-12 / 0 - 1800,Warren,280,Belvidere Town,11.8,37|49,11.8,35|49
+F. K-12 / 1801 - 350,Statewide,N.A.,1. State Average - Operating Type K-12,15.3,N.A.,15.2,N.A.
+F. K-12 / 1801 - 350,Statewide,N.A.,2. State Median - Operating Type K-12,15.3,N.A.,15.2,N.A.
+F. K-12 / 1801 - 350,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+F. K-12 / 1801 - 350,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+F. K-12 / 1801 - 3500,Bergen,890,Cliffside Park Boro,18.6,6|75,16.5,12|75
+F. K-12 / 1801 - 3500,Bergen,990,Cresskill Boro,12.7,N.A.,11.9,64|75
+F. K-12 / 1801 - 3500,Bergen,1130,Dumont Boro,13.7,41|75,13.4,45|75
+F. K-12 / 1801 - 3500,Bergen,1345,Elmwood Park,18.7,5|75,16.9,8|75
+F. K-12 / 1801 - 3500,Bergen,1370,Englewood City,14.5,33|75,13.3,46|75
+F. K-12 / 1801 - 3500,Bergen,1760,Glen Rock Boro,16.6,11|75,17.4,5|75
+F. K-12 / 1801 - 3500,Bergen,2620,Leonia Boro,13.2,47|75,13.2,47|75
+F. K-12 / 1801 - 3500,Bergen,2740,Lodi Borough,12.7,53|75,11.7,66|75
+F. K-12 / 1801 - 3500,Bergen,2860,Lyndhurst Twp,11.2,69|75,12.6,57|75
+F. K-12 / 1801 - 3500,Bergen,2900,Mahwah Twp,13.0,51|75,11.4,70|75
+F. K-12 / 1801 - 3500,Bergen,3550,New Milford Boro,14.1,38|75,13.5,43|75
+F. K-12 / 1801 - 3500,Bergen,3600,North Arlington Boro,9.8,74|75,10.5,74|75
+F. K-12 / 1801 - 3500,Bergen,4310,Ramsey Boro,15.9,19|75,15.1,25|75
+F. K-12 / 1801 - 3500,Bergen,4380,Ridgefield Park Twp,14.2,37|75,13.2,47|75
+F. K-12 / 1801 - 3500,Bergen,4600,Rutherford Boro,13.2,47|75,13.8,37|75
+F. K-12 / 1801 - 3500,Bergen,5755,Westwood Regional,15.7,21|75,15.7,20|75
+F. K-12 / 1801 - 3500,Burlington,475,Bordentown Regional,14.7,29|75,15.2,23|75
+F. K-12 / 1801 - 3500,Burlington,840,Cinnaminson Twp,13.1,49|75,12.8,55|75
+F. K-12 / 1801 - 3500,Burlington,1060,Delran Twp,14.8,28|75,15.2,23|75
+F. K-12 / 1801 - 3500,Burlington,3010,Maple Shade Twp,16.4,13|75,16.4,15|75
+F. K-12 / 1801 - 3500,Burlington,5805,Willingboro Twp,10.0,73|75,11.3,71|75
+F. K-12 / 1801 - 3500,Camden,940,Collingswood Boro,10.9,70|75,11.3,71|75
+F. K-12 / 1801 - 3500,Camden,1770,Gloucester City,13.6,43|75,13.2,47|75
+F. K-12 / 1801 - 3500,Camden,1890,Haddon Twp,11.9,67|75,11.9,64|75
+F. K-12 / 1801 - 3500,Camden,1900,Haddonfield Boro,16.2,17|75,14.6,30|75
+F. K-12 / 1801 - 3500,Camden,2670,Lindenwold Boro,14.4,35|75,13.9,36|75
+F. K-12 / 1801 - 3500,Camden,4110,Pine Hill Boro,14.7,29|75,15.0,27|75
+F. K-12 / 1801 - 3500,Cape May,3130,Middle Twp,20.8,1|75,16.6,10|75
+F. K-12 / 1801 - 3500,Cape May,3780,Ocean City,18.8,4|75,19.0,1|75
+F. K-12 / 1801 - 3500,Essex,660,Caldwell-West Caldwell,15.3,26|75,16.4,15|75
+F. K-12 / 1801 - 3500,Essex,1750,Glen Ridge Boro,14.6,31|75,14.7,28|75
+F. K-12 / 1801 - 3500,Essex,5370,Verona Boro,12.7,53|75,12.9,53|75
+F. K-12 / 1801 - 3500,Gloucester,1730,Glassboro,8.4,75|75,12.1,62|75
+F. K-12 / 1801 - 3500,Gloucester,5620,West Deptford Twp,16.3,14|75,17.1,7|75
+F. K-12 / 1801 - 3500,Hudson,2060,Harrison Town,10.8,71|75,10.7,73|75
+F. K-12 / 1801 - 3500,Hudson,2210,Hoboken City,12.2,N.A.,13.5,43|75
+F. K-12 / 1801 - 3500,Hudson,4730,Secaucus Town,12.7,53|75,13.8,37|75
+F. K-12 / 1801 - 3500,Mercer,1430,Ewing Twp,18.1,8|75,18.0,2|75
+F. K-12 / 1801 - 3500,Mercer,2280,Hopewell Valley Regional,16.6,11|75,17.3,6|75
+F. K-12 / 1801 - 3500,Mercer,5510,Robbinsville,18.5,7|75,16.1,18|75
+F. K-12 / 1801 - 3500,Middlesex,3120,Metuchen Boro,12.8,52|75,13.1,50|75
+F. K-12 / 1801 - 3500,Middlesex,3140,Middlesex Boro,15.9,19|75,15.1,25|75
+F. K-12 / 1801 - 3500,Middlesex,4910,South Plainfield Boro,13.9,N.A.,13.8,37|75
+F. K-12 / 1801 - 3500,Middlesex,4920,South River Boro,14.4,35|75,14.7,28|75
+F. K-12 / 1801 - 3500,Monmouth,100,Asbury Park City,10.7,72|75,11.7,66|75
+F. K-12 / 1801 - 3500,Monmouth,2105,Hazlet Twp,12.0,66|75,12.4,59|75
+F. K-12 / 1801 - 3500,Monmouth,2230,Holmdel Twp,15.4,23|75,15.6,21|75
+F. K-12 / 1801 - 3500,Monmouth,3810,Ocean Twp,17.0,9|75,16.6,10|75
+F. K-12 / 1801 - 3500,Monmouth,5310,Upper Freehold Regional,16.3,14|75,16.4,15|75
+F. K-12 / 1801 - 3500,Monmouth,5420,Wall Twp,19.3,N.A.,17.6,3|75
+F. K-12 / 1801 - 3500,Morris,1110,Dover Town,12.5,62|75,11.6,68|75
+F. K-12 / 1801 - 3500,Morris,2380,Jefferson Twp,13.5,45|75,13.6,42|75
+F. K-12 / 1801 - 3500,Morris,2460,Kinnelon Boro,12.7,53|75,N.R.,N.R.
+F. K-12 / 1801 - 3500,Morris,2870,Madison Boro,13.1,49|75,14.3,34|75
+F. K-12 / 1801 - 3500,Morris,4080,Pequannock Twp,12.6,59|75,12.0,63|75
+F. K-12 / 1801 - 3500,Ocean,185,Barnegat Twp,19.1,3|75,17.5,4|75
+F. K-12 / 1801 - 3500,Ocean,2940,Manchester Twp,16.8,10|75,16.5,12|75
+F. K-12 / 1801 - 3500,Ocean,4210,Point Pleasant Boro,14.5,33|75,14.6,30|75
+F. K-12 / 1801 - 3500,Passaic,2100,Hawthorne Boro,15.5,22|75,15.8,19|75
+F. K-12 / 1801 - 3500,Passaic,5650,West Milford Twp,15.4,23|75,14.4,33|75
+F. K-12 / 1801 - 3500,Salem,4070,Penns Grv-Carneys Pt Reg,12.7,53|75,13.8,37|75
+F. K-12 / 1801 - 3500,Somerset,490,Bound Brook Boro,14.6,31|75,11.6,68|75
+F. K-12 / 1801 - 3500,Somerset,3670,North Plainfield Boro,13.6,43|75,13.0,51|75
+F. K-12 / 1801 - 3500,Somerset,4815,Somerset Hills Regional,12.6,59|75,12.9,53|75
+F. K-12 / 1801 - 3500,Somerset,4820,Somerville Boro,12.4,64|75,13.0,51|75
+F. K-12 / 1801 - 3500,Sussex,4960,Sparta Twp,12.6,59|75,12.3,60|75
+F. K-12 / 1801 - 3500,Sussex,5360,Vernon Twp,15.3,26|75,16.9,8|75
+F. K-12 / 1801 - 3500,Union,310,Berkeley Heights Twp,13.7,41|75,13.8,37|75
+F. K-12 / 1801 - 3500,Union,850,Clark Twp,16.1,18|75,15.3,22|75
+F. K-12 / 1801 - 3500,Union,2190,Hillside Twp,12.5,62|75,12.2,61|75
+F. K-12 / 1801 - 3500,Union,3560,New Providence Boro,16.3,14|75,16.5,12|75
+F. K-12 / 1801 - 3500,Union,4540,Roselle Boro,15.4,23|75,12.5,58|75
+F. K-12 / 1801 - 3500,Union,4550,Roselle Park Boro,13.5,45|75,14.6,30|75
+F. K-12 / 1801 - 3500,Union,5000,Springfield Twp,11.9,67|75,12.8,55|75
+F. K-12 / 1801 - 3500,Warren,1870,Hackettstown,13.8,40|75,14.1,35|75
+G. K-12 / 3501 +,Statewide,N.A.,1. State Average - Operating Type K-12,15.3,N.A.,15.2,N.A.
+G. K-12 / 3501 +,Statewide,N.A.,2. State Median - Operating Type K-12,15.3,N.A.,15.2,N.A.
+G. K-12 / 3501 +,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+G. K-12 / 3501 +,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+G. K-12 / 3501 +,Atlantic,110,Atlantic City,22.9,2|97,23.0,2|97
+G. K-12 / 3501 +,Atlantic,1310,Egg Harbor Twp,17.9,33|97,18.1,26|97
+G. K-12 / 3501 +,Atlantic,1960,Hammonton Town,15.2,68|97,15.2,67|97
+G. K-12 / 3501 +,Atlantic,4180,Pleasantville City,16.5,49|97,13.4,89|97
+G. K-12 / 3501 +,Bergen,300,Bergenfield Boro,17.0,43|97,17.3,39|97
+G. K-12 / 3501 +,Bergen,1450,Fair Lawn Public Schools,17.8,36|97,17.8,33|97
+G. K-12 / 3501 +,Bergen,1550,Fort Lee Boro,16.4,50|97,16.9,43|97
+G. K-12 / 3501 +,Bergen,1700,Garfield City,13.4,88|97,14.6,75|97
+G. K-12 / 3501 +,Bergen,1860,Hackensack City,14.9,75|97,14.7,74|97
+G. K-12 / 3501 +,Bergen,3930,Paramus Boro,15.6,61|97,15.1,69|97
+G. K-12 / 3501 +,Bergen,4390,Ridgewood Village,16.1,56|97,15.5,62|97
+G. K-12 / 3501 +,Bergen,5150,Teaneck Twp,15.6,61|97,14.4,79|97
+G. K-12 / 3501 +,Bergen,5160,Tenafly Boro,14.0,84|97,15.7,59|97
+G. K-12 / 3501 +,Burlington,620,Burlington Twp,17.9,33|97,16.2,53|97
+G. K-12 / 3501 +,Burlington,3360,Moorestown Twp,15.3,67|97,15.4,64|97
+G. K-12 / 3501 +,Burlington,4050,Pemberton Twp,15.5,64|97,15.3,65|97
+G. K-12 / 3501 +,Camden,680,Camden City,9.0,96|97,7.4,97|97
+G. K-12 / 3501 +,Camden,800,Cherry Hill Twp,21.4,8|97,21.4,7|97
+G. K-12 / 3501 +,Camden,4060,Pennsauken Twp,18.0,31|97,16.4,51|97
+G. K-12 / 3501 +,Camden,5820,Winslow Twp,17.7,38|97,18.4,25|97
+G. K-12 / 3501 +,Cumberland,540,Bridgeton City,16.6,47|97,14.4,79|97
+G. K-12 / 3501 +,Cumberland,3230,Millville City,11.8,93|97,12.5,92|97
+G. K-12 / 3501 +,Cumberland,5390,Vineland City,20.0,13|97,18.9,17|97
+G. K-12 / 3501 +,Essex,250,Belleville Town,15.1,70|97,16.0,55|97
+G. K-12 / 3501 +,Essex,410,Bloomfield Twp,18.3,28|97,19.2,14|97
+G. K-12 / 3501 +,Essex,1210,East Orange,14.5,79|97,14.6,75|97
+G. K-12 / 3501 +,Essex,2330,Irvington Township,16.7,46|97,17.2,40|97
+G. K-12 / 3501 +,Essex,2730,Livingston Twp,15.1,70|97,15.6,60|97
+G. K-12 / 3501 +,Essex,3190,Millburn Twp,15.0,73|97,14.9,71|97
+G. K-12 / 3501 +,Essex,3310,Montclair Town,22.4,3|97,20.5,9|97
+G. K-12 / 3501 +,Essex,3570,Newark City,8.6,97|97,8.7,96|97
+G. K-12 / 3501 +,Essex,3750,Nutley Town,14.6,77|97,14.9,71|97
+G. K-12 / 3501 +,Essex,3880,City Of Orange Twp,10.9,94|97,10.7,94|97
+G. K-12 / 3501 +,Essex,4900,South Orange-Maplewood,16.2,54|97,18.1,26|97
+G. K-12 / 3501 +,Essex,5680,West Orange Town,17.3,41|97,16.8,46|97
+G. K-12 / 3501 +,Gloucester,1100,Deptford Twp,16.1,56|97,15.6,60|97
+G. K-12 / 3501 +,Gloucester,3280,Monroe Twp,18.4,27|97,18.0,30|97
+G. K-12 / 3501 +,Gloucester,5500,Washington Twp,16.4,50|97,16.2,53|97
+G. K-12 / 3501 +,Hudson,220,Bayonne City,18.6,24|97,18.0,30|97
+G. K-12 / 3501 +,Hudson,2390,Jersey City,20.4,11|97,21.5,6|97
+G. K-12 / 3501 +,Hudson,2410,Kearny Town,18.7,23|97,17.4,38|97
+G. K-12 / 3501 +,Hudson,3610,North Bergen Twp,15.6,61|97,16.5,50|97
+G. K-12 / 3501 +,Hudson,5240,Union City,13.1,91|97,13.7,87|97
+G. K-12 / 3501 +,Hudson,5670,West New York Town,16.0,58|97,15.8,58|97
+G. K-12 / 3501 +,Mercer,1245,East Windsor Regional,14.3,81|97,15.2,67|97
+G. K-12 / 3501 +,Mercer,1950,Hamilton Twp,17.6,39|97,17.5,37|97
+G. K-12 / 3501 +,Mercer,2580,Lawrence Twp,15.2,68|97,15.3,65|97
+G. K-12 / 3501 +,Mercer,4255,Princeton Public Schools,15.5,64|97,14.6,75|97
+G. K-12 / 3501 +,Mercer,5210,Trenton Public School District,19.2,19|97,18.5,23|97
+G. K-12 / 3501 +,Mercer,5715,W Windsor-Plainsboro Reg,17.9,33|97,18.9,17|97
+G. K-12 / 3501 +,Middlesex,750,Carteret Boro,16.9,45|97,16.7,47|97
+G. K-12 / 3501 +,Middlesex,1170,East Brunswick Twp,17.5,40|97,17.6,36|97
+G. K-12 / 3501 +,Middlesex,1290,Edison Twp,21.6,7|97,20.5,9|97
+G. K-12 / 3501 +,Middlesex,3290,Monroe Twp,22.3,4|97,21.8,4|97
+G. K-12 / 3501 +,Middlesex,3530,New Brunswick City,15.8,60|97,15.5,62|97
+G. K-12 / 3501 +,Middlesex,3620,North Brunswick Twp,13.5,86|97,12.2,93|97
+G. K-12 / 3501 +,Middlesex,3845,Old Bridge Twp,20.4,11|97,21.4,7|97
+G. K-12 / 3501 +,Middlesex,4090,Perth Amboy City,15.0,73|97,14.9,71|97
+G. K-12 / 3501 +,Middlesex,4130,Piscataway Twp,14.6,77|97,14.1,83|97
+G. K-12 / 3501 +,Middlesex,4660,Sayreville Boro,19.5,16|97,18.6,21|97
+G. K-12 / 3501 +,Middlesex,4860,South Brunswick Twp,13.5,86|97,14.0,84|97
+G. K-12 / 3501 +,Middlesex,5850,Woodbridge Twp,19.9,14|97,19.0,16|97
+G. K-12 / 3501 +,Monmouth,2770,Long Branch City,14.1,83|97,13.8,86|97
+G. K-12 / 3501 +,Monmouth,3040,Matawan-Aberdeen Regional,18.6,24|97,16.3,52|97
+G. K-12 / 3501 +,Monmouth,3160,Middletown Twp,19.0,20|97,18.8,19|97
+G. K-12 / 3501 +,Monmouth,3510,Neptune Twp,14.9,75|97,14.5,78|97
+G. K-12 / 3501 +,Morris,785,Sch Dist Of The Chathams,13.9,85|97,14.3,81|97
+G. K-12 / 3501 +,Morris,3340,Montville Twp,18.9,22|97,18.1,26|97
+G. K-12 / 3501 +,Morris,3385,Morris School District,16.2,54|97,16.0,55|97
+G. K-12 / 3501 +,Morris,3450,Mount Olive Twp,16.3,52|97,17.0,42|97
+G. K-12 / 3501 +,Morris,3950,Parsippany-Troy Hills Twp,18.3,28|97,18.5,23|97
+G. K-12 / 3501 +,Morris,4330,Randolph Twp,16.3,52|97,16.9,43|97
+G. K-12 / 3501 +,Morris,4560,Roxbury Twp,13.2,89|97,13.3,90|97
+G. K-12 / 3501 +,Ocean,530,Brick Twp,21.9,6|97,21.8,4|97
+G. K-12 / 3501 +,Ocean,2360,Jackson Twp,19.4,18|97,19.5,12|97
+G. K-12 / 3501 +,Ocean,2480,Lacey Twp,15.1,70|97,16.6,49|97
+G. K-12 / 3501 +,Ocean,2520,Lakewood Twp,20.6,9|97,18.8,19|97
+G. K-12 / 3501 +,Ocean,5190,Toms River Regional,19.0,20|97,19.2,14|97
+G. K-12 / 3501 +,Passaic,900,Clifton City,18.6,24|97,18.1,26|97
+G. K-12 / 3501 +,Passaic,3970,Passaic City,14.4,80|97,13.3,90|97
+G. K-12 / 3501 +,Passaic,4010,Paterson City,10.1,95|97,10.5,95|97
+G. K-12 / 3501 +,Passaic,5570,Wayne Twp,19.8,15|97,18.6,21|97
+G. K-12 / 3501 +,Somerset,350,Bernards Twp,17.8,36|97,16.7,47|97
+G. K-12 / 3501 +,Somerset,555,Bridgewater-Raritan Reg,20.5,10|97,19.3,13|97
+G. K-12 / 3501 +,Somerset,1610,Franklin Twp,18.0,31|97,17.7,35|97
+G. K-12 / 3501 +,Somerset,2170,Hillsborough Twp,22.3,4|97,22.5,3|97
+G. K-12 / 3501 +,Somerset,3320,Montgomery Twp,12.8,92|97,14.0,84|97
+G. K-12 / 3501 +,Union,980,Cranford Twp,16.0,58|97,14.2,82|97
+G. K-12 / 3501 +,Union,1320,Elizabeth City,24.2,1|97,26.0,1|97
+G. K-12 / 3501 +,Union,2660,Linden City,14.2,82|97,15.1,69|97
+G. K-12 / 3501 +,Union,4160,Plainfield City,16.6,47|97,17.8,33|97
+G. K-12 / 3501 +,Union,4290,Rahway City,15.5,64|97,15.9,57|97
+G. K-12 / 3501 +,Union,4670,Scotch Plains-Fanwood Reg,17.1,42|97,17.2,40|97
+G. K-12 / 3501 +,Union,5090,Summit City,13.2,89|97,13.5,88|97
+G. K-12 / 3501 +,Union,5290,Union Twp,18.1,30|97,16.9,43|97
+G. K-12 / 3501 +,Union,5730,Westfield Town,19.5,16|97,20.4,11|97
+G. K-12 / 3501 +,Warren,4100,Phillipsburg Town,17.0,43|97,18.0,30|97
+H. 7-12 / 9-12,Statewide,N.A.,1. State Average - Operating Type 7-12,12.5,N.A.,12.4,N.A.
+H. 7-12 / 9-12,Statewide,N.A.,2. State Median - Operating Type 7-12,12.5,N.A.,12.4,N.A.
+H. 7-12 / 9-12,Statewide,N.A.,3. State Average - Operating Type 9-12,11.4,N.A.,11.2,N.A.
+H. 7-12 / 9-12,Statewide,N.A.,4. State Median - Operating Type 9-12,11.4,N.A.,11.2,N.A.
+H. 7-12 / 9-12,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+H. 7-12 / 9-12,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+H. 7-12 / 9-12,Atlantic,1790,Greater Egg Harbor Reg,10.0,31|46,10.0,32|46
+H. 7-12 / 9-12,Atlantic,2910,Mainland Regional,12.8,11|46,14.4,4|46
+H. 7-12 / 9-12,Bergen,745,Carlstadt-East Rutherford,7.6,45|46,7.6,45|46
+H. 7-12 / 9-12,Bergen,3700,Northern Highlands Reg,8.8,42|46,8.7,41|46
+H. 7-12 / 9-12,Bergen,3710,Northern Valley Regional,11.7,23|46,11.2,24|46
+H. 7-12 / 9-12,Bergen,3960,Pascack Valley Regional,10.0,31|46,9.6,35|46
+H. 7-12 / 9-12,Bergen,4300,Ramapo-Indian Hill Reg,9.9,33|46,9.9,33|46
+H. 7-12 / 9-12,Bergen,4405,River Dell Regional,12.1,19|46,13.2,10|46
+H. 7-12 / 9-12,Burlington,2610,Lenape Regional,16.3,1|46,16.8,1|46
+H. 7-12 / 9-12,Burlington,3690,Northern Burlington Reg,13.0,10|46,12.4,12|46
+H. 7-12 / 9-12,Burlington,4320,Rancocas Valley Regional,11.5,25|46,11.2,24|46
+H. 7-12 / 9-12,Camden,390,Black Horse Pike Regional,9.5,36|46,9.6,35|46
+H. 7-12 / 9-12,Camden,1255,Eastern Camden County Reg,12.6,15|46,12.4,12|46
+H. 7-12 / 9-12,Camden,5035,Sterling High School Dist,9.1,41|46,10.2,31|46
+H. 7-12 / 9-12,Cape May,2820,Lower Cape May Regional,14.1,4|46,13.7,6|46
+H. 7-12 / 9-12,Cumberland,997,Cumberland Regional,7.4,46|46,8.2,43|46
+H. 7-12 / 9-12,Essex,5630,West Essex Regional,12.5,17|46,12.2,15|46
+H. 7-12 / 9-12,Gloucester,870,Clearview Regional,12.8,11|46,11.0,26|46
+H. 7-12 / 9-12,Gloucester,1715,Gateway Regional,8.8,42|46,8.4,42|46
+H. 7-12 / 9-12,Gloucester,2440,Kingsway Regional,11.7,23|46,11.4,22|46
+H. 7-12 / 9-12,Gloucester,4940,Delsea Regional H.S Dist.,12.8,11|46,11.7,18|46
+H. 7-12 / 9-12,Hunterdon,1050,Delaware Valley Regional,9.3,39|46,8.2,43|46
+H. 7-12 / 9-12,Hunterdon,2300,Hunterdon Central Reg,14.8,2|46,12.6,11|46
+H. 7-12 / 9-12,Hunterdon,3660,N Hunt/Voorhees Regional,13.1,9|46,12.1,16|46
+H. 7-12 / 9-12,Monmouth,1650,Freehold Regional,12.2,18|46,12.4,12|46
+H. 7-12 / 9-12,Monmouth,2120,Henry Hudson Regional,13.4,6|46,13.4,7|46
+H. 7-12 / 9-12,Monmouth,3270,Monmouth Regional,9.8,35|46,10.7,28|46
+H. 7-12 / 9-12,Monmouth,4365,Red Bank Regional,11.0,26|46,11.7,18|46
+H. 7-12 / 9-12,Monmouth,4580,Rumson-Fair Haven Reg,9.5,36|46,9.7,34|46
+H. 7-12 / 9-12,Monmouth,4760,Shore Regional,9.3,39|46,9.5,37|46
+H. 7-12 / 9-12,Morris,1990,Hanover Park Regional,13.3,8|46,12.1,16|46
+H. 7-12 / 9-12,Morris,3370,Morris Hills Regional,12.0,20|46,11.4,22|46
+H. 7-12 / 9-12,Morris,5660,West Morris Regional,11.8,21|46,11.7,18|46
+H. 7-12 / 9-12,Ocean,770,Central Regional,12.8,11|46,13.4,7|46
+H. 7-12 / 9-12,Ocean,4105,Pinelands Regional,12.6,15|46,13.3,9|46
+H. 7-12 / 9-12,Ocean,4950,Southern Regional,14.2,3|46,15.3,2|46
+H. 7-12 / 9-12,Passaic,2510,Lakeland Regional,10.5,28|46,9.4,38|46
+H. 7-12 / 9-12,Passaic,3980,Passaic Co Manchester Reg,13.8,5|46,15.1,3|46
+H. 7-12 / 9-12,Passaic,3990,Passaic Valley Regional,10.2,30|46,9.0,39|46
+H. 7-12 / 9-12,Somerset,5550,Watchung Hills Regional,10.6,27|46,10.5,29|46
+H. 7-12 / 9-12,Sussex,2165,High Point Regional,9.9,33|46,10.9,27|46
+H. 7-12 / 9-12,Sussex,2465,Kittatinny Regional,10.3,29|46,10.3,30|46
+H. 7-12 / 9-12,Sussex,2615,Lenape Valley Regional,7.8,44|46,6.3,46|46
+H. 7-12 / 9-12,Sussex,5435,Wallkill Valley Regional,9.5,36|46,9.0,39|46
+H. 7-12 / 9-12,Warren,3675,North Warren Regional,11.8,21|46,11.7,18|46
+H. 7-12 / 9-12,Warren,5465,Warren Hills Regional,13.4,6|46,14.1,5|46
+I. CSSD,Statewide,N.A.,1. State Average -  Operating Type Cssd,13.5,N.A.,13.5,N.A.
+I. CSSD,Statewide,N.A.,2. State Median - Operating Type Cssd,13.5,N.A.,13.5,N.A.
+I. CSSD,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+I. CSSD,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+I. CSSD,Atlantic,125,Atlantic Co Special Serv,12.4,5|8,9.6,6|8
+I. CSSD,Bergen,285,Bergen Co Special Service,21.5,1|8,24.1,1|8
+I. CSSD,Burlington,605,Burlington Co Spec Serv,13.5,3|8,13.7,2|8
+I. CSSD,Cape May,715,Cape May Co Special Serv,12.1,6|8,12.7,4|8
+I. CSSD,Gloucester,1774,Gloucester Co Spec Serv,9.3,7|8,9.3,7|8
+I. CSSD,Mercer,3103,Mercer County Special Services School Di,15.2,2|8,13.3,3|8
+I. CSSD,Salem,4635,Salem Co Special Service,7.9,8|8,10.2,5|8
+I. CSSD,Warren,5450,Warren Co Special Service,12.7,4|8,N.R.,N.R.
+J. VOC,Statewide,N.A.,1. State Average - Operating Type Voc,10.6,N.A.,11.0,N.A.
+J. VOC,Statewide,N.A.,2. State Median - Operating Type Voc,10.6,N.A.,11.0,N.A.
+J. VOC,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+J. VOC,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+J. VOC,Atlantic,120,Atlantic Co Vocational,16.3,1|21,15.8,2|21
+J. VOC,Bergen,290,Bergen County Vocational,12.5,5|21,12.9,7|21
+J. VOC,Burlington,610,Burlington Co Vocational,12.5,5|21,16.0,1|21
+J. VOC,Camden,700,Camden County Vocational,8.4,15|21,9.0,15|21
+J. VOC,Cape May,720,Cape May Co Vocational,10.6,11|21,11.0,9|21
+J. VOC,Cumberland,995,Cumberland Co Vocational,6.4,21|21,9.6,12|21
+J. VOC,Essex,1390,Essex Co Voc-Tech,11.0,9|21,11.0,9|21
+J. VOC,Gloucester,1775,Gloucester Co Vocational,14.8,3|21,15.7,3|21
+J. VOC,Hudson,2295,Hudson County Vocational,11.9,7|21,13.3,6|21
+J. VOC,Hunterdon,2308,Hunterdon Co Vocational,11.0,9|21,6.9,19|21
+J. VOC,Mercer,3105,Mercer County Vocational,8.5,14|21,6.6,20|21
+J. VOC,Middlesex,3150,Middlesex Co Vocational,8.4,15|21,8.3,16|21
+J. VOC,Monmouth,3260,Monmouth Co Vocational,11.9,7|21,12.7,8|21
+J. VOC,Morris,3365,Morris County Vocational,9.3,13|21,9.4,13|21
+J. VOC,Ocean,3790,Ocean County Vocational,8.2,18|21,9.2,14|21
+J. VOC,Passaic,3995,Passaic County Vocational,15.0,2|21,15.0,4|21
+J. VOC,Salem,4640,Salem County Vocational,8.4,15|21,5.9,21|21
+J. VOC,Somerset,4810,Somerset Co Vocational,6.7,20|21,7.1,18|21
+J. VOC,Sussex,5110,Sussex County Vocational,14.2,4|21,14.2,5|21
+J. VOC,Union,5260,Union County Vocational,8.1,19|21,8.3,16|21
+J. VOC,Warren,5460,Warren County Vocational,9.6,12|21,9.8,11|21
+K. CHARTER,Statewide,N.A.,1. State Average-Operating Type Charter,11.9,N.A.,11.3,N.A.
+K. CHARTER,Statewide,N.A.,2. State Median-Operating Type Charter,11.9,N.A.,11.3,N.A.
+K. CHARTER,Statewide,N.A.,5. State Average - All Operating Types,14.7,N.A.,14.5,N.A.
+K. CHARTER,Statewide,N.A.,6. State Median - All Operating Types,14.7,N.A.,14.5,N.A.
+K. Charter,Atlantic,6060,Atlantic Community Charter School,16.0,15|88,12.3,28|91
+K. Charter,Atlantic,6104,International Academy Of Atlantic City C,12.5,30|88,N.R.,N.R.
+K. Charter,Atlantic,7410,Charter~tech High School,8.2,55|88,9.3,48|91
+K. Charter,Bergen,6013,Bergen Arts And Sciences Charter School,29.0,2|88,30.3,6|91
+K. Charter,Bergen,6430,Englewood On The Palisades Charter Schoo,13.0,26|88,12.5,26|91
+K. Charter,Bergen,7890,Teaneck Community Cs,7.3,60|88,7.1,66|91
+K. Charter,Burlington,6026,Riverbank Charter School Of Excelle,7.5,58|88,7.5,61|91
+K. Charter,Burlington,6076,Benjamin Banneker Prep Cs,5.4,76|88,6.9,69|91
+K. Charter,Camden,1799,Kipp Cooper Norcross,N.R.,N.R.,76.0,1|91
+K. Charter,Camden,1801,Camden Prep,10.3,37|88,5.6,79|91
+K. Charter,Camden,1802,Mastery Schools Of Camden,14.1,22|88,15.7,20|91
+K. Charter,Camden,6067,Kingdom Cs Of Leadership,3.5,81|88,4.0,83|91
+K. Charter,Camden,6086,Hope Community Cs,13.5,23|88,8.0,56|91
+K. Charter,Camden,6107,Camden’s Promise Charter School,15.0,20|88,17.7,16|91
+K. Charter,Camden,6232,Environment Community Cs,10.2,42|88,11.5,31|91
+K. Charter,Camden,6240,Freedom Prep Charter School,N.R.,N.R.,8.4,53|91
+K. Charter,Camden,7109,Leap Academy University Cs,17.6,12|88,10.1,40|91
+K. Charter,Cumberland,6028,Vineland Public Charter School,13.0,26|88,15.8,19|91
+K. Charter,Cumberland,6069,Millville Public Charter School,10.3,37|88,19.4,14|91
+K. Charter,Cumberland,6089,Compass Academy Cs,11.7,34|88,13.0,25|91
+K. Charter,Cumberland,6100,Bridgeton Public Charter School,4.7,79|88,5.0,80|91
+K. Charter,Essex,6020,Pride Academy Charter School,4.7,79|88,6.0,77|91
+K. Charter,Essex,6022,Burch Charter School Of Excellence,9.3,48|88,10.5,35|91
+K. Charter,Essex,6029,Newark Educators Community Charter Schoo,4.8,78|88,4.0,83|91
+K. Charter,Essex,6053,Great Oaks Legacy Charter School,7.1,61|88,9.2,51|91
+K. Charter,Essex,6057,Peoples Preparatory Charter School,9.3,48|88,9.3,48|91
+K. Charter,Essex,6058,Roseville Community Cs,7.7,57|88,10.3,36|91
+K. Charter,Essex,6094,Phillip's Academy  Cs,10.3,37|88,10.6,34|91
+K. Charter,Essex,6099,Link Community Charter School,14.6,21|88,7.0,67|91
+K. Charter,Essex,6109,Lead Charter School,7.1,61|88,3.0,85|91
+K. Charter,Essex,6110,Achieve Community Charter School,2.1,83|88,7.2,64|91
+K. Charter,Essex,6320,Discovery Cs,2.9,82|88,3.0,85|91
+K. Charter,Essex,6410,East Orange Community Cs,10.3,37|88,N.R.,N.R.
+K. Charter,Essex,6665,Gray Cs,6.7,67|88,7.3,63|91
+K. Charter,Essex,7210,Marion P. Thomas Cs,9.2,51|88,7.8,57|91
+K. Charter,Essex,7290,New Horizons Comm. Cs,12.0,32|88,9.9,42|91
+K. Charter,Essex,7320,North Star Academy Charter School,22.6,7|88,20.1,11|91
+K. Charter,Essex,7325,Team Academy Charter School,N.R.,N.R.,48.0,3|91
+K. Charter,Essex,7730,Robert Treat Academy Cs,10.2,42|88,11.2,32|91
+K. Charter,Essex,7735,Maria L. Varisco-Rogers Cs,6.2,72|88,6.6,71|91
+K. Charter,Essex,8065,University Heights Cs,12.2,31|88,6.2,75|91
+K. Charter,Hudson,6030,The Ethical Community Charter School,6.3,70|88,6.0,77|91
+K. Charter,Hudson,6036,Hola Hoboken Dual Lang Cs,27.0,4|88,24.1,10|91
+K. Charter,Hudson,6064,Dr Lena Edwards Academic Charter School,15.5,16|88,10.7,33|91
+K. Charter,Hudson,6068,M E T S Charter School,9.3,48|88,10.2,39|91
+K. Charter,Hudson,6082,Beloved Community Charter School,21.3,8|88,7.8,57|91
+K. Charter,Hudson,6093,Jersey City Global Cs,9.7,45|88,10.0,41|91
+K. Charter,Hudson,6103,Empowerment Academy Charter School,8.5,54|88,8.4,53|91
+K. Charter,Hudson,6105,Hudson Arts And Science  Charter School,32.0,1|88,46.0,4|91
+K. Charter,Hudson,6420,Elysian Cs Of Hoboken,28.1,3|88,29.2,7|91
+K. Charter,Hudson,6720,Hoboken Cs,6.9,65|88,6.2,75|91
+K. Charter,Hudson,6910,Jersey City Comm. Cs,13.2,25|88,9.9,42|91
+K. Charter,Hudson,6915,Jersey City Golden Door Charter School,9.0,52|88,7.5,61|91
+K. Charter,Hudson,7115,Learning Community Cs,23.3,6|88,38.8,5|91
+K. Charter,Hudson,7830,Soaring Heights Cs,15.2,18|88,17.5,17|91
+K. Charter,Hudson,8060,University Academy Cs,7.1,61|88,6.8,70|91
+K. Charter,Mercer,6017,Foundation Academy Cs,17.6,12|88,16.6,18|91
+K. Charter,Mercer,6025,Paul Robeson Humanities  Charter School,10.3,37|88,N.R.,N.R.
+K. Charter,Mercer,6183,Trenton Stem-To-Civics Cs,7.1,61|88,12.3,28|91
+K. Charter,Mercer,6810,International Charter School,9.4,47|88,9.4,47|91
+K. Charter,Mercer,7500,Pace Cs Of Hamilton,12.0,32|88,14.0,23|91
+K. Charter,Mercer,7540,Princeton Cs,19.3,9|88,13.3,24|91
+K. Charter,Mercer,7895,Achievers Early College Prep Charter Sch,N.R.,N.R.,2.2,87|91
+K. Charter,Mercer,8140,Village Cs,13.3,24|88,9.3,48|91
+K. Charter,Middlesex,6032,Academy For Urban Leadership Charter Sch,11.4,36|88,8.4,53|91
+K. Charter,Middlesex,6041,Hatikvah International Cs,12.7,28|88,14.5,22|91
+K. Charter,Middlesex,6635,Greater Brunswick Cs,12.6,29|88,9.6,46|91
+K. Charter,Middlesex,7896,Middlesex Charter School,N.R.,N.R.,58.0,2|91
+K. Charter,Monmouth,6010,Academy Charter High School,7.5,58|88,9.7,45|91
+K. Charter,Monmouth,6740,Hope Academy Cs,6.8,66|88,7.6,59|91
+K. Charter,Monmouth,7720,The Red Bank Cs,15.1,19|88,15.2,21|91
+K. Charter,Monmouth,7891,College Achieve Greater Asbury Park Char,N.R.,N.R.,20.0,12|91
+K. Charter,Morris,8050,Unity Cs,8.2,55|88,7.6,59|91
+K. Charter,Ocean,7893,Ocean Academy Charter School,N.R.,N.R.,6.5,72|91
+K. Charter,Passaic,6021,Community Charter School Of Paterso,5.3,77|88,5.0,80|91
+K. Charter,Passaic,6079,John P Holland Charter School,6.1,73|88,10.3,36|91
+K. Charter,Passaic,6080,Passaic Arts And Science Charter School,N.R.,N.R.,N.R.,N.R.
+K. Charter,Passaic,6096,Paterson Arts And Science Cs,23.4,5|88,28.9,8|91
+K. Charter,Passaic,6106,Philip’s Charter School Of Paterson,16.8,14|88,11.6,30|91
+K. Charter,Passaic,6230,Classical Academy Charter School Of Clif,6.7,67|88,6.3,73|91
+K. Charter,Passaic,7503,Paterson Cs For Sci/Tech,11.5,35|88,12.5,26|91
+K. Charter,Passaic,7892,College Achieve Paterson Charter School,6.7,67|88,7.0,67|91
+K. Charter,Somerset,6018,Central Jersey College Prep Charter Scho,17.9,11|88,26.4,9|91
+K. Charter,Somerset,6081,Thomas Edison Energysmart Charter School,6.0,74|88,6.3,73|91
+K. Charter,Sussex,7850,Sussex County Technology Charter School,9.8,44|88,9.8,44|91
+K. Charter,Union,6033,The Barack Obama Green Charter High Scho,5.5,75|88,20.0,12|91
+K. Charter,Union,6101,College Achieve Central Charter School,18.8,10|88,18.5,15|91
+K. Charter,Union,6102,Cresthaven Academy Charter School,8.6,53|88,7.2,64|91
+K. Charter,Union,7600,Queen City Academy Cs,9.5,46|88,10.3,36|91
+K. Charter,Union,8010,Union County Teams Cs,6.3,70|88,4.4,82|91
+K. Charter,Warren,7727,Ridge And Valley Cs,15.5,16|88,9.0,52|91

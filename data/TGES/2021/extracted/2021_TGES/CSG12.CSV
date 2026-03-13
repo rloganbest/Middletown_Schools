@@ -1,0 +1,706 @@
+GROUP,CONAME,DIST,DISTNAME,PP112,RK112,PCT112,PP212,RK212,PCT212,PP312,RK312,PCT312
+A. K-6,Statewide,N.A.,1. State average - Operating Type K-6,88,N.A.,0.006,59,N.A.,0.004,54,N.A.,0.003
+A. K-6,Statewide,N.A.,2. State median - Operating Type K-6,85,N.A.,0.005,32,N.A.,0.002,55,N.A.,0.003
+A. K-6,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+A. K-6,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+A. K-6,Bergen,1270,Edgewater Boro,N.R.,N.R.,N.R.,3,1|57,24E-5,N.R.,N.R.,N.R.
+A. K-6,Bergen,3870,Oradell Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Bergen,4410,River Edge Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Bergen,4620,Saddle River Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Burlington,200,Bass River Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Burlington,830,Chesterfield Twp,N.R.,N.R.,N.R.,13,7|57,9E-4,N.R.,N.R.,N.R.
+A. K-6,Burlington,2960,Mansfield Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Burlington,3650,North Hanover Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Burlington,5010,Springfield Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Camden,2540,Laurel Springs Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Camden,3770,Oaklyn Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Camden,5560,Waterford Twp,N.R.,N.R.,N.R.,6,3|57,34E-5,22,1|57,0.001
+A. K-6,Cape May,710,Cape May City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,26,3|57,0.001
+A. K-6,Cape May,2840,Lower Twp,N.R.,N.R.,N.R.,32,10|57,0.002,N.R.,N.R.,N.R.
+A. K-6,Cape May,5610,West Cape May Boro,314,8|58,0.019,287,18|57,0.016,81,6|57,0.004
+A. K-6,Essex,1400,Essex Fells Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Essex,1465,Fairfield Twp,17,2|58,0.001,20,9|57,0.001,23,2|57,0.001
+A. K-6,Essex,3630,North Caldwell Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Essex,4530,Roseland Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Gloucester,1180,East Greenwich Twp,N.R.,N.R.,N.R.,46,11|57,0.004,N.R.,N.R.,N.R.
+A. K-6,Gloucester,1330,Elk Twp,N.R.,N.R.,N.R.,497,19|57,0.031,N.R.,N.R.,N.R.
+A. K-6,Gloucester,1590,Franklin Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Gloucester,2070,Harrison Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Gloucester,2990,Mantua Twp,N.R.,N.R.,N.R.,10,5|57,64E-5,N.R.,N.R.,N.R.
+A. K-6,Gloucester,3490,National Park Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Gloucester,4880,South Harrison Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Gloucester,5120,Swedesboro-Woolwich,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Gloucester,5590,Wenonah Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Gloucester,5740,Westville Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Gloucester,5870,Woodbury Heights Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Hunterdon,2590,Lebanon Boro,108,5|58,0.005,15,8|57,69E-5,N.R.,N.R.,N.R.
+A. K-6,Hunterdon,3180,Milford Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Monmouth,130,Atlantic Highlands Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Monmouth,2160,Highlands Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Monmouth,4520,Roosevelt Boro,4,1|58,17E-5,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Morris,3240,Mine Hill Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Ocean,230,Beach Haven Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Ocean,320,Berkeley Twp,N.R.,N.R.,N.R.,101,15|57,0.007,N.R.,N.R.,N.R.
+A. K-6,Ocean,1150,Eagleswood Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Ocean,2350,Island Heights Boro,N.R.,N.R.,N.R.,6,3|57,31E-5,N.R.,N.R.,N.R.
+A. K-6,Ocean,2690,Little Egg Harbor Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Ocean,2760,Long Beach Island,252,7|58,0.009,217,17|57,0.008,195,8|57,0.007
+A. K-6,Ocean,3800,Ocean Gate Boro,116,6|58,0.006,188,16|57,0.01,171,7|57,0.009
+A. K-6,Ocean,3820,Ocean Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Ocean,4710,Seaside Heights Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Ocean,5020,Stafford Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Ocean,5220,Tuckerton Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Sussex,1630,Fredon Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Sussex,1980,Hampton Twp,N.R.,N.R.,N.R.,3,1|57,18E-5,N.R.,N.R.,N.R.
+A. K-6,Sussex,4650,Sandyston-Walpack Twp,61,4|58,0.003,10,5|57,46E-5,65,5|57,0.003
+A. K-6,Sussex,5040,Stillwater Twp,N.R.,N.R.,N.R.,80,14|57,0.004,N.R.,N.R.,N.R.
+A. K-6,Warren,400,Blairstown Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Warren,1620,Franklin Twp,N.R.,N.R.,N.R.,54,12|57,0.003,45,4|57,0.002
+A. K-6,Warren,1670,Frelinghuysen Twp,45,3|58,0.003,76,13|57,0.005,N.R.,N.R.,N.R.
+A. K-6,Warren,2470,Knowlton Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Warren,2970,Mansfield Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Warren,5480,Washington Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+A. K-6,Warren,5530,Washington Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Statewide,N.A.,1. State average - Operating Type K-8,40,N.A.,0.002,33,N.A.,0.002,35,N.A.,0.002
+B. K-8 / 0 - 400,Statewide,N.A.,2. State median - Operating Type K-8,46,N.A.,0.003,34,N.A.,0.002,49,N.A.,0.003
+B. K-8 / 0 - 400,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+B. K-8 / 0 - 400,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+B. K-8 / 0 - 400,Atlantic,1410,Estell Manor City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Atlantic,1540,Folsom Boro,N.R.,N.R.,N.R.,77,15|80,0.005,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Atlantic,3020,Margate City,113,20|77,0.004,88,18|80,0.003,111,16|81,0.004
+B. K-8 / 0 - 400,Atlantic,4240,Port Republic City,147,22|77,0.008,143,23|80,0.008,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Atlantic,5760,Weymouth Twp,37,6|77,0.002,N.R.,N.R.,N.R.,36,4|81,0.002
+B. K-8 / 0 - 400,Bergen,80,Alpine Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Bergen,2090,Haworth Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Bergen,3350,Moonachie Boro,196,24|77,0.011,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Bergen,4870,South Hackensack Twp,39,8|77,0.002,39,9|80,0.002,52,7|81,0.003
+B. K-8 / 0 - 400,Burlington,380,Beverly City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Burlington,1030,Delanco Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Burlington,3540,New Hanover Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Burlington,4460,Riverton,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Burlington,5890,Woodland Twp,330,26|77,0.017,328,30|80,0.017,131,18|81,0.007
+B. K-8 / 0 - 400,Camden,580,Brooklawn Boro,88,17|77,0.006,71,14|80,0.005,88,14|81,0.006
+B. K-8 / 0 - 400,Camden,1720,Gibbsboro Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Camden,2560,Lawnside Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Camden,2890,Magnolia Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Camden,5900,Woodlynne Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Cape May,170,Avalon Boro,60,12|77,0.002,283,29|80,0.009,74,11|81,0.002
+B. K-8 / 0 - 400,Cape May,3680,North Wildwood City,138,21|77,0.005,147,25|80,0.005,150,20|81,0.004
+B. K-8 / 0 - 400,Cape May,5060,Stone Harbor Boro,153,23|77,0.006,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Cape May,5800,Wildwood Crest Boro,75,15|77,0.003,34,8|80,0.001,73,10|81,0.003
+B. K-8 / 0 - 400,Cape May,5840,Woodbine Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Cumberland,1020,Deerfield Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Cumberland,1120,Downe Twp,N.R.,N.R.,N.R.,164,26|80,0.01,116,17|81,0.006
+B. K-8 / 0 - 400,Cumberland,1820,Greenwich Twp,324,25|77,0.015,N.R.,N.R.,N.R.,257,21|81,0.013
+B. K-8 / 0 - 400,Cumberland,3050,Maurice River Twp,72,7|77,0.005,114,22|80,0.009,60,8|81,0.004
+B. K-8 / 0 - 400,Cumberland,5070,Stow Creek Twp,77,16|77,0.005,197,27|80,0.013,92,15|81,0.005
+B. K-8 / 0 - 400,Gloucester,1830,Greenwich Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hudson,1200,East Newark Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,370,Bethlehem Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,430,Bloomsbury Boro,68,14|77,0.003,9,1|80,4E-4,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,670,Califon Boro,N.R.,N.R.,N.R.,12,2|80,38E-5,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,910,Clinton-Glen Gardner,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,1040,Delaware Twp,N.R.,N.R.,N.R.,27,5|80,0.001,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,1160,East Amwell Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,14,2|81,63E-5
+B. K-8 / 0 - 400,Hunterdon,1600,Franklin Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,1680,Frenchtown Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,1970,Hampton Boro,N.R.,N.R.,N.R.,277,28|80,0.01,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,2140,High Bridge Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,2450,Kingwood Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Hunterdon,5270,Union Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Monmouth,180,Avon Boro,59,11|77,0.003,79,16|80,0.003,140,19|81,0.006
+B. K-8 / 0 - 400,Monmouth,500,Bradley Beach Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Monmouth,1000,Deal Boro,38,7|77,0.002,96,20|80,0.004,77,12|81,0.003
+B. K-8 / 0 - 400,Monmouth,1490,Farmingdale Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Monmouth,3250,Monmouth Beach Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Monmouth,3500,Neptune City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Monmouth,4690,Sea Girt Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Monmouth,4980,Spring Lake Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Monmouth,4990,Spring Lake Heights Boro,N.R.,N.R.,N.R.,79,16|80,0.005,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Morris,460,Boonton Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Morris,2010,Harding Township,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Morris,3410,Mount Arlington Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Morris,3520,Netcong Boro,N.R.,N.R.,N.R.,105,21|80,0.006,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Morris,4440,Riverdale Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Ocean,210,Bay Head Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Ocean,2500,Lakehurst Boro,N.R.,N.R.,N.R.,364,31|80,0.024,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Ocean,2550,Lavallette Boro,48,10|77,0.002,65,12|80,0.003,64,9|81,0.003
+B. K-8 / 0 - 400,Salem,60,Alloway Twp,14,2|77,0.001,92,19|80,0.007,33,3|81,0.002
+B. K-8 / 0 - 400,Salem,1350,Elsinboro Twp,43,9|77,0.003,44,11|80,0.003,42,5|81,0.002
+B. K-8 / 0 - 400,Salem,2800,Lower Alloways Creek,25,5|77,0.001,42,10|80,0.002,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Salem,2950,Mannington Twp,62,13|77,0.004,N.R.,N.R.,N.R.,49,6|81,0.003
+B. K-8 / 0 - 400,Salem,3860,Oldmans Twp,9,1|77,61E-5,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Salem,4280,Quinton Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Salem,5320,Upper Pittsgrove Twp,N.R.,N.R.,N.R.,14,4|80,93E-5,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Sussex,1800,Green Twp,N.R.,N.R.,N.R.,12,2|80,66E-5,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Sussex,1930,Hamburg Boro,N.R.,N.R.,N.R.,67,13|80,0.003,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Sussex,2490,Lafayette Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Sussex,3300,Montague Twp,94,19|77,0.004,31,7|80,0.002,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Sussex,3840,Ogdensburg Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Sussex,5030,Stanhope Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Union,1710,Garwood Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Union,5810,Winfield Twp,90,18|77,0.005,143,23|80,0.007,84,13|81,0.004
+B. K-8 / 0 - 400,Warren,70,Alpha Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Warren,2040,Harmony Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Warren,2250,Hope Twp,19,4|77,82E-5,28,6|80,0.001,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Warren,3890,Oxford Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Warren,4200,Pohatcong Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+B. K-8 / 0 - 400,Warren,5780,White Twp,18,3|77,95E-5,N.R.,N.R.,N.R.,8,1|81,35E-5
+C. K-8 / 401 - 750,Statewide,N.A.,1. State average - Operating Type K-8,40,N.A.,0.002,33,N.A.,0.002,35,N.A.,0.002
+C. K-8 / 401 - 750,Statewide,N.A.,2. State median - Operating Type K-8,46,N.A.,0.003,34,N.A.,0.002,49,N.A.,0.003
+C. K-8 / 401 - 750,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+C. K-8 / 401 - 750,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+C. K-8 / 401 - 750,Atlantic,570,Brigantine City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Atlantic,1300,Egg Harbor City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Atlantic,3480,Mullica Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Atlantic,5350,Ventnor City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,740,Carlstadt Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,1070,Demarest Boro,N.R.,N.R.,N.R.,42,10|64,0.002,46,4|63,0.002
+C. K-8 / 401 - 750,Bergen,1380,Englewood Cliffs Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,2050,Harrington Park Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,2200,Ho Ho Kus Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,3730,Northvale Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,3740,Norwood Boro,5,2|67,32E-5,9,5|64,63E-5,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,3850,Old Tappan Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,4470,Rochelle Park Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Bergen,5880,Woodcliff Lake Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Burlington,1250,Eastampton Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Burlington,1910,Hainesport Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Burlington,3070,Medford Lakes Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Burlington,4740,Shamong Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Burlington,4930,Southampton Township School District,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Burlington,5130,Tabernacle Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Camden,190,Barrington Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Camden,340,Berlin Twp,N.R.,N.R.,N.R.,29,8|64,0.002,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Camden,880,Clementon Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Camden,3110,Merchantville Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Camden,3420,Mount Ephraim Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Camden,4790,Somerdale Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Cape May,1080,Dennis Twp,3,1|67,16E-5,N.R.,N.R.,N.R.,19,1|63,0.001
+C. K-8 / 401 - 750,Cumberland,950,Commercial Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Cumberland,1460,Fairfield Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Cumberland,2270,Hopewell Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Cumberland,2570,Lawrence Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Hunterdon,20,Alexandria Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Hunterdon,2220,Holland Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Hunterdon,2600,Lebanon Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Hunterdon,5180,Tewksbury Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Middlesex,970,Cranbury Twp,16,5|67,71E-5,83,12|64,0.004,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Middlesex,2370,Jamesburg Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,28,3|63,0.002
+C. K-8 / 401 - 750,Monmouth,270,Belmar Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Monmouth,560,Brielle Boro,61,6|67,0.004,29,8|64,0.002,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Monmouth,3830,Oceanport Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Monmouth,4770,Shrewsbury Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Monmouth,5230,Union Beach,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Monmouth,5640,West Long Branch Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Morris,3090,Mendham Boro,12,4|67,69E-5,10,6|64,55E-5,19,1|63,96E-5
+C. K-8 / 401 - 750,Morris,3100,Mendham Twp,N.R.,N.R.,N.R.,7,2|64,3E-4,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Morris,3380,Morris Plains Boro,N.R.,N.R.,N.R.,6,1|64,39E-5,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Morris,4480,Rockaway Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Morris,5770,Wharton Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Passaic,420,Bloomingdale Boro,N.R.,N.R.,N.R.,8,4|64,4E-4,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Passaic,3640,North Haledon Boro,115,8|67,0.008,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Somerset,240,Bedminster Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Somerset,1810,Green Brook Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Somerset,4850,South Bound Brook,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Somerset,5540,Watchung Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Sussex,90,Andover Reg,N.R.,N.R.,N.R.,67,11|64,0.003,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Sussex,1560,Frankford Twp,7,3|67,36E-5,7,2|64,33E-5,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Sussex,1570,Franklin Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Sussex,2030,Hardyston Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Union,3470,Mountainside Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Warren,30,Allamuchy Twp,116,9|67,0.008,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Warren,1785,Great Meadows Regional,N.R.,N.R.,N.R.,12,7|64,67E-5,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Warren,1840,Greenwich Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+C. K-8 / 401 - 750,Warren,2790,Lopatcong Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Statewide,N.A.,1. State average - Operating Type K-8,40,N.A.,0.002,33,N.A.,0.002,35,N.A.,0.002
+D. K-8 / 751 +,Statewide,N.A.,2. State median - Operating Type K-8,46,N.A.,0.003,34,N.A.,0.002,49,N.A.,0.003
+D. K-8 / 751 +,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+D. K-8 / 751 +,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+D. K-8 / 751 +,Atlantic,10,Absecon City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Atlantic,1690,Galloway Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Atlantic,1940,Hamilton Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Atlantic,2680,Linwood City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Atlantic,3720,Northfield City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Atlantic,4800,Somers Point City,N.R.,N.R.,N.R.,18,8|73,0.001,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,40,Allendale Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,930,Closter Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,1230,East Rutherford Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,4,1|73,18E-5
+D. K-8 / 751 +,Bergen,1470,Fairview Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,1580,Franklin Lakes Boro,N.R.,N.R.,N.R.,3,2|73,14E-5,18,3|73,66E-5
+D. K-8 / 751 +,Bergen,2180,Hillsdale Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,2710,Little Ferry Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,3060,Maywood Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,3330,Montvale Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,3760,Oakland Boro,21,6|74,0.001,12,7|73,57E-5,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,4430,River Vale Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,5330,Upper Saddle River Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Bergen,5920,Wyckoff Twp,N.R.,N.R.,N.R.,19,9|73,0.001,18,3|73,92E-5
+D. K-8 / 751 +,Burlington,1280,Edgewater Park Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Burlington,1420,Evesham Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Burlington,2850,Lumberton Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Burlington,3080,Medford Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Burlington,3430,Mount Holly Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Burlington,3440,Mount Laurel Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Burlington,5720,Westampton,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Camden,260,Bellmawr Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Camden,330,Berlin Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Camden,1780,Gloucester Twp,N.R.,N.R.,N.R.,10,5|73,73E-5,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Camden,4590,Runnemede Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Camden,5080,Stratford Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Camden,5400,Voorhees Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Cape May,5340,Upper Twp,9,4|74,65E-5,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Cumberland,5300,Upper Deerfield Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Gloucester,2750,Logan Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Hudson,1850,Guttenberg Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Hunterdon,920,Clinton Twp,N.R.,N.R.,N.R.,3,2|73,13E-5,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Hunterdon,1510,Flemington-Raritan Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Hunterdon,4350,Readington Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Middlesex,3220,Milltown Boro,7,3|74,46E-5,6,4|73,45E-5,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,945,Colts Neck Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,1260,Eatontown Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,1440,Fair Haven Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,1640,Freehold Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,1660,Freehold Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,2290,Howell Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,2720,Little Silver Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,2920,Manalapan-Englishtown Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,3030,Marlboro Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,3200,Millstone Twp,N.R.,N.R.,N.R.,23,10|73,0.001,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,4360,Red Bank Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,4570,Rumson Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Monmouth,5185,Tinton Falls,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Morris,820,Chester Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Morris,1090,Denville Twp,21,6|74,0.001,N.R.,N.R.,N.R.,22,6|73,0.001
+D. K-8 / 751 +,Morris,1190,East Hanover Twp,9,4|74,42E-5,N.R.,N.R.,N.R.,7,2|73,35E-5
+D. K-8 / 751 +,Morris,1530,Florham Park Boro,5,1|74,27E-5,2,1|73,11E-5,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Morris,2000,Hanover Twp,N.R.,N.R.,N.R.,10,5|73,53E-5,19,5|73,94E-5
+D. K-8 / 751 +,Morris,2650,Lincoln Park Boro,5,1|74,33E-5,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Morris,4000,Long Hill Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Morris,4490,Rockaway Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Morris,5520,Washington Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Passaic,1920,Haledon Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Passaic,2700,Little Falls Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Passaic,4270,Prospect Park Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Passaic,4400,Ringwood Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Passaic,5200,Totowa Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Passaic,5440,Wanaque Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Passaic,5690,Woodland Park,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Somerset,510,Branchburg Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Somerset,5470,Warren Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Sussex,640,Byram Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+D. K-8 / 751 +,Sussex,5100,Sussex-Wantage Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Statewide,N.A.,1. State average - Operating Type K-12,51,N.A.,0.003,60,N.A.,0.004,33,N.A.,0.002
+E. K-12 / 0 - 1800,Statewide,N.A.,2. State median - Operating Type K-12,30,N.A.,0.002,20,N.A.,0.001,19,N.A.,0.001
+E. K-12 / 0 - 1800,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+E. K-12 / 0 - 1800,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+E. K-12 / 0 - 1800,Atlantic,590,Buena Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,440,Bogota Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,990,Cresskill Boro,N.R.,N.R.,N.R.,6,1|52,4E-4,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,1360,Emerson Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,2080,Hasbrouck Heights Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,3170,Midland Park Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,3910,Palisades Park,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,3940,Park Ridge Boro,29,3|50,0.001,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,4370,Ridgefield Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,4610,Saddle Brook Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,5410,Waldwick Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,5430,Wallington Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Bergen,5830,Wood-Ridge Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Burlington,600,Burlington City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Burlington,1520,Florence Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Burlington,3920,Palmyra Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Burlington,4450,Riverside Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Camden,150,Audubon Public School Disrict,17,1|50,0.001,17,3|52,0.001,17,2|52,0.001
+E. K-12 / 0 - 1800,Camden,1880,Haddon Heights Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Cape May,5790,Wildwood City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Essex,760,Cedar Grove Twp,N.R.,N.R.,N.R.,17,3|52,0.001,5,1|52,28E-5
+E. K-12 / 0 - 1800,Gloucester,860,Clayton Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Gloucester,4020,Paulsboro Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Gloucester,4140,Pitman Boro,63,5|50,0.004,96,5|52,0.006,66,5|52,0.004
+E. K-12 / 0 - 1800,Gloucester,5860,Woodbury City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Hudson,5580,Weehawken Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Hunterdon,1376,South Hunterdon Regional School District,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Middlesex,1140,Dunellen Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Middlesex,2150,Highland Park Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Middlesex,4830,South Amboy City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Middlesex,4970,Spotswood Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Monmouth,100,Asbury Park City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Monmouth,2400,Keansburg Boro,22,2|50,0.001,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Monmouth,2430,Keyport Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Monmouth,2930,Manasquan Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Morris,450,Boonton Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Morris,630,Butler Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Morris,2460,Kinnelon Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Morris,3460,Mountain Lakes Boro,32,4|50,0.002,15,2|52,7E-4,34,4|52,0.001
+E. K-12 / 0 - 1800,Ocean,4190,Plumsted Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Ocean,4220,Point Pleasant Beach Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Passaic,4230,Pompton Lakes Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Salem,4075,Pennsville,30,N.A.,0.002,N.R.,N.R.,N.R.,25,3|52,0.001
+E. K-12 / 0 - 1800,Salem,4150,Pittsgrove Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Salem,4630,Salem City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Salem,5910,Woodstown-Pilesgrove Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Somerset,3000,Manville Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Somerset,4815,Somerset Hills Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Sussex,2240,Hopatcong,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Sussex,3590,Newton Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Union,2420,Kenilworth Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+E. K-12 / 0 - 1800,Warren,280,Belvidere Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Statewide,N.A.,1. State average - Operating Type K-12,51,N.A.,0.003,60,N.A.,0.004,33,N.A.,0.002
+F. K-12 / 1801 - 3500,Statewide,N.A.,2. State median - Operating Type K-12,30,N.A.,0.002,20,N.A.,0.001,19,N.A.,0.001
+F. K-12 / 1801 - 3500,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+F. K-12 / 1801 - 3500,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+F. K-12 / 1801 - 3500,Atlantic,1960,Hammonton Town,N.R.,N.R.,N.R.,40,8|75,0.003,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Atlantic,4180,Pleasantville City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,890,Cliffside Park Boro,65,6|78,0.005,104,12|75,0.007,60,3|76,0.004
+F. K-12 / 1801 - 3500,Bergen,1130,Dumont Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,1345,Elmwood Park,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,1370,Englewood City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,1760,Glen Rock Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,2620,Leonia Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,2740,Lodi Borough,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,2860,Lyndhurst Twp,223,7|78,0.015,148,14|75,0.011,149,5|76,0.011
+F. K-12 / 1801 - 3500,Bergen,2900,Mahwah Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,3550,New Milford Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,3600,North Arlington Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,4310,Ramsey Boro,15,2|78,8E-4,11,2|75,59E-5,19,2|76,83E-5
+F. K-12 / 1801 - 3500,Bergen,4380,Ridgefield Park Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,4600,Rutherford Boro,10,1|78,66E-5,10,1|75,64E-5,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,5160,Tenafly Boro,N.R.,N.R.,N.R.,27,7|75,0.002,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Bergen,5755,Westwood Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Burlington,475,Bordentown Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Burlington,840,Cinnaminson Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Burlington,1060,Delran Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Burlington,3010,Maple Shade Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Burlington,5805,Willingboro Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Camden,940,Collingswood Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Camden,1770,Gloucester City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Camden,1890,Haddon Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Camden,1900,Haddonfield Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Camden,2670,Lindenwold Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Camden,4110,Pine Hill Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Cape May,3130,Middle Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Cape May,3780,Ocean City,56,5|78,0.003,88,11|75,0.005,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Essex,660,Caldwell-West Caldwell,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Essex,1750,Glen Ridge Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Essex,5370,Verona Boro,N.R.,N.R.,N.R.,41,9|75,0.003,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Gloucester,1730,Glassboro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Gloucester,5620,West Deptford Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Hudson,2060,Harrison Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Hudson,2210,Hoboken City,N.R.,N.R.,N.R.,113,13|75,0.003,77,4|76,0.005
+F. K-12 / 1801 - 3500,Hudson,4730,Secaucus Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Mercer,1430,Ewing Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Mercer,2280,Hopewell Valley Regional,N.R.,N.R.,N.R.,15,4|75,71E-5,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Mercer,5510,Robbinsville,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Middlesex,3120,Metuchen Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Middlesex,3140,Middlesex Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Middlesex,4910,South Plainfield Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Middlesex,4920,South River Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Monmouth,2105,Hazlet Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Monmouth,2230,Holmdel Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Monmouth,3810,Ocean Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Monmouth,5310,Upper Freehold Regional,N.R.,N.R.,N.R.,23,6|75,0.002,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Monmouth,5420,Wall Twp,N.R.,N.R.,N.R.,16,5|75,89E-5,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Morris,1110,Dover Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Morris,2380,Jefferson Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Morris,2870,Madison Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Morris,3340,Montville Twp,N.R.,N.R.,N.R.,13,3|75,69E-5,13,1|76,63E-5
+F. K-12 / 1801 - 3500,Morris,4080,Pequannock Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Morris,4560,Roxbury Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Ocean,185,Barnegat Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Ocean,2940,Manchester Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Ocean,4210,Point Pleasant Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Passaic,2100,Hawthorne Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Passaic,5650,West Milford Twp,20,3|78,0.001,55,10|75,0.003,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Salem,4070,Penns Grv-Carneys Pt Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Somerset,490,Bound Brook Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Somerset,3670,North Plainfield Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Somerset,4820,Somerville Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Sussex,4960,Sparta Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Sussex,5360,Vernon Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Union,310,Berkeley Heights Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Union,850,Clark Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Union,2190,Hillside Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Union,3560,New Providence Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Union,4540,Roselle Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Union,4550,Roselle Park Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Union,5000,Springfield Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+F. K-12 / 1801 - 3500,Warren,1870,Hackettstown,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Statewide,N.A.,1. State average - Operating Type K-12,51,N.A.,0.003,60,N.A.,0.004,33,N.A.,0.002
+G. K-12 / 3501 +,Statewide,N.A.,2. State median - Operating Type K-12,30,N.A.,0.002,20,N.A.,0.001,19,N.A.,0.001
+G. K-12 / 3501 +,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+G. K-12 / 3501 +,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+G. K-12 / 3501 +,Atlantic,110,Atlantic City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Atlantic,1310,Egg Harbor Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Bergen,300,Bergenfield Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Bergen,1450,Fair Lawn Public Schools,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Bergen,1550,Fort Lee Boro,N.R.,N.R.,N.R.,13,5|92,92E-5,14,3|92,9E-4
+G. K-12 / 3501 +,Bergen,1700,Garfield City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Bergen,1860,Hackensack City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Bergen,3930,Paramus Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Bergen,4390,Ridgewood Village,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Bergen,5150,Teaneck Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Burlington,620,Burlington Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Burlington,3360,Moorestown Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Burlington,4050,Pemberton Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Camden,680,Camden City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Camden,800,Cherry Hill Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Camden,4060,Pennsauken Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Camden,5820,Winslow Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Cumberland,540,Bridgeton City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Cumberland,3230,Millville City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Cumberland,5390,Vineland City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,250,Belleville Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,410,Bloomfield Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,1210,East Orange,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,2330,Irvington Township,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,2730,Livingston Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,3190,Millburn Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,3310,Montclair Town,18,4|94,0.001,19,6|92,0.001,18,6|92,0.001
+G. K-12 / 3501 +,Essex,3570,Newark City,59,6|94,0.004,128,11|92,0.007,14,3|92,71E-5
+G. K-12 / 3501 +,Essex,3750,Nutley Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,3880,City Of Orange Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,28,7|92,0.002
+G. K-12 / 3501 +,Essex,4900,South Orange-Maplewood,4,2|94,24E-5,4,2|92,27E-5,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Essex,5680,West Orange Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Gloucester,1100,Deptford Twp,45,5|94,0.003,24,8|92,0.002,17,5|92,0.001
+G. K-12 / 3501 +,Gloucester,3280,Monroe Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Gloucester,5500,Washington Twp,123,8|94,0.007,116,10|92,0.007,148,9|92,0.008
+G. K-12 / 3501 +,Hudson,220,Bayonne City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Hudson,2390,Jersey City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Hudson,2410,Kearny Town,71,7|94,0.005,38,9|92,0.002,56,8|92,0.003
+G. K-12 / 3501 +,Hudson,3610,North Bergen Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Hudson,5240,Union City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Hudson,5670,West New York Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Mercer,1245,East Windsor Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Mercer,1950,Hamilton Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Mercer,2580,Lawrence Twp,8,3|94,48E-5,20,7|92,0.001,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Mercer,4255,Princeton Public Schools,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Mercer,5210,Trenton Public School District,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Mercer,5715,W Windsor-Plainsboro Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,750,Carteret Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,1170,East Brunswick Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,1290,Edison Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,3290,Monroe Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,3530,New Brunswick City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,3620,North Brunswick Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,3845,Old Bridge Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,4090,Perth Amboy City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,4130,Piscataway Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,4660,Sayreville Boro,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,4860,South Brunswick Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Middlesex,5850,Woodbridge Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Monmouth,2770,Long Branch City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Monmouth,3040,Matawan-Aberdeen Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Monmouth,3160,Middletown Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Monmouth,3510,Neptune Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Morris,785,Sch Dist Of The Chathams,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Morris,3385,Morris School District,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Morris,3450,Mount Olive Twp,3,1|94,17E-5,2,1|92,12E-5,3,1|92,18E-5
+G. K-12 / 3501 +,Morris,3950,Parsippany-Troy Hills Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Morris,4330,Randolph Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Ocean,530,Brick Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Ocean,2360,Jackson Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Ocean,2480,Lacey Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Ocean,2520,Lakewood Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Ocean,5190,Toms River Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Passaic,900,Clifton City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Passaic,3970,Passaic City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Passaic,4010,Paterson City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Passaic,5570,Wayne Twp,N.R.,N.R.,N.R.,6,3|92,31E-5,7,2|92,32E-5
+G. K-12 / 3501 +,Somerset,350,Bernards Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Somerset,555,Bridgewater-Raritan Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Somerset,1610,Franklin Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Somerset,2170,Hillsborough Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Somerset,3320,Montgomery Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,980,Cranford Twp,N.R.,N.R.,N.R.,10,4|92,65E-5,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,1320,Elizabeth City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,2660,Linden City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,4160,Plainfield City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,4290,Rahway City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,4670,Scotch Plains-Fanwood Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,5090,Summit City,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,5290,Union Twp,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Union,5730,Westfield Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+G. K-12 / 3501 +,Warren,4100,Phillipsburg Town,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Statewide,N.A.,1. State average - Operating Type 7-12,69,N.A.,0.004,78,N.A.,0.005,114,N.A.,0.007
+H. 7-12 / 9-12,Statewide,N.A.,2. State median - Operating Type 7-12,84,N.A.,0.005,45,N.A.,0.003,114,N.A.,0.006
+H. 7-12 / 9-12,Statewide,N.A.,3. State average - Operating Type 9-12,21,N.A.,0.001,56,N.A.,0.003,34,N.A.,0.002
+H. 7-12 / 9-12,Statewide,N.A.,4. State median - Operating Type 9-12,24,N.A.,0.001,19,N.A.,0.001,28,N.A.,0.001
+H. 7-12 / 9-12,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+H. 7-12 / 9-12,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+H. 7-12 / 9-12,Atlantic,1790,Greater Egg Harbor Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Atlantic,2910,Mainland Regional,81,8|46,0.004,349,13|46,0.018,80,6|46,0.004
+H. 7-12 / 9-12,Bergen,745,Carlstadt-East Rutherford,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,9,2|46,4E-4
+H. 7-12 / 9-12,Bergen,3700,Northern Highlands Reg,5,2|46,28E-5,8,3|46,44E-5,7,1|46,38E-5
+H. 7-12 / 9-12,Bergen,3710,Northern Valley Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Bergen,3960,Pascack Valley Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Bergen,4300,Ramapo-Indian Hill Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Bergen,4405,River Dell Regional,N.R.,N.R.,N.R.,16,5|46,88E-5,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Burlington,2610,Lenape Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Burlington,3690,Northern Burlington Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Burlington,4320,Rancocas Valley Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Camden,390,Black Horse Pike Regional,N.R.,N.R.,N.R.,2,1|46,14E-5,38,4|46,0.002
+H. 7-12 / 9-12,Camden,1255,Eastern Camden County Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,18,3|46,0.001
+H. 7-12 / 9-12,Camden,5035,Sterling High School Dist,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Cape May,2820,Lower Cape May Regional,123,9|46,0.007,177,12|46,0.009,114,7|46,0.006
+H. 7-12 / 9-12,Cumberland,997,Cumberland Regional,24,4|46,0.002,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Essex,5630,West Essex Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Gloucester,870,Clearview Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Gloucester,1715,Gateway Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Gloucester,2440,Kingsway Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Gloucester,4940,Delsea Regional H.S Dist.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Hunterdon,1050,Delaware Valley Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Hunterdon,2300,Hunterdon Central Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Hunterdon,3660,N Hunt/Voorhees Regional,10,3|46,55E-5,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Monmouth,1650,Freehold Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Monmouth,2120,Henry Hudson Regional,N.R.,N.R.,N.R.,23,7|46,0.001,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Monmouth,3270,Monmouth Regional,43,6|46,0.002,109,11|46,0.005,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Monmouth,4365,Red Bank Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Monmouth,4580,Rumson-Fair Haven Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Monmouth,4760,Shore Regional,31,5|46,0.002,49,9|46,0.002,48,5|46,0.002
+H. 7-12 / 9-12,Morris,1990,Hanover Park Regional,N.R.,N.R.,N.R.,11,4|46,56E-5,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Morris,3370,Morris Hills Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Morris,5660,West Morris Regional,1,1|46,54E-6,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Ocean,770,Central Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Ocean,4105,Pinelands Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Ocean,4950,Southern Regional,44,7|46,0.003,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Passaic,2510,Lakeland Regional,N.R.,N.R.,N.R.,19,6|46,9E-4,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Passaic,3980,Passaic Co Manchester Reg,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Passaic,3990,Passaic Valley Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Somerset,5550,Watchung Hills Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Sussex,2165,High Point Regional,N.R.,N.R.,N.R.,37,8|46,0.002,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Sussex,2465,Kittatinny Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Sussex,2615,Lenape Valley Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Sussex,5435,Wallkill Valley Regional,N.R.,N.R.,N.R.,5,2|46,27E-5,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Warren,3675,North Warren Regional,N.R.,N.R.,N.R.,67,10|46,0.004,N.R.,N.R.,N.R.
+H. 7-12 / 9-12,Warren,5465,Warren Hills Regional,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+I. CSSD,Statewide,N.A.,1. State average -  Operating Type CSSD,615,N.A.,0.01,1157,N.A.,0.018,503,N.A.,0.007
+I. CSSD,Statewide,N.A.,2. State median - Operating Type CSSD,384,N.A.,0.007,444,N.A.,0.008,172,N.A.,0.003
+I. CSSD,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+I. CSSD,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+I. CSSD,Atlantic,125,Atlantic Co Special Serv,N.R.,N.R.,N.R.,592,4|7,0.011,127,1|7,0.002
+I. CSSD,Bergen,285,Bergen Co Special Service,255,2|7,0.003,N.R.,N.R.,N.R.,172,2|7,0.002
+I. CSSD,Burlington,605,Burlington Co Spec Serv,1198,4|7,0.018,3045,5|7,0.046,1044,3|7,0.014
+I. CSSD,Cape May,715,Cape May Co Special Serv,69,1|7,0.001,131,2|7,0.002,N.R.,N.R.,N.R.
+I. CSSD,Gloucester,1774,Gloucester Co Spec Serv,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+I. CSSD,Mercer,3103,Mercer County Special Services School Di,N.R.,N.R.,N.R.,100,1|7,0.001,N.R.,N.R.,N.R.
+I. CSSD,Salem,4635,Salem Co Special Service,513,3|7,0.011,444,3|7,0.009,N.R.,N.R.,N.R.
+J. VOC,Statewide,N.A.,1. State average - Operating Type VOC,88,N.A.,0.005,44,N.A.,0.003,32,N.A.,0.002
+J. VOC,Statewide,N.A.,2. State median - Operating Type VOC,78,N.A.,0.004,24,N.A.,0.001,32,N.A.,0.002
+J. VOC,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+J. VOC,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+J. VOC,Atlantic,120,Atlantic Co Vocational,N.R.,N.R.,N.R.,1,1|21,43E-6,N.R.,N.R.,N.R.
+J. VOC,Bergen,290,Bergen County Vocational Technical Schoo,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Burlington,610,Burlington Co Vocational,67,4|21,0.004,24,5|21,0.002,N.R.,N.R.,N.R.
+J. VOC,Camden,700,Camden County Vocational,40,2|21,0.002,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Cape May,720,Cape May County Vocational School Distri,130,7|21,0.006,201,9|21,0.009,N.R.,N.R.,N.R.
+J. VOC,Cumberland,995,Cumberland Co Vocational,88,5|21,0.005,22,4|21,0.001,N.R.,N.R.,N.R.
+J. VOC,Essex,1390,Essex Co Voc-Tech,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Gloucester,1775,Gloucester Co Vocational,65,3|21,0.005,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Hudson,2295,Hudson County Vocational,198,8|21,0.011,40,7|21,0.002,N.R.,N.R.,N.R.
+J. VOC,Hunterdon,2308,Hunterdon Co Vocational,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Mercer,3105,Mercer County Vocational,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Middlesex,3150,Middlesex Co Vocational,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Monmouth,3260,Monmouth Co Vocational,22,1|21,0.001,16,3|21,83E-5,32,1|21,0.002
+J. VOC,Morris,3365,Morris County Vocational,N.R.,N.R.,N.R.,4,2|21,26E-5,N.R.,N.R.,N.R.
+J. VOC,Ocean,3790,Ocean County Vocational,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Passaic,3995,Passaic County Vocational,89,6|21,0.004,88,8|21,0.004,N.R.,N.R.,N.R.
+J. VOC,Salem,4640,Salem County Vocational,N.R.,N.R.,N.R.,35,6|21,0.003,N.R.,N.R.,N.R.
+J. VOC,Somerset,4810,Somerset Co Vocational,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Sussex,5110,Sussex County Vocational,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Union,5260,Union County Vocational,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+J. VOC,Warren,5460,Warren County Vocational,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Statewide,N.A.,1. State average-Operating Type CHARTER,67,N.A.,0.005,93,N.A.,0.007,N.R.,N.R.,N.R.
+K. Charter,Statewide,N.A.,2. State median-Operating Type CHARTER,75,N.A.,0.005,132,N.A.,0.01,N.R.,N.R.,N.R.
+K. Charter,Statewide,N.A.,5. State average - All operating types,59,N.A.,0.004,67,N.A.,0.004,40,N.A.,0.002
+K. Charter,Statewide,N.A.,6. State median - All operating types,56,N.A.,0.003,39,N.A.,0.002,42,N.A.,0.002
+K. Charter,Atlantic,6060,Atlantic Community Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Atlantic,6104,Principle Academy Charter School,N.R.,N.R.,N.R.,171,15|89,0.012,N.R.,N.R.,N.R.
+K. Charter,Atlantic,7410,Charter~tech High School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Bergen,6013,Bergen Arts And Sciences Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Bergen,6430,Englewood On The Palisades Charter Schoo,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Bergen,7890,Teaneck Community Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Burlington,6026,Riverbank Charter School Of Excelle,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Burlington,6076,Benjamin Banneker Prep Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Camden,1799,Kipp Cooper Norcross,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Camden,1801,Camden Prep,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Camden,1802,Mastery Schools Of Camden,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Camden,6086,Hope Community Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Camden,6107,Camden’s Promise Charter School,72,9|90,0.005,40,5|89,0.003,N.R.,N.R.,N.R.
+K. Charter,Camden,6232,Environment Community Cs,292,20|90,0.015,374,21|89,0.024,N.R.,N.R.,N.R.
+K. Charter,Camden,6240,Freedom Prep Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Camden,7109,Leap Academy University Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Cumberland,6028,Vineland Public Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Cumberland,6069,Millville Public Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Cumberland,6089,Compass Academy Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Cumberland,6100,Bridgeton Public Charter School,42,5|90,0.003,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6020,Pride Academy Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6022,Burch Charter School Of Excellence,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6029,Newark Educators Community Charter Schoo,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6053,Great Oaks Legacy Charter School,74,10|90,0.004,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6057,Peoples Preparatory Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6058,Roseville Community Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6094,Phillip's Academy Charter School,172,16|90,0.012,195,18|89,0.013,N.R.,N.R.,N.R.
+K. Charter,Essex,6099,Link Community Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6109,Lead Charter School,9,1|90,69E-5,130,11|89,0.008,N.R.,N.R.,N.R.
+K. Charter,Essex,6110,Achieve Community Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6320,Discovery Cs,51,6|90,0.003,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6410,East Orange Community Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,6665,Gray Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,7210,Marion P. Thomas Cs,N.R.,N.R.,N.R.,212,19|89,0.012,N.R.,N.R.,N.R.
+K. Charter,Essex,7290,New Horizons Comm. Cs,52,7|90,0.004,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,7320,North Star Academy Charter School,20,2|90,0.001,19,1|89,0.001,N.R.,N.R.,N.R.
+K. Charter,Essex,7325,Team Academy Charter School,21,3|90,0.001,64,6|89,0.004,N.R.,N.R.,N.R.
+K. Charter,Essex,7730,Robert Treat Academy Cs,N.R.,N.R.,N.R.,167,14|89,0.012,N.R.,N.R.,N.R.
+K. Charter,Essex,7735,Maria L. Varisco-Rogers Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Essex,8065,University Heights Cs,141,15|90,0.008,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,6030,The Ethical Community Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,6036,Hola Hoboken Dual Lang Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,6064,Dr Lena Edwards Academic Charter School,N.R.,N.R.,N.R.,446,22|89,0.034,N.R.,N.R.,N.R.
+K. Charter,Hudson,6082,Beloved Community Charter School,N.R.,N.R.,N.R.,83,9|89,0.007,N.R.,N.R.,N.R.
+K. Charter,Hudson,6093,Jersey City Global Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,6103,Empowerment Academy Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,6105,Hudson Arts And Science  Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,6420,Elysian Cs Of Hoboken,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,6720,Hoboken Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,6910,Jersey City Comm. Cs,N.R.,N.R.,N.R.,190,17|89,0.019,N.R.,N.R.,N.R.
+K. Charter,Hudson,6915,Jersey City Golden Door Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,7115,Learning Community Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,7830,Soaring Heights Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Hudson,8060,University Academy Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Mercer,6017,Foundation Academy Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Mercer,6025,Paul Robeson Humanities  Charter School,82,12|90,0.006,74,7|89,0.005,N.R.,N.R.,N.R.
+K. Charter,Mercer,6183,Trenton Stem-To-Civics Cs,190,17|90,0.011,182,16|89,0.013,N.R.,N.R.,N.R.
+K. Charter,Mercer,6810,International Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Mercer,7500,Pace Cs Of Hamilton,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Mercer,7540,Princeton Cs,75,11|90,0.005,27,3|89,0.002,N.R.,N.R.,N.R.
+K. Charter,Mercer,7895,Achievers Early College Prep Charter Sch,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Mercer,8140,Village Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Middlesex,6032,Academy For Urban Leadership Charter Sch,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Middlesex,6041,Hatikvah International Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Middlesex,6635,Greater Brunswick Cs,N.R.,N.R.,N.R.,37,4|89,0.003,N.R.,N.R.,N.R.
+K. Charter,Middlesex,7896,Middlesex Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Monmouth,6010,Academy Charter High School,127,13|90,0.008,133,12|89,0.008,N.R.,N.R.,N.R.
+K. Charter,Monmouth,6740,Hope Academy Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Monmouth,7720,The Red Bank Cs,129,14|90,0.008,76,8|89,0.004,N.R.,N.R.,N.R.
+K. Charter,Monmouth,7891,College Achieve Greater Asbury Park Char,52,7|90,0.003,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Morris,8050,Unity Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Ocean,7893,Ocean Academy Charter School,212,18|90,0.016,358,20|89,0.027,N.R.,N.R.,N.R.
+K. Charter,Passaic,6021,Community Charter School Of Paterso,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Passaic,6079,John P Holland Charter School,35,4|90,0.002,20,2|89,0.001,N.R.,N.R.,N.R.
+K. Charter,Passaic,6080,Passaic Arts And Science Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Passaic,6096,Paterson Arts And Science Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Passaic,6106,Philip’s Charter School Of Paterson,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Passaic,6230,Classical Academy Charter School Of Clif,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Passaic,7503,Paterson Cs For Sci/Tech,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Passaic,7892,College Achieve Paterson Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Salem,7897,Creativity Colaboratory Charter School,N.R.,N.R.,N.R.,94,10|89,0.007,N.R.,N.R.,N.R.
+K. Charter,Somerset,6018,Central Jersey College Prep Charter Scho,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Somerset,6081,Thomas Edison Energysmart Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Sussex,7850,Sussex County Technology Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Union,6033,The Barack Obama Green Charter High Scho,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Union,6101,College Achieve Central Charter School,274,19|90,0.023,164,13|89,0.013,N.R.,N.R.,N.R.
+K. Charter,Union,6102,Cresthaven Academy Charter School,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Union,7600,Queen City Academy Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Union,8010,Union County Teams Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.
+K. Charter,Warren,7727,Ridge And Valley Cs,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.,N.R.

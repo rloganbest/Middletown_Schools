@@ -1,0 +1,654 @@
+GROUP,CONAME,DIST,DISTNAME,EX121,EX221
+A. K-6,Bergen,1270,Edgewater Boro,0,693968
+A. K-6,Bergen,3870,Oradell Boro,516457,357356
+A. K-6,Bergen,4410,River Edge Boro,500000,500000
+A. K-6,Bergen,4620,Saddle River School District,450000,426818
+A. K-6,Burlington,830,Chesterfield Twp,300000,500000
+A. K-6,Burlington,2960,Mansfield Twp,1191797,1059304
+A. K-6,Burlington,3650,North Hanover Twp,0,0
+A. K-6,Burlington,5010,Springfield Twp,251657,234437
+A. K-6,Camden,2540,Laurel Springs Boro,212406,299232
+A. K-6,Camden,3770,Oaklyn Boro,604313,235682
+A. K-6,Camden,5560,Waterford Twp,0,2373561
+A. K-6,Cape May,710,Cape May City,571718,1086822
+A. K-6,Cape May,2840,Lower Twp,1862668,1729005
+A. K-6,Cape May,5610,West Cape May Boro,165585,89192
+A. K-6,Essex,1400,Essex Fells Boro,200000,200000
+A. K-6,Essex,1465,Fairfield Twp,394735,400000
+A. K-6,Essex,3630,North Caldwell Boro,75000,75000
+A. K-6,Essex,4530,Roseland Boro,330000,300000
+A. K-6,Gloucester,1180,East Greenwich Twp,1441858,874520
+A. K-6,Gloucester,1330,Elk Twp,809185,848229
+A. K-6,Gloucester,1590,Franklin Twp,0,0
+A. K-6,Gloucester,2070,Harrison Twp,568443,999288
+A. K-6,Gloucester,2990,Mantua Twp,84645,326120
+A. K-6,Gloucester,3490,National Park Boro,772982,633292
+A. K-6,Gloucester,4880,South Harrison Twp,308706,121320
+A. K-6,Gloucester,5120,Swedesboro-Woolwich,1092604,53654
+A. K-6,Gloucester,5590,Wenonah Boro,194890,72146
+A. K-6,Gloucester,5740,Westville Boro,635546,657457
+A. K-6,Gloucester,5870,Woodbury Heights Boro,504470,510582
+A. K-6,Hunterdon,1970,Hampton Boro,202859,205050
+A. K-6,Hunterdon,2590,Lebanon Boro,12672,0
+A. K-6,Hunterdon,3180,Milford Boro,0,58876
+A. K-6,Monmouth,130,Atlantic Highlands Boro,440367,565245
+A. K-6,Monmouth,2160,Highlands Boro,491091,490865
+A. K-6,Monmouth,4520,Roosevelt Boro,318323,310753
+A. K-6,Morris,3240,Mine Hill Twp,250000,300000
+A. K-6,Ocean,230,Beach Haven Boro,0,0
+A. K-6,Ocean,320,Berkeley Twp,3576036,4256676
+A. K-6,Ocean,1150,Eagleswood Twp,317179,233328
+A. K-6,Ocean,2350,Island Heights Boro,0,26669
+A. K-6,Ocean,2690,Little Egg Harbor Twp,807837,116559
+A. K-6,Ocean,2760,Long Beach Island,0,0
+A. K-6,Ocean,3800,Ocean Gate Boro,447852,144363
+A. K-6,Ocean,3820,Ocean Twp,882850,1012790
+A. K-6,Ocean,4710,Seaside Heights Boro,0,98455
+A. K-6,Ocean,5020,Stafford Twp,2771859,5847409
+A. K-6,Ocean,5220,Tuckerton Boro,0,0
+A. K-6,Sussex,1630,Fredon Twp,250000,250000
+A. K-6,Sussex,1980,Hampton Twp,259681,300000
+A. K-6,Sussex,4650,Sandyston-Walpack Twp,247794,564025
+A. K-6,Sussex,5040,Stillwater Twp,335000,330000
+A. K-6,Warren,400,Blairstown Twp,0,0
+A. K-6,Warren,1620,Franklin Twp,328950,333012
+A. K-6,Warren,1670,Frelinghuysen Twp,24472,89979
+A. K-6,Warren,2470,Knowlton Twp,443279,343691
+A. K-6,Warren,2970,Mansfield Twp,0,0
+A. K-6,Warren,5480,Washington Boro,787730,1046266
+A. K-6,Warren,5530,Washington Twp,0,0
+B. K-8 / 0 - 400,Atlantic,570,Brigantine City,1167343,1100000
+B. K-8 / 0 - 400,Atlantic,1410,Estell Manor City,360320,596010
+B. K-8 / 0 - 400,Atlantic,1540,Folsom Boro,688230,817463
+B. K-8 / 0 - 400,Atlantic,3020,Margate City,1841631,1597876
+B. K-8 / 0 - 400,Atlantic,4240,Port Republic City,67217,0
+B. K-8 / 0 - 400,Atlantic,5760,Weymouth Twp,387923,912574
+B. K-8 / 0 - 400,Bergen,80,Alpine Boro,0,0
+B. K-8 / 0 - 400,Bergen,3350,Moonachie Boro,528123,700000
+B. K-8 / 0 - 400,Bergen,4870,South Hackensack Twp,131424,201844
+B. K-8 / 0 - 400,Burlington,380,Beverly City,194869,112630
+B. K-8 / 0 - 400,Burlington,1030,Delanco Twp,688243,618048
+B. K-8 / 0 - 400,Burlington,3540,New Hanover Twp,0,307968
+B. K-8 / 0 - 400,Burlington,4460,Riverton,0,372125
+B. K-8 / 0 - 400,Burlington,5890,Woodland Twp,194275,200000
+B. K-8 / 0 - 400,Camden,580,Brooklawn Boro,0,184634
+B. K-8 / 0 - 400,Camden,1720,Gibbsboro Boro,129119,200691
+B. K-8 / 0 - 400,Camden,2560,Lawnside Boro,977833,1893383
+B. K-8 / 0 - 400,Camden,2890,Magnolia Boro,1020584,1813309
+B. K-8 / 0 - 400,Camden,3110,Merchantville Boro,990000,990000
+B. K-8 / 0 - 400,Cape May,170,Avalon Boro,0,244594
+B. K-8 / 0 - 400,Cape May,3680,North Wildwood City,837958,724262
+B. K-8 / 0 - 400,Cape May,5060,Stone Harbor Boro,66007,48261
+B. K-8 / 0 - 400,Cape May,5800,Wildwood Crest Boro,664119,797022
+B. K-8 / 0 - 400,Cape May,5840,Woodbine Boro,271104,310195
+B. K-8 / 0 - 400,Cumberland,1020,Deerfield Twp,289214,256809
+B. K-8 / 0 - 400,Cumberland,1120,Downe Twp,67655,234196
+B. K-8 / 0 - 400,Cumberland,1820,Greenwich Twp,200010,382402
+B. K-8 / 0 - 400,Cumberland,3050,Maurice River Twp,0,0
+B. K-8 / 0 - 400,Cumberland,5070,Stow Creek Twp,105128,267524
+B. K-8 / 0 - 400,Hudson,1200,East Newark Boro,728172,738103
+B. K-8 / 0 - 400,Hunterdon,370,Bethlehem Twp,754187,632858
+B. K-8 / 0 - 400,Hunterdon,430,Bloomsbury Boro,689347,832736
+B. K-8 / 0 - 400,Hunterdon,670,Califon Boro,184958,185001
+B. K-8 / 0 - 400,Hunterdon,910,Clinton-Glen Gardner,0,0
+B. K-8 / 0 - 400,Hunterdon,1160,East Amwell Twp,113551,121880
+B. K-8 / 0 - 400,Hunterdon,1600,Franklin Twp,0,0
+B. K-8 / 0 - 400,Hunterdon,1680,Frenchtown Boro,50000,0
+B. K-8 / 0 - 400,Hunterdon,2140,High Bridge Boro,684676,651018
+B. K-8 / 0 - 400,Hunterdon,2450,Kingwood Twp,300387,193065
+B. K-8 / 0 - 400,Monmouth,180,Avon Boro,438919,510096
+B. K-8 / 0 - 400,Monmouth,270,Belmar Boro,411337,339858
+B. K-8 / 0 - 400,Monmouth,500,Bradley Beach Boro,346564,325953
+B. K-8 / 0 - 400,Monmouth,1000,Deal Boro,129513,209979
+B. K-8 / 0 - 400,Monmouth,1490,Farmingdale Boro,412038,99964
+B. K-8 / 0 - 400,Monmouth,3250,Monmouth Beach Boro,168610,2836
+B. K-8 / 0 - 400,Monmouth,3500,Neptune City,453765,232289
+B. K-8 / 0 - 400,Monmouth,4690,Sea Girt Boro,669268,549158
+B. K-8 / 0 - 400,Monmouth,4980,Spring Lake Boro,175740,362457
+B. K-8 / 0 - 400,Monmouth,4990,Spring Lake Heights Boro,0,153452
+B. K-8 / 0 - 400,Morris,2010,Harding Township,380548,350323
+B. K-8 / 0 - 400,Morris,3410,Mount Arlington Boro,488004,657956
+B. K-8 / 0 - 400,Morris,3520,Netcong Boro,100000,100000
+B. K-8 / 0 - 400,Morris,4440,Riverdale Boro,616425,531170
+B. K-8 / 0 - 400,Ocean,210,Bay Head Boro,0,0
+B. K-8 / 0 - 400,Ocean,2550,Lavallette Boro,0,18417
+B. K-8 / 0 - 400,Salem,60,Alloway Twp,906527,816143
+B. K-8 / 0 - 400,Salem,1350,Elsinboro Twp,400000,240748
+B. K-8 / 0 - 400,Salem,2800,Lower Alloways Creek,959750,387490
+B. K-8 / 0 - 400,Salem,2950,Mannington Twp,613558,505389
+B. K-8 / 0 - 400,Salem,3860,Oldmans Twp,558654,554928
+B. K-8 / 0 - 400,Salem,4280,Quinton Twp,656521,682503
+B. K-8 / 0 - 400,Salem,5320,Upper Pittsgrove Twp,240986,290000
+B. K-8 / 0 - 400,Sussex,1800,Green Twp,300000,280000
+B. K-8 / 0 - 400,Sussex,1930,Hamburg Boro,405195,902857
+B. K-8 / 0 - 400,Sussex,2490,Lafayette Twp,0,0
+B. K-8 / 0 - 400,Sussex,3300,Montague Twp,460000,345832
+B. K-8 / 0 - 400,Sussex,3840,Ogdensburg Boro,170989,180566
+B. K-8 / 0 - 400,Sussex,5030,Stanhope Boro,250000,250000
+B. K-8 / 0 - 400,Union,1710,Garwood Boro,250000,40231
+B. K-8 / 0 - 400,Union,5810,Winfield Twp,92372,0
+B. K-8 / 0 - 400,Warren,70,Alpha Boro,173574,752901
+B. K-8 / 0 - 400,Warren,2040,Harmony Twp,0,0
+B. K-8 / 0 - 400,Warren,2250,Hope Twp,127979,0
+B. K-8 / 0 - 400,Warren,3890,Oxford Twp,0,0
+B. K-8 / 0 - 400,Warren,4200,Pohatcong Twp,434425,441803
+B. K-8 / 0 - 400,Warren,5780,White Twp,212052,226706
+C. K-8 / 401 - 750,Atlantic,1300,Egg Harbor City,1255665,1012053
+C. K-8 / 401 - 750,Atlantic,3480,Mullica Twp,910000,915641
+C. K-8 / 401 - 750,Atlantic,5350,Ventnor City,1691412,2347477
+C. K-8 / 401 - 750,Bergen,740,Carlstadt Boro,1655363,1196032
+C. K-8 / 401 - 750,Bergen,1380,Englewood Cliffs Boro,0,0
+C. K-8 / 401 - 750,Bergen,2050,Harrington Park Boro,241213,505431
+C. K-8 / 401 - 750,Bergen,2090,Haworth Boro,0,0
+C. K-8 / 401 - 750,Bergen,2200,Ho Ho Kus Boro,377779,377779
+C. K-8 / 401 - 750,Bergen,3730,Northvale Boro,637483,350001
+C. K-8 / 401 - 750,Bergen,3740,Norwood Boro,150000,77952
+C. K-8 / 401 - 750,Bergen,4470,Rochelle Park Twp,250000,250000
+C. K-8 / 401 - 750,Burlington,1250,Eastampton Twp,58262,0
+C. K-8 / 401 - 750,Burlington,1910,Hainesport Twp,466714,624116
+C. K-8 / 401 - 750,Burlington,3070,Medford Lakes Boro,593132,707431
+C. K-8 / 401 - 750,Burlington,4740,Shamong Twp,1200000,1031775
+C. K-8 / 401 - 750,Burlington,4930,Southampton Township School District,534812,1005560
+C. K-8 / 401 - 750,Burlington,5130,Tabernacle Twp,653957,456520
+C. K-8 / 401 - 750,Camden,190,Barrington Boro,0,113393
+C. K-8 / 401 - 750,Camden,340,Berlin Twp,662313,417170
+C. K-8 / 401 - 750,Camden,880,Clementon Boro,1163308,1000000
+C. K-8 / 401 - 750,Camden,3420,Mount Ephraim Boro,1496298,1494747
+C. K-8 / 401 - 750,Camden,4790,Somerdale Boro,306458,1067202
+C. K-8 / 401 - 750,Camden,5900,Woodlynne Boro,2436970,2979262
+C. K-8 / 401 - 750,Cape May,1080,Dennis Twp,153328,0
+C. K-8 / 401 - 750,Cumberland,950,Commercial Twp,832133,1234859
+C. K-8 / 401 - 750,Cumberland,1460,Fairfield Twp,200080,0
+C. K-8 / 401 - 750,Cumberland,2270,Hopewell Twp,221600,256105
+C. K-8 / 401 - 750,Cumberland,2570,Lawrence Twp,468812,554176
+C. K-8 / 401 - 750,Gloucester,1830,Greenwich Twp,537525,445365
+C. K-8 / 401 - 750,Hunterdon,20,Alexandria Twp,250000,322231
+C. K-8 / 401 - 750,Hunterdon,1040,Delaware Twp,550000,200000
+C. K-8 / 401 - 750,Hunterdon,2220,Holland Twp,250000,250000
+C. K-8 / 401 - 750,Hunterdon,2600,Lebanon Twp,599140,680079
+C. K-8 / 401 - 750,Hunterdon,5180,Tewksbury Twp,561671,1351370
+C. K-8 / 401 - 750,Hunterdon,5270,Union Twp,0,0
+C. K-8 / 401 - 750,Middlesex,970,Cranbury Twp,0,56362
+C. K-8 / 401 - 750,Middlesex,2370,Jamesburg Boro,66767,0
+C. K-8 / 401 - 750,Monmouth,560,Brielle Boro,357000,178176
+C. K-8 / 401 - 750,Monmouth,2720,Little Silver Boro,0,0
+C. K-8 / 401 - 750,Monmouth,3830,Oceanport Boro,0,109931
+C. K-8 / 401 - 750,Monmouth,4770,Shrewsbury Boro,0,75000
+C. K-8 / 401 - 750,Monmouth,5230,Union Beach,0,488263
+C. K-8 / 401 - 750,Monmouth,5640,West Long Branch Boro,41029,533922
+C. K-8 / 401 - 750,Morris,460,Boonton Twp,280000,563859
+C. K-8 / 401 - 750,Morris,3090,Mendham Boro,572486,650000
+C. K-8 / 401 - 750,Morris,3380,Morris Plains Boro,790000,851318
+C. K-8 / 401 - 750,Morris,4480,Rockaway Boro,300000,260225
+C. K-8 / 401 - 750,Morris,5770,Wharton Boro,670000,670000
+C. K-8 / 401 - 750,Ocean,2500,Lakehurst Boro,0,34457
+C. K-8 / 401 - 750,Passaic,420,Bloomingdale Boro,1303340,1000000
+C. K-8 / 401 - 750,Passaic,3640,North Haledon Boro,232244,407425
+C. K-8 / 401 - 750,Somerset,240,Bedminster Twp,892716,973170
+C. K-8 / 401 - 750,Somerset,1810,Green Brook Twp,300000,300000
+C. K-8 / 401 - 750,Somerset,4850,South Bound Brook,374016,375000
+C. K-8 / 401 - 750,Somerset,5540,Watchung Boro,623908,801242
+C. K-8 / 401 - 750,Sussex,90,Andover Reg,1984610,310397
+C. K-8 / 401 - 750,Sussex,1560,Frankford Twp,135000,110000
+C. K-8 / 401 - 750,Sussex,1570,Franklin Boro,500000,500000
+C. K-8 / 401 - 750,Sussex,2030,Hardyston Twp,549567,501685
+C. K-8 / 401 - 750,Union,3470,Mountainside Boro,375000,375000
+C. K-8 / 401 - 750,Warren,30,Allamuchy Twp,0,0
+C. K-8 / 401 - 750,Warren,1785,Great Meadows Regional,0,524883
+C. K-8 / 401 - 750,Warren,1840,Greenwich Twp,0,488324
+C. K-8 / 401 - 750,Warren,2790,Lopatcong Twp,0,141714
+D. K-8 / 751 +,Atlantic,10,Absecon City,862128,1017069
+D. K-8 / 751 +,Atlantic,1690,Galloway Twp,1958322,2763247
+D. K-8 / 751 +,Atlantic,1940,Hamilton Twp,3959428,4037123
+D. K-8 / 751 +,Atlantic,2680,Linwood City,554007,519177
+D. K-8 / 751 +,Atlantic,3720,Northfield City,509400,817978
+D. K-8 / 751 +,Atlantic,4800,Somers Point City,498669,967912
+D. K-8 / 751 +,Bergen,40,Allendale Boro,1468145,1463786
+D. K-8 / 751 +,Bergen,930,Closter Boro,500000,700000
+D. K-8 / 751 +,Bergen,1070,Demarest Boro,1000000,800000
+D. K-8 / 751 +,Bergen,1230,East Rutherford Boro,600000,600000
+D. K-8 / 751 +,Bergen,1470,Fairview Boro,465820,1029852
+D. K-8 / 751 +,Bergen,1580,Franklin Lakes Boro,500000,0
+D. K-8 / 751 +,Bergen,2180,Hillsdale Boro,750000,500000
+D. K-8 / 751 +,Bergen,2710,Little Ferry Boro,340385,1077817
+D. K-8 / 751 +,Bergen,3060,Maywood Boro,598524,572741
+D. K-8 / 751 +,Bergen,3330,Montvale Boro,400000,350000
+D. K-8 / 751 +,Bergen,3760,Oakland Boro,760000,760000
+D. K-8 / 751 +,Bergen,3850,Old Tappan Boro,1580554,1497016
+D. K-8 / 751 +,Bergen,4430,River Vale Twp,658755,600000
+D. K-8 / 751 +,Bergen,5330,Upper Saddle River Boro,2108679,1841368
+D. K-8 / 751 +,Bergen,5880,Woodcliff Lake Boro,0,0
+D. K-8 / 751 +,Bergen,5920,Wyckoff Twp,650000,650000
+D. K-8 / 751 +,Burlington,1280,Edgewater Park Twp,600077,1153443
+D. K-8 / 751 +,Burlington,1420,Evesham Twp,2483521,3064751
+D. K-8 / 751 +,Burlington,2850,Lumberton Twp,3369092,2423355
+D. K-8 / 751 +,Burlington,3080,Medford Twp,1897141,1643927
+D. K-8 / 751 +,Burlington,3430,Mount Holly Twp,2000000,2100000
+D. K-8 / 751 +,Burlington,3440,Mount Laurel Twp,3326826,2988218
+D. K-8 / 751 +,Burlington,5720,Westampton,217304,483575
+D. K-8 / 751 +,Camden,260,Bellmawr Boro,921638,0
+D. K-8 / 751 +,Camden,330,Berlin Boro,0,250312
+D. K-8 / 751 +,Camden,1780,Gloucester Twp,6877605,5982391
+D. K-8 / 751 +,Camden,4590,Runnemede Boro,39581,234008
+D. K-8 / 751 +,Camden,5080,Stratford Boro,2796607,3324103
+D. K-8 / 751 +,Camden,5400,Voorhees Twp,1113807,1300000
+D. K-8 / 751 +,Cape May,5340,Upper Twp,975000,969916
+D. K-8 / 751 +,Cumberland,5300,Upper Deerfield Twp,769831,951196
+D. K-8 / 751 +,Gloucester,2750,Logan Twp,1474381,276494
+D. K-8 / 751 +,Hudson,1850,Guttenberg Town,4531628,3247899
+D. K-8 / 751 +,Hunterdon,920,Clinton Twp,0,0
+D. K-8 / 751 +,Hunterdon,1510,Flemington-Raritan Reg,1498806,2267884
+D. K-8 / 751 +,Hunterdon,4350,Readington Twp,800000,785000
+D. K-8 / 751 +,Middlesex,3220,Milltown Boro,317067,999398
+D. K-8 / 751 +,Monmouth,945,Colts Neck Twp,0,0
+D. K-8 / 751 +,Monmouth,1260,Eatontown Boro,423758,1031137
+D. K-8 / 751 +,Monmouth,1440,Fair Haven Boro,773828,184335
+D. K-8 / 751 +,Monmouth,1640,Freehold Boro,904858,918287
+D. K-8 / 751 +,Monmouth,1660,Freehold Twp,0,0
+D. K-8 / 751 +,Monmouth,2290,Howell Twp,3000000,3000000
+D. K-8 / 751 +,Monmouth,2920,Manalapan-Englishtown Reg,4523975,3779174
+D. K-8 / 751 +,Monmouth,3030,Marlboro Twp,341136,857220
+D. K-8 / 751 +,Monmouth,3200,Millstone Twp,1468081,3316178
+D. K-8 / 751 +,Monmouth,4360,Red Bank Boro,0,1214945
+D. K-8 / 751 +,Monmouth,4570,Rumson Boro,950774,953754
+D. K-8 / 751 +,Monmouth,5185,Tinton Falls,2394588,3537051
+D. K-8 / 751 +,Morris,820,Chester Twp,350000,375000
+D. K-8 / 751 +,Morris,1090,Denville Twp,200000,200000
+D. K-8 / 751 +,Morris,1190,East Hanover Twp,948623,1828084
+D. K-8 / 751 +,Morris,1530,Florham Park Boro,260826,406668
+D. K-8 / 751 +,Morris,2000,Hanover Twp,0,273331
+D. K-8 / 751 +,Morris,2650,Lincoln Park Boro,0,0
+D. K-8 / 751 +,Morris,3100,Mendham Twp,1034162,1034162
+D. K-8 / 751 +,Morris,4000,Long Hill Twp,0,0
+D. K-8 / 751 +,Morris,4490,Rockaway Twp,2150000,929854
+D. K-8 / 751 +,Morris,5520,Washington Twp,0,0
+D. K-8 / 751 +,Passaic,1920,Haledon Boro,253077,907565
+D. K-8 / 751 +,Passaic,2700,Little Falls Twp,700000,518330
+D. K-8 / 751 +,Passaic,4270,Prospect Park Boro,77398,0
+D. K-8 / 751 +,Passaic,4400,Ringwood Boro,2828555,2171475
+D. K-8 / 751 +,Passaic,5200,Totowa Boro,4446723,6725546
+D. K-8 / 751 +,Passaic,5440,Wanaque Boro,450000,450000
+D. K-8 / 751 +,Passaic,5690,Woodland Park,0,144329
+D. K-8 / 751 +,Somerset,510,Branchburg Twp,900000,0
+D. K-8 / 751 +,Somerset,5470,Warren Twp,0,585000
+D. K-8 / 751 +,Sussex,640,Byram Twp,500000,500000
+D. K-8 / 751 +,Sussex,5100,Sussex-Wantage Regional,2092052,1452515
+E. K-12 / 0 - 1800,Atlantic,590,Buena Regional,2490068,962547
+E. K-12 / 0 - 1800,Bergen,440,Bogota Boro,0,0
+E. K-12 / 0 - 1800,Bergen,990,Cresskill Boro,869745,1125130
+E. K-12 / 0 - 1800,Bergen,1360,Emerson Boro,0,0
+E. K-12 / 0 - 1800,Bergen,2080,Hasbrouck Heights Boro,0,256441
+E. K-12 / 0 - 1800,Bergen,3170,Midland Park Boro,275000,275000
+E. K-12 / 0 - 1800,Bergen,3910,Palisades Park,823673,1600000
+E. K-12 / 0 - 1800,Bergen,3940,Park Ridge Boro,307202,892538
+E. K-12 / 0 - 1800,Bergen,4370,Ridgefield Boro,1594166,2836743
+E. K-12 / 0 - 1800,Bergen,5410,Waldwick Boro,1300000,1300000
+E. K-12 / 0 - 1800,Bergen,5430,Wallington Boro,2933695,3643694
+E. K-12 / 0 - 1800,Bergen,5830,Wood-Ridge Boro,0,0
+E. K-12 / 0 - 1800,Burlington,1520,Florence Twp,1312666,1900735
+E. K-12 / 0 - 1800,Burlington,3920,Palmyra Boro,1408238,1390170
+E. K-12 / 0 - 1800,Burlington,4450,Riverside Twp,1706287,3152916
+E. K-12 / 0 - 1800,Camden,150,Audubon Public School Disrict,0,150000
+E. K-12 / 0 - 1800,Camden,1880,Haddon Heights Boro,700000,1000000
+E. K-12 / 0 - 1800,Cape May,5790,Wildwood City,1000000,1428000
+E. K-12 / 0 - 1800,Essex,760,Cedar Grove Twp,801882,1186121
+E. K-12 / 0 - 1800,Essex,1750,Glen Ridge Boro,1394588,2038806
+E. K-12 / 0 - 1800,Gloucester,860,Clayton Boro,491247,709746
+E. K-12 / 0 - 1800,Gloucester,4020,Paulsboro Boro,3039530,767397
+E. K-12 / 0 - 1800,Gloucester,4140,Pitman Boro,0,0
+E. K-12 / 0 - 1800,Gloucester,5860,Woodbury City,200000,150000
+E. K-12 / 0 - 1800,Hudson,5580,Weehawken Twp,1361742,1053143
+E. K-12 / 0 - 1800,Hunterdon,1376,South Hunterdon Regional School District,151501,154124
+E. K-12 / 0 - 1800,Middlesex,1140,Dunellen Boro,756383,1554959
+E. K-12 / 0 - 1800,Middlesex,2150,Highland Park Boro,0,0
+E. K-12 / 0 - 1800,Middlesex,4830,South Amboy City,258023,395713
+E. K-12 / 0 - 1800,Middlesex,4970,Spotswood Boro,3230035,2000000
+E. K-12 / 0 - 1800,Monmouth,100,Asbury Park City,0,0
+E. K-12 / 0 - 1800,Monmouth,2400,Keansburg Boro,1899000,711787
+E. K-12 / 0 - 1800,Monmouth,2430,Keyport Boro,1075000,2430960
+E. K-12 / 0 - 1800,Monmouth,2930,Manasquan Boro,491089,751839
+E. K-12 / 0 - 1800,Morris,450,Boonton Town,0,300000
+E. K-12 / 0 - 1800,Morris,630,Butler Boro,1692369,1600000
+E. K-12 / 0 - 1800,Morris,2460,Kinnelon Boro,0,0
+E. K-12 / 0 - 1800,Morris,3460,Mountain Lakes Boro,0,465064
+E. K-12 / 0 - 1800,Ocean,4190,Plumsted Twp,0,0
+E. K-12 / 0 - 1800,Ocean,4220,Point Pleasant Beach Boro,675985,812096
+E. K-12 / 0 - 1800,Passaic,4230,Pompton Lakes Boro,1126900,752645
+E. K-12 / 0 - 1800,Salem,4150,Pittsgrove Twp,676615,1748204
+E. K-12 / 0 - 1800,Salem,4630,Salem City,426849,2038093
+E. K-12 / 0 - 1800,Salem,5910,Woodstown-Pilesgrove Reg,732597,798940
+E. K-12 / 0 - 1800,Somerset,3000,Manville Boro,0,2076610
+E. K-12 / 0 - 1800,Somerset,4815,Somerset Hills Regional,0,1294033
+E. K-12 / 0 - 1800,Sussex,2240,Hopatcong,608775,711222
+E. K-12 / 0 - 1800,Sussex,3590,Newton Town,0,0
+E. K-12 / 0 - 1800,Union,2420,Kenilworth Boro,393593,1133140
+E. K-12 / 0 - 1800,Warren,280,Belvidere Town,0,0
+F. K-12 / 1801 - 3500,Atlantic,1960,Hammonton Town,0,2248434
+F. K-12 / 1801 - 3500,Bergen,890,Cliffside Park Boro,1039416,1035825
+F. K-12 / 1801 - 3500,Bergen,1130,Dumont Boro,336131,1198061
+F. K-12 / 1801 - 3500,Bergen,1345,Elmwood Park,1464856,1114111
+F. K-12 / 1801 - 3500,Bergen,1370,Englewood City,1857957,3000000
+F. K-12 / 1801 - 3500,Bergen,1760,Glen Rock Boro,1521184,1521184
+F. K-12 / 1801 - 3500,Bergen,2620,Leonia Boro,0,550000
+F. K-12 / 1801 - 3500,Bergen,2740,Lodi Borough,3870457,3689303
+F. K-12 / 1801 - 3500,Bergen,2860,Lyndhurst Twp,0,0
+F. K-12 / 1801 - 3500,Bergen,2900,Mahwah Twp,1183574,2167561
+F. K-12 / 1801 - 3500,Bergen,3550,New Milford Boro,1434920,2356623
+F. K-12 / 1801 - 3500,Bergen,3600,North Arlington Boro,3975035,4262811
+F. K-12 / 1801 - 3500,Bergen,4310,Ramsey Boro,2322607,2429913
+F. K-12 / 1801 - 3500,Bergen,4380,Ridgefield Park Twp,0,0
+F. K-12 / 1801 - 3500,Bergen,4600,Rutherford Boro,500000,468849
+F. K-12 / 1801 - 3500,Bergen,4610,Saddle Brook Twp,0,0
+F. K-12 / 1801 - 3500,Bergen,5160,Tenafly Boro,0,0
+F. K-12 / 1801 - 3500,Bergen,5755,Westwood Regional,1500000,1500000
+F. K-12 / 1801 - 3500,Burlington,475,Bordentown Regional,0,0
+F. K-12 / 1801 - 3500,Burlington,600,Burlington City,3493326,3196793
+F. K-12 / 1801 - 3500,Burlington,840,Cinnaminson Twp,3223447,4084870
+F. K-12 / 1801 - 3500,Burlington,1060,Delran Twp,407809,533446
+F. K-12 / 1801 - 3500,Burlington,3010,Maple Shade Twp,0,469670
+F. K-12 / 1801 - 3500,Camden,940,Collingswood Boro,0,0
+F. K-12 / 1801 - 3500,Camden,1770,Gloucester City,3245156,3304045
+F. K-12 / 1801 - 3500,Camden,1890,Haddon Twp,446754,155678
+F. K-12 / 1801 - 3500,Camden,1900,Haddonfield Boro,0,834693
+F. K-12 / 1801 - 3500,Camden,2670,Lindenwold Boro,0,710610
+F. K-12 / 1801 - 3500,Camden,4110,Pine Hill Boro,1033319,4097007
+F. K-12 / 1801 - 3500,Cape May,3130,Middle Twp,901152,802925
+F. K-12 / 1801 - 3500,Cape May,3780,Ocean City,959733,942436
+F. K-12 / 1801 - 3500,Essex,660,Caldwell-West Caldwell,1286895,568975
+F. K-12 / 1801 - 3500,Essex,5370,Verona Boro,766598,1010978
+F. K-12 / 1801 - 3500,Gloucester,1730,Glassboro,3877,1379227
+F. K-12 / 1801 - 3500,Gloucester,5620,West Deptford Twp,2937388,763728
+F. K-12 / 1801 - 3500,Hudson,2060,Harrison Town,670034,0
+F. K-12 / 1801 - 3500,Hudson,2210,Hoboken City,0,444202
+F. K-12 / 1801 - 3500,Hudson,4730,Secaucus Town,0,0
+F. K-12 / 1801 - 3500,Mercer,2280,Hopewell Valley Regional,0,0
+F. K-12 / 1801 - 3500,Mercer,5510,Robbinsville Twp,0,1400000
+F. K-12 / 1801 - 3500,Middlesex,3120,Metuchen Boro,800000,800000
+F. K-12 / 1801 - 3500,Middlesex,3140,Middlesex Boro,0,896989
+F. K-12 / 1801 - 3500,Middlesex,4920,South River Boro,3682856,1354680
+F. K-12 / 1801 - 3500,Monmouth,2105,Hazlet Twp,3489217,3109115
+F. K-12 / 1801 - 3500,Monmouth,2230,Holmdel Twp,0,0
+F. K-12 / 1801 - 3500,Monmouth,3510,Neptune Twp,6252897,398228
+F. K-12 / 1801 - 3500,Monmouth,3810,Ocean Twp,3821081,4300349
+F. K-12 / 1801 - 3500,Monmouth,5310,Upper Freehold Regional,0,0
+F. K-12 / 1801 - 3500,Monmouth,5420,Wall Twp,0,0
+F. K-12 / 1801 - 3500,Morris,1110,Dover Town,0,0
+F. K-12 / 1801 - 3500,Morris,2380,Jefferson Twp,1662911,891188
+F. K-12 / 1801 - 3500,Morris,2870,Madison Boro,1034034,1034034
+F. K-12 / 1801 - 3500,Morris,3340,Montville Twp,0,0
+F. K-12 / 1801 - 3500,Morris,4080,Pequannock Twp,4101146,4101146
+F. K-12 / 1801 - 3500,Morris,4560,Roxbury Twp,3400000,3000000
+F. K-12 / 1801 - 3500,Ocean,2940,Manchester Twp,419983,430962
+F. K-12 / 1801 - 3500,Ocean,4210,Point Pleasant Boro,0,1748898
+F. K-12 / 1801 - 3500,Passaic,2100,Hawthorne Boro,475232,1364659
+F. K-12 / 1801 - 3500,Passaic,5650,West Milford Twp,2083204,1393863
+F. K-12 / 1801 - 3500,Salem,4070,Penns Grv-Carneys Pt Reg,2473325,1578466
+F. K-12 / 1801 - 3500,Salem,4075,Pennsville,0,0
+F. K-12 / 1801 - 3500,Somerset,490,Bound Brook Boro,1590253,2375432
+F. K-12 / 1801 - 3500,Somerset,3670,North Plainfield Boro,1000000,750000
+F. K-12 / 1801 - 3500,Somerset,4820,Somerville Boro,1822222,1357616
+F. K-12 / 1801 - 3500,Sussex,4960,Sparta Twp,195716,570000
+F. K-12 / 1801 - 3500,Sussex,5360,Vernon Twp,899325,2181763
+F. K-12 / 1801 - 3500,Union,310,Berkeley Heights Twp,788779,1453022
+F. K-12 / 1801 - 3500,Union,850,Clark Twp,3120638,2200132
+F. K-12 / 1801 - 3500,Union,2190,Hillside Twp,0,508400
+F. K-12 / 1801 - 3500,Union,3560,New Providence Boro,2436696,981035
+F. K-12 / 1801 - 3500,Union,4540,Roselle Boro,1417100,2135372
+F. K-12 / 1801 - 3500,Union,4550,Roselle Park Boro,1970103,2040038
+F. K-12 / 1801 - 3500,Union,5000,Springfield Twp,67933,38357
+F. K-12 / 1801 - 3500,Warren,1870,Hackettstown,0,0
+G. K-12 / 3501 +,Atlantic,110,Atlantic City,10000000,19102846
+G. K-12 / 3501 +,Atlantic,1310,Egg Harbor Twp,119889,3636176
+G. K-12 / 3501 +,Atlantic,4180,Pleasantville City,7690330,8484760
+G. K-12 / 3501 +,Bergen,300,Bergenfield Boro,910833,1010833
+G. K-12 / 3501 +,Bergen,1450,Fair Lawn Public Schools,1975930,8655588
+G. K-12 / 3501 +,Bergen,1550,Fort Lee Boro,0,2000000
+G. K-12 / 3501 +,Bergen,1700,Garfield City,226638,0
+G. K-12 / 3501 +,Bergen,1860,Hackensack City,2902186,2654562
+G. K-12 / 3501 +,Bergen,3930,Paramus Boro,600000,600000
+G. K-12 / 3501 +,Bergen,4390,Ridgewood Village,2729048,2616672
+G. K-12 / 3501 +,Bergen,5150,Teaneck Twp,517183,1315650
+G. K-12 / 3501 +,Burlington,620,Burlington Twp,0,0
+G. K-12 / 3501 +,Burlington,3360,Moorestown Twp,3196554,3248747
+G. K-12 / 3501 +,Burlington,4050,Pemberton Twp,3820940,4944609
+G. K-12 / 3501 +,Burlington,5805,Willingboro Twp,7881024,2965955
+G. K-12 / 3501 +,Camden,680,Camden City,0,0
+G. K-12 / 3501 +,Camden,800,Cherry Hill Twp,1543832,1431609
+G. K-12 / 3501 +,Camden,4060,Pennsauken Twp,14949403,14430102
+G. K-12 / 3501 +,Camden,5820,Winslow Twp,5921234,8916402
+G. K-12 / 3501 +,Cumberland,540,Bridgeton City,15531427,12707687
+G. K-12 / 3501 +,Cumberland,3230,Millville City,0,0
+G. K-12 / 3501 +,Cumberland,5390,Vineland City,9821259,10087889
+G. K-12 / 3501 +,Essex,250,Belleville Town,0,0
+G. K-12 / 3501 +,Essex,410,Bloomfield Twp,2000000,2000000
+G. K-12 / 3501 +,Essex,1210,East Orange,0,0
+G. K-12 / 3501 +,Essex,2330,Irvington Township,15181178,20900121
+G. K-12 / 3501 +,Essex,2730,Livingston Twp,2899578,1882516
+G. K-12 / 3501 +,Essex,3190,Millburn Twp,2541487,2300000
+G. K-12 / 3501 +,Essex,3310,Montclair Town,0,737760
+G. K-12 / 3501 +,Essex,3570,Newark City,33875300,116661614
+G. K-12 / 3501 +,Essex,3750,Nutley Town,0,0
+G. K-12 / 3501 +,Essex,3880,City Of Orange Twp,0,14916973
+G. K-12 / 3501 +,Essex,4900,South Orange-Maplewood,7648869,7044348
+G. K-12 / 3501 +,Essex,5680,West Orange Town,812489,3896933
+G. K-12 / 3501 +,Gloucester,1100,Deptford Twp,4183723,5866185
+G. K-12 / 3501 +,Gloucester,3280,Monroe Twp,6542506,5005640
+G. K-12 / 3501 +,Gloucester,5500,Washington Twp,6903125,6294879
+G. K-12 / 3501 +,Hudson,220,Bayonne City,3905977,5137675
+G. K-12 / 3501 +,Hudson,2390,Jersey City,63704750,99178178
+G. K-12 / 3501 +,Hudson,2410,Kearny Town,0,0
+G. K-12 / 3501 +,Hudson,3610,North Bergen Twp,0,0
+G. K-12 / 3501 +,Hudson,5240,Union City,7996331,16054803
+G. K-12 / 3501 +,Hudson,5670,West New York Schools,19332244,16176821
+G. K-12 / 3501 +,Mercer,1245,East Windsor Regional,800000,2549505
+G. K-12 / 3501 +,Mercer,1430,Ewing Twp,968566,973548
+G. K-12 / 3501 +,Mercer,1950,Hamilton Twp,0,0
+G. K-12 / 3501 +,Mercer,2580,Lawrence Twp,865648,0
+G. K-12 / 3501 +,Mercer,4255,Princeton Public Schools,524824,3266127
+G. K-12 / 3501 +,Mercer,5210,Trenton Public School District,4304333,42479212
+G. K-12 / 3501 +,Mercer,5715,W Windsor-Plainsboro Reg,13190885,14713928
+G. K-12 / 3501 +,Middlesex,750,Carteret Boro,0,0
+G. K-12 / 3501 +,Middlesex,1170,East Brunswick Twp,1035902,2470753
+G. K-12 / 3501 +,Middlesex,1290,Edison Twp,5751806,8675125
+G. K-12 / 3501 +,Middlesex,3290,Monroe Twp,1033770,1436316
+G. K-12 / 3501 +,Middlesex,3530,New Brunswick City,0,0
+G. K-12 / 3501 +,Middlesex,3620,North Brunswick Twp,0,0
+G. K-12 / 3501 +,Middlesex,3845,Old Bridge Twp,4322478,146167
+G. K-12 / 3501 +,Middlesex,4090,Perth Amboy City,0,0
+G. K-12 / 3501 +,Middlesex,4130,Piscataway Twp,6503360,7678114
+G. K-12 / 3501 +,Middlesex,4660,Sayreville Boro,0,949019
+G. K-12 / 3501 +,Middlesex,4860,South Brunswick Twp,2464231,3950555
+G. K-12 / 3501 +,Middlesex,4910,South Plainfield Boro,0,0
+G. K-12 / 3501 +,Middlesex,5850,Woodbridge Twp,27391261,28512990
+G. K-12 / 3501 +,Monmouth,2770,Long Branch City,0,669012
+G. K-12 / 3501 +,Monmouth,3040,Matawan-Aberdeen Regional,0,0
+G. K-12 / 3501 +,Monmouth,3160,Middletown Twp,0,0
+G. K-12 / 3501 +,Morris,785,Sch Dist Of The Chathams,0,264831
+G. K-12 / 3501 +,Morris,3385,Morris School District,4293273,4064436
+G. K-12 / 3501 +,Morris,3450,Mount Olive Twp,0,4626405
+G. K-12 / 3501 +,Morris,3950,Parsippany-Troy Hills Twp,7515949,3816284
+G. K-12 / 3501 +,Morris,4330,Randolph Twp,0,0
+G. K-12 / 3501 +,Ocean,185,Barnegat Twp,414383,1769411
+G. K-12 / 3501 +,Ocean,530,Brick Twp,78273,1020102
+G. K-12 / 3501 +,Ocean,2360,Jackson Twp,0,0
+G. K-12 / 3501 +,Ocean,2480,Lacey Twp,645582,423504
+G. K-12 / 3501 +,Ocean,2520,Lakewood Twp,3305487,29314734
+G. K-12 / 3501 +,Ocean,5190,Toms River Regional,0,0
+G. K-12 / 3501 +,Passaic,900,Clifton City,0,0
+G. K-12 / 3501 +,Passaic,3970,Passaic City,7239022,16095996
+G. K-12 / 3501 +,Passaic,4010,Paterson City,15000103,34615267
+G. K-12 / 3501 +,Passaic,5570,Wayne Twp,0,0
+G. K-12 / 3501 +,Somerset,350,Bernards Twp,8703440,3797192
+G. K-12 / 3501 +,Somerset,555,Bridgewater-Raritan Reg,4500000,4250000
+G. K-12 / 3501 +,Somerset,1610,Franklin Twp,1502825,1502825
+G. K-12 / 3501 +,Somerset,2170,Hillsborough Twp,4533115,4533115
+G. K-12 / 3501 +,Somerset,3320,Montgomery Twp,3799490,3800000
+G. K-12 / 3501 +,Union,980,Cranford Twp,0,0
+G. K-12 / 3501 +,Union,1320,Elizabeth City,0,0
+G. K-12 / 3501 +,Union,2660,Linden City,14243640,4444305
+G. K-12 / 3501 +,Union,4160,Plainfield City,8656853,0
+G. K-12 / 3501 +,Union,4290,Rahway City,1800000,1800000
+G. K-12 / 3501 +,Union,4670,Scotch Plains-Fanwood Reg,0,2000000
+G. K-12 / 3501 +,Union,5090,Summit City,524742,2522479
+G. K-12 / 3501 +,Union,5290,Union Twp,931022,1970
+G. K-12 / 3501 +,Union,5730,Westfield Town,288187,1500000
+G. K-12 / 3501 +,Warren,4100,Phillipsburg Town,0,1255968
+H. 7-12 / 9-12,Atlantic,1790,Greater Egg Harbor Reg,0,1742965
+H. 7-12 / 9-12,Atlantic,2910,Mainland Regional,2748908,2087543
+H. 7-12 / 9-12,Bergen,745,Carlstadt-East Rutherford,300000,0
+H. 7-12 / 9-12,Bergen,3700,Northern Highlands Regional High School,1108551,1262593
+H. 7-12 / 9-12,Bergen,3710,Northern Valley Regional,0,179228
+H. 7-12 / 9-12,Bergen,3960,Pascack Valley Regional,826509,1413901
+H. 7-12 / 9-12,Bergen,4300,Ramapo-Indian Hill Reg,1400000,1400000
+H. 7-12 / 9-12,Bergen,4405,River Dell Regional,325000,325000
+H. 7-12 / 9-12,Burlington,2610,Lenape Regional,2590225,8784473
+H. 7-12 / 9-12,Burlington,3690,Northern Burlington Reg,0,404770
+H. 7-12 / 9-12,Burlington,4320,Rancocas Valley Regional,1512875,24661
+H. 7-12 / 9-12,Camden,390,Black Horse Pike Regional,3221503,4159780
+H. 7-12 / 9-12,Camden,1255,Eastern Camden County Reg,892293,1048592
+H. 7-12 / 9-12,Camden,5035,Sterling High School Dist,474018,558926
+H. 7-12 / 9-12,Cape May,2820,Lower Cape May Regional,2023763,2008947
+H. 7-12 / 9-12,Cumberland,997,Cumberland Regional,726518,450000
+H. 7-12 / 9-12,Essex,5630,West Essex Regional,500000,500000
+H. 7-12 / 9-12,Gloucester,870,Clearview Regional,1506788,1646971
+H. 7-12 / 9-12,Gloucester,1715,Gateway Regional,2848275,2723280
+H. 7-12 / 9-12,Gloucester,2440,Kingsway Regional,0,359936
+H. 7-12 / 9-12,Gloucester,4940,Delsea Regional H.S Dist.,1104365,1131180
+H. 7-12 / 9-12,Hunterdon,1050,Delaware Valley Regional,409104,419480
+H. 7-12 / 9-12,Hunterdon,2300,Hunterdon Central Reg,4374385,3974385
+H. 7-12 / 9-12,Hunterdon,3660,North Hunterdon-Voorhees Regional High S,4560617,5586766
+H. 7-12 / 9-12,Monmouth,1650,Freehold Regional,10552614,9612193
+H. 7-12 / 9-12,Monmouth,2120,Henry Hudson Regional,1050524,602182
+H. 7-12 / 9-12,Monmouth,3270,Monmouth Regional,1298973,583341
+H. 7-12 / 9-12,Monmouth,4365,Red Bank Regional,0,351844
+H. 7-12 / 9-12,Monmouth,4580,Rumson-Fair Haven Reg,0,787990
+H. 7-12 / 9-12,Monmouth,4760,Shore Regional,1025205,700781
+H. 7-12 / 9-12,Morris,1990,Hanover Park Regional,4780795,4773378
+H. 7-12 / 9-12,Morris,3370,Morris Hills Regional,0,0
+H. 7-12 / 9-12,Morris,5660,West Morris Regional,3298414,4867599
+H. 7-12 / 9-12,Ocean,770,Central Regional,0,20205
+H. 7-12 / 9-12,Ocean,4105,Pinelands Regional,821821,1860951
+H. 7-12 / 9-12,Ocean,4950,Southern Regional,1269551,0
+H. 7-12 / 9-12,Passaic,2510,Lakeland Regional,0,876117
+H. 7-12 / 9-12,Passaic,3980,Passaic Co Manchester Reg,0,700000
+H. 7-12 / 9-12,Passaic,3990,Passaic Valley Regional,2795244,2795567
+H. 7-12 / 9-12,Somerset,5550,Watchung Hills Regional,0,622756
+H. 7-12 / 9-12,Sussex,2165,High Point Regional,1017813,941647
+H. 7-12 / 9-12,Sussex,2465,Kittatinny Regional,0,0
+H. 7-12 / 9-12,Sussex,2615,Lenape Valley Regional,0,0
+H. 7-12 / 9-12,Sussex,5435,Wallkill Valley Regional,0,0
+H. 7-12 / 9-12,Warren,3675,North Warren Regional,0,490268
+H. 7-12 / 9-12,Warren,5465,Warren Hills Regional,1500000,2250000
+I. CSSD,Atlantic,125,Atlantic Co Special Serv,0,0
+I. CSSD,Bergen,285,Bergen Co Special Service,0,0
+I. CSSD,Burlington,605,Burlington Co Spec Serv,0,0
+I. CSSD,Cape May,715,Cape May Co Special Serv,0,0
+I. CSSD,Gloucester,1774,Gloucester Co Spec Serv,0,0
+I. CSSD,Mercer,3103,Mercer County Special Services School Di,0,0
+I. CSSD,Salem,4635,Salem Co Special Service,0,0
+J. VOC,Atlantic,120,Atlantic Co Vocational,2280539,1993244
+J. VOC,Bergen,290,Bergen County Vocational Technical Schoo,0,0
+J. VOC,Burlington,610,Burlington Co Vocational,0,0
+J. VOC,Camden,700,Camden County Vocational,1979459,2755628
+J. VOC,Cape May,720,Cape May County Vocational School Distri,0,0
+J. VOC,Cumberland,995,Cumberland Co Vocational,1201174,1910826
+J. VOC,Essex,1390,Essex Co Voc-Tech,10770199,8767567
+J. VOC,Gloucester,1775,Gloucester Co Vocational,0,0
+J. VOC,Hudson,2295,Hudson County Vocational,1917084,158474
+J. VOC,Hunterdon,2308,Hunterdon Co Vocational,244179,199364
+J. VOC,Mercer,3105,Mercer County Vocational,1236243,1068335
+J. VOC,Middlesex,3150,Middlesex Co Vocational,1262413,1035007
+J. VOC,Monmouth,3260,Monmouth Co Vocational,0,0
+J. VOC,Morris,3365,Morris County Vocational,890069,528661
+J. VOC,Ocean,3790,Ocean County Vocational,0,252859
+J. VOC,Passaic,3995,Passaic County Vocational,0,4671651
+J. VOC,Salem,4640,Salem County Vocational,0,0
+J. VOC,Somerset,4810,Somerset Co Vocational,410500,338000
+J. VOC,Sussex,5110,Sussex County Vocational,0,0
+J. VOC,Union,5260,Union County Vocational,682288,10422207
+J. VOC,Warren,5460,Warren County Vocational,800000,500000
+K. Charter,Atlantic,6060,Atlantic Community Charter School,0,0
+K. Charter,Atlantic,6104,Principle Academy Charter School,0,0
+K. Charter,Atlantic,7410,Charter~tech High School,0,0
+K. Charter,Bergen,6013,Bergen Arts And Sciences Charter School,0,0
+K. Charter,Bergen,6430,Englewood On The Palisades Charter Schoo,0,0
+K. Charter,Bergen,7890,Teaneck Community CS,0,0
+K. Charter,Burlington,6026,Riverbank Charter School Of Excelle,0,0
+K. Charter,Burlington,6076,Benjamin Banneker Prep CS,0,0
+K. Charter,Camden,1799,Kipp Cooper Norcross,0,0
+K. Charter,Camden,1801,Camden Prep,0,0
+K. Charter,Camden,1802,Mastery Schools Of Camden,0,0
+K. Charter,Camden,6086,Hope Community CS,0,0
+K. Charter,Camden,6107,Camden’s Promise Charter School,0,0
+K. Charter,Camden,7109,Leap Academy University CS,0,0
+K. Charter,Cumberland,6028,Vineland Public Charter School,0,0
+K. Charter,Cumberland,6069,Millville Public Charter School,0,0
+K. Charter,Cumberland,6089,Compass Academy CS,0,0
+K. Charter,Cumberland,6100,Bridgeton Public Charter School,0,0
+K. Charter,Essex,6020,Pride Academy Charter School,0,0
+K. Charter,Essex,6022,Burch Charter School Of Excellence,0,0
+K. Charter,Essex,6029,Newark Educators Community Charter Schoo,0,0
+K. Charter,Essex,6053,Great Oaks Legacy Charter School,0,0
+K. Charter,Essex,6058,Roseville Community CS,0,0
+K. Charter,Essex,6094,Phillip's Academy Charter School,0,0
+K. Charter,Essex,6099,Link Community Charter School,0,0
+K. Charter,Essex,6109,Lead Charter School,0,0
+K. Charter,Essex,6320,Discovery CS,0,0
+K. Charter,Essex,6410,East Orange Community CS,0,0
+K. Charter,Essex,6665,Gray CS,0,0
+K. Charter,Essex,7210,Marion P. Thomas CS,0,0
+K. Charter,Essex,7290,New Horizons Comm. CS,0,0
+K. Charter,Essex,7320,North Star Academy Charter School,0,0
+K. Charter,Essex,7325,Team Academy Charter School,0,0
+K. Charter,Essex,7730,Robert Treat Academy CS,0,75000
+K. Charter,Essex,7735,Maria L. Varisco-Rogers CS,0,0
+K. Charter,Hudson,6030,The Ethical Community Charter School,0,0
+K. Charter,Hudson,6036,Hola Hoboken Dual Lang CS,0,0
+K. Charter,Hudson,6064,Dr Lena Edwards Academic Charter School,0,0
+K. Charter,Hudson,6082,Beloved Community Charter School,0,0
+K. Charter,Hudson,6093,Jersey City Global CS,0,0
+K. Charter,Hudson,6103,Empowerment Academy Charter School,0,0
+K. Charter,Hudson,6105,Hudson Arts And Science  Charter School,0,0
+K. Charter,Hudson,6420,Elysian CS Of Hoboken,0,0
+K. Charter,Hudson,6720,Hoboken CS,0,0
+K. Charter,Hudson,6910,Jersey City Comm. CS,0,0
+K. Charter,Hudson,6915,Jersey City Golden Door Charter School,0,0
+K. Charter,Hudson,7115,Learning Community CS,0,0
+K. Charter,Hudson,7830,Soaring Heights CS,0,0
+K. Charter,Hudson,8060,University Academy CS,0,0
+K. Charter,Mercer,6017,Foundation Academy CS,0,0
+K. Charter,Mercer,6025,Paul Robeson Humanities  Charter School,0,0
+K. Charter,Mercer,6183,Trenton Stem-To-Civics CS,0,0
+K. Charter,Mercer,6810,International Charter School,0,0
+K. Charter,Mercer,7500,Pace CS Of Hamilton,0,0
+K. Charter,Mercer,7540,Princeton CS,0,0
+K. Charter,Mercer,7895,Achievers Early College Prep Charter Sch,0,0
+K. Charter,Mercer,8140,Village CS,0,0
+K. Charter,Middlesex,6032,Academy For Urban Leadership Charter Sch,0,0
+K. Charter,Middlesex,6041,Hatikvah International CS,0,0
+K. Charter,Middlesex,6635,Greater Brunswick CS,0,0
+K. Charter,Middlesex,7896,Middlesex Charter School,0,0
+K. Charter,Monmouth,6010,Academy Charter High School,0,0
+K. Charter,Monmouth,6740,Hope Academy CS,0,0
+K. Charter,Monmouth,7720,The Red Bank CS,0,0
+K. Charter,Monmouth,7891,College Achieve Greater Asbury Park Char,0,0
+K. Charter,Morris,8050,Unity CS,0,0
+K. Charter,Ocean,7893,Ocean Academy Charter School,0,0
+K. Charter,Passaic,6021,Community Charter School Of Paterso,0,0
+K. Charter,Passaic,6079,John P Holland Charter School,0,0
+K. Charter,Passaic,6080,Passaic Arts And Science Charter School,0,0
+K. Charter,Passaic,6096,Paterson Arts And Science Charter School,0,0
+K. Charter,Passaic,6106,Philip’s Charter School Of Paterson,0,0
+K. Charter,Passaic,6230,Classical Academy Charter School Of Clif,0,0
+K. Charter,Passaic,7503,Paterson CS For Sci/Tech,0,0
+K. Charter,Passaic,7892,College Achieve Paterson Charter School,0,0
+K. Charter,Salem,7897,Creativity Colaboratory Charter School,0,0
+K. Charter,Somerset,6018,Central Jersey College Prep Charter Scho,0,0
+K. Charter,Somerset,6081,Thomas Edison Energysmart Charter School,0,0
+K. Charter,Sussex,7850,Sussex County Technology Charter School,0,0
+K. Charter,Union,6033,The Barack Obama Green Charter High Scho,0,0
+K. Charter,Union,6101,College Achieve Central Charter School,0,0
+K. Charter,Union,6102,Cresthaven Academy Charter School,0,0
+K. Charter,Union,7600,Queen City Academy CS,0,0
+K. Charter,Union,8010,Union County Teams CS,0,0
+K. Charter,Warren,7727,Ridge And Valley CS,0,0
