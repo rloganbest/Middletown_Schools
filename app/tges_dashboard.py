@@ -200,10 +200,12 @@ def build_stats(peer_group: str, fname: str, col: str, scale: float = 1) -> pd.D
 
 
 @st.cache_data(show_spinner=False)
-def load_multi_col_table(year: int, col_defs: list[tuple], peer_group: str) -> pd.DataFrame:
+def load_multi_col_table(year: int, col_defs: list[tuple], peer_group: str,
+                        peers_only: bool = True) -> pd.DataFrame:
     """
-    Load multiple value columns for all peer districts in one table.
+    Load multiple value columns for districts in one table.
     col_defs: list of (fname, col, label, fmt, y_label, scale)
+    peers_only: if True, only load peer group districts; if False, load all districts.
     Returns DataFrame indexed by DISTNAME with one column per indicator.
     """
     csv_dir = get_csv_dir(year)
@@ -217,8 +219,11 @@ def load_multi_col_table(year: int, col_defs: list[tuple], peer_group: str) -> p
         col_u = col.upper()
         if col_u not in df.columns:
             continue
-        grp  = df[df["GROUP"].str.strip() == peer_group]
-        real = grp[pd.to_numeric(grp["DIST"], errors="coerce").notna()].copy()
+        if peers_only:
+            grp  = df[df["GROUP"].str.strip() == peer_group]
+            real = grp[pd.to_numeric(grp["DIST"], errors="coerce").notna()].copy()
+        else:
+            real = df[pd.to_numeric(df["DIST"], errors="coerce").notna()].copy()
         real["_v"] = clean_num(real[col_u]) * scale
         # Drop duplicate district names (keep first) before indexing
         frames[label] = (real.drop_duplicates("DISTNAME")
@@ -686,7 +691,8 @@ if section == "🏛 Revenue Sources":
     st.caption("★ marks selected districts. Ranked by selected revenue source (lowest → highest).")
 
     with st.spinner("Loading revenue data…"):
-        rev_multi = load_multi_col_table(latest_year, REVENUE_INDICATORS, peer_group)
+        rev_multi = load_multi_col_table(latest_year, REVENUE_INDICATORS, peer_group,
+                                         peers_only=peers_only)
 
     if not rev_multi.empty:
         peer_dn = stats_df.loc[latest_year, "peer_distnames"] if latest_year in stats_df.index else set()
@@ -760,7 +766,8 @@ if section in ("👩‍🏫 Staffing Ratios", "💵 Staffing Salaries"):
     st.caption("★ marks selected districts. Rank 1 = lowest value.")
 
     with st.spinner("Loading all columns…"):
-        multi_df = load_multi_col_table(latest_year, ind_group, peer_group)
+        multi_df = load_multi_col_table(latest_year, ind_group, peer_group,
+                                        peers_only=peers_only)
 
     if not multi_df.empty:
         # Get peer distnames from main stats_df for filtering
@@ -785,7 +792,8 @@ elif section == "📊 Special Ed":
     st.subheader(f"{latest_year} Special Ed Ranking ({primary_district} peer group)")
     st.caption("★ marks selected districts. Rank 1 = lowest % in Special Ed.")
     with st.spinner("Loading Special Ed data…"):
-        multi_df = load_multi_col_table(latest_year, VITSTAT_INDICATORS, peer_group)
+        multi_df = load_multi_col_table(latest_year, VITSTAT_INDICATORS, peer_group,
+                                        peers_only=peers_only)
     if not multi_df.empty:
         peer_dn = stats_df.loc[latest_year, "peer_distnames"] if latest_year in stats_df.index else set()
         fmt_map = {i[2]: i[3] for i in VITSTAT_INDICATORS}
@@ -806,7 +814,8 @@ elif section == "🏦 Fund Balances":
     st.subheader(f"{latest_year} Fund Balances Ranking")
     st.caption("★ marks selected districts. Rank 1 = lowest value.")
     with st.spinner("Loading fund balance data…"):
-        multi_df = load_multi_col_table(latest_year, FUND_INDICATORS, peer_group)
+        multi_df = load_multi_col_table(latest_year, FUND_INDICATORS, peer_group,
+                                        peers_only=peers_only)
     if not multi_df.empty:
         peer_dn = stats_df.loc[latest_year, "peer_distnames"] if latest_year in stats_df.index else set()
         fmt_map = {i[2]: i[3] for i in FUND_INDICATORS}
