@@ -847,7 +847,9 @@ def _render_spending_breakdown(bd: pd.DataFrame, primary_district: str, child_la
             use_container_width=True, hide_index=True,
         )
     with col_pie:
-        pie_df = bd[~bd["label"].str.endswith("Total")].dropna(subset=["dist_val"])
+        # Exclude parent total (first row); pie shows components as % of Budgetary Per-Pupil Cost
+        parent_label = child_labels[0]
+        pie_df = bd[bd["label"] != parent_label].dropna(subset=["dist_val"])
         if not pie_df.empty:
             pie_colors = ["#2A9D8F", "#457B9D", "#E9C46A", "#E76F51", "#6A4C93", "#F4A261", "#264653"]
             fig_pie = go.Figure(go.Pie(
