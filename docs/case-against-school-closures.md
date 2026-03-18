@@ -2,7 +2,11 @@
 
 <p align="center"><strong>A Budgetary Analysis for Middletown Parents</strong></p>
 
-The Board of Education (BOE) has proposed closing two elementary schools and one middle school to address a budget shortfall of less than $1 million—a figure representing less than 0.5% of the total budget. This extreme action by the BOE is not commensurate with the small deficit nor is it supported by the school district's own data as this document will show. <strong><a href="https://www.usnews.com/education/k12/new-jersey/navesink-elementary-school-245784" target="_blank" rel="noopener noreferrer">Ranked 13th in the state</a>, Navesink should not be closed—it should be studied.</strong>
+The Board of Education (BOE) has proposed closing two elementary schools and one middle school to address a budget shortfall of less than $1 million—a figure representing less than 0.5% of the total budget. This extreme action by the BOE is not commensurate with the small deficit nor is it supported by the school district's own data as this document will show.
+
+**Navesink Elementary is [ranked 13th in the state](https://www.usnews.com/education/k12/new-jersey/navesink-elementary-school-245784). Navesink should not be closed—it should be studied.**
+
+<small>US News ranking: <a href="https://www.usnews.com/education/k12/new-jersey/navesink-elementary-school-245784" target="_blank" rel="noopener">www.usnews.com/.../navesink-elementary-school-245784</a></small>
 
 The following data, sourced from the NJ Taxpayers' Guide to Education Spending, challenges the necessity of these closures.
 
