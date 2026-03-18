@@ -44,6 +44,8 @@ Middletown has the [lowest total spend per pupil in Monmouth County](https://new
 
 The data shows a district that is already highly optimized. Closing three schools to solve a 0.5% budget gap is an extreme measure that ignores Middletown's standing as a low-spending, high-performing district.
 
+<h2 align="center"><strong>The BOE and the Township must be able to work together to find an appropriately sized solution to a small problem.</strong></h2>
+
 ---
 
 **Data Source:** NJ Department of Education Taxpayers' Guide to Education Spending (TGES).
