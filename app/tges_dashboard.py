@@ -503,6 +503,16 @@ OVERLAY_COLORS = [
     "#E9C46A", "#264653", "#E76F51", "#457B9D",
 ]
 
+# Font sizes for all Plotly figures (line charts, pies)
+PLOT_TITLE_FS = 28
+PLOT_AXIS_TITLE_FS = 20
+PLOT_AXIS_TICK_FS = 18
+PLOT_LEGEND_FS = 18
+PLOT_MARKER_LABEL_FS = 16
+PLOT_PIE_TEXT_FS = 18
+PLOT_PIE_LEGEND_FS = 18
+
+
 def fmt_val(v, fmt: str) -> str:
     if v is None or (isinstance(v, float) and pd.isna(v)):
         return "N/A"
@@ -528,7 +538,9 @@ def extract_district_series(stats_df: pd.DataFrame, name: str) -> pd.Series:
 
 
 def _pctile_ranks(stats_df: pd.DataFrame, primary_name: str) -> dict:
-    """Percentile rank of primary district within peer group for each year."""
+    """Percentile rank of primary district within peer group for each year.
+    Uses (count_less + 0.5 * count_equal) / n * 100 so ties get the midpoint rank.
+    """
     primary_series = extract_district_series(stats_df, primary_name)
     out = {}
     for yr, row in stats_df.iterrows():
@@ -537,7 +549,15 @@ def _pctile_ranks(stats_df: pd.DataFrame, primary_name: str) -> dict:
         peers = [v for k, v in row["all_vals"].items()
                  if k != primary_name and k in peer_dn]
         if mv is not None and not pd.isna(mv) and peers:
-            out[yr] = sum(v < mv for v in peers) / len(peers) * 100
+            n = len(peers)
+            count_less = 0
+            count_equal = 0
+            for v in peers:
+                if v < mv:
+                    count_less += 1
+                elif v == mv or (np.isfinite(v) and np.isfinite(mv) and np.isclose(v, mv)):
+                    count_equal += 1
+            out[yr] = (count_less + 0.5 * count_equal) / n * 100
     return out
 
 
@@ -628,7 +648,7 @@ def _add_primary_trace(fig: go.Figure, years, primary_series, pctile_ranks,
         line=dict(color="#E63946", width=2.5),
         marker=dict(size=9, color=dot_colors, line=dict(color="white", width=1.5)),
         text=labels, textposition="top center",
-        textfont=dict(size=10, color="#333"),
+        textfont=dict(size=PLOT_MARKER_LABEL_FS, color="#333"),
         name=primary_name,
         hovertemplate="<b>%{x}</b><br>" + primary_name + ": %{customdata}<extra>" + primary_name + "</extra>",
         customdata=hover))
@@ -644,21 +664,27 @@ def _chart_layout(
     x_title: str = "School Year",
 ) -> None:
     fig.update_layout(
-        title=dict(text=title, font=dict(size=16, color="#1A1A2E"), x=0, y=0.98,
-                   xanchor="left", yanchor="top"),
-        xaxis=dict(title=x_title, dtick=1, gridcolor="#eee", tickangle=-45),
+        title=dict(text=title, font=dict(size=PLOT_TITLE_FS, color="#1A1A2E"),
+                   x=0.5, y=0.98, xanchor="center", yanchor="top"),
+        xaxis=dict(
+            title=dict(text=x_title, font=dict(size=PLOT_AXIS_TITLE_FS)),
+            tickfont=dict(size=PLOT_AXIS_TICK_FS),
+            dtick=1, gridcolor="#eee", tickangle=-45),
         yaxis=dict(
-            title=y_label, gridcolor="#eee",
+            title=dict(text=y_label, font=dict(size=PLOT_AXIS_TITLE_FS)),
+            tickfont=dict(size=PLOT_AXIS_TICK_FS),
+            gridcolor="#eee",
             tickprefix="$" if fmt in ("$", "salary") else "",
             ticksuffix="%" if fmt == "pct" else "",
             tickformat="," if fmt in ("$", "salary") else ",.0f" if fmt == "int" else ".1f",
             autorange=True),
         plot_bgcolor="white", paper_bgcolor="white",
         hovermode="x unified",
-        legend=dict(orientation="h", yanchor="top", y=-0.18,
-                    xanchor="left", x=0, font=dict(size=11),
+        hoverlabel=dict(font_size=PLOT_AXIS_TICK_FS),
+        legend=dict(orientation="h", yanchor="top", y=-0.24,
+                    xanchor="left", x=0, font=dict(size=PLOT_LEGEND_FS),
                     bgcolor="rgba(255,255,255,0.8)"),
-        height=height, margin=dict(t=60, b=160, l=70, r=70))
+        height=height, margin=dict(t=88, b=220, l=100, r=80))
 
 
 def make_chart(stats_df, primary_name, compare_names, fmt, y_label, title,
@@ -666,7 +692,9 @@ def make_chart(stats_df, primary_name, compare_names, fmt, y_label, title,
                state_avg_series: dict[int, float] | None = None,
                show_value_as_label: bool = False) -> go.Figure:
     if stats_df.empty:
-        return go.Figure().update_layout(title="No data available")
+        return go.Figure().update_layout(
+            title=dict(text="No data available", font=dict(size=PLOT_TITLE_FS),
+                       x=0.5, xanchor="center"))
     years = stats_df.index.values
     p25 = stats_df["p25"].values
     p75 = stats_df["p75"].values
@@ -856,17 +884,19 @@ def _render_spending_breakdown(bd: pd.DataFrame, primary_district: str, child_la
                 labels=pie_df["label"], values=pie_df["dist_val"],
                 marker_colors=pie_colors[: len(pie_df)],
                 textinfo="percent",
-                textfont=dict(size=13),
+                textfont=dict(size=PLOT_PIE_TEXT_FS),
                 insidetextorientation="radial",
                 hole=0.35,
                 hovertemplate="<b>%{label}</b><br>$%{value:,.0f}  (%{percent})<extra></extra>",
             ))
             fig_pie.update_layout(
                 showlegend=True,
-                legend=dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=1.02, font=dict(size=12)),
-                margin=dict(t=20, b=20, l=20, r=160),
-                height=320,
+                legend=dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=1.02,
+                            font=dict(size=PLOT_PIE_LEGEND_FS)),
+                margin=dict(t=28, b=28, l=28, r=200),
+                height=380,
                 paper_bgcolor="white",
+                hoverlabel=dict(font_size=PLOT_AXIS_TICK_FS),
             )
             st.plotly_chart(fig_pie, use_container_width=True)
 
@@ -890,17 +920,19 @@ def _revenue_mix_pie(rev_multi: pd.DataFrame, primary_district: str, year: int) 
         values=list(rev_vals.values()),
         marker_colors=["#E9C46A", "#2A9D8F", "#E76F51"],
         textinfo="percent",
-        textfont=dict(size=13),
+        textfont=dict(size=PLOT_PIE_TEXT_FS),
         insidetextorientation="radial",
         hole=0.38,
         hovertemplate="<b>%{label}</b><br>%{value:.1f}%<extra></extra>",
     ))
     fig_pie.update_layout(
         showlegend=True,
-        legend=dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=1.02, font=dict(size=13)),
-        margin=dict(t=30, b=20, l=20, r=120),
-        height=340,
+        legend=dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=1.02,
+                    font=dict(size=PLOT_PIE_LEGEND_FS)),
+        margin=dict(t=36, b=28, l=28, r=180),
+        height=400,
         paper_bgcolor="white",
+        hoverlabel=dict(font_size=PLOT_AXIS_TICK_FS),
     )
     st.plotly_chart(fig_pie, use_container_width=True)
 
