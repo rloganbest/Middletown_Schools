@@ -11,7 +11,7 @@ The following data, sourced from the NJ Taxpayers' Guide to Education Spending, 
 
 ---
 
-## 1. Our Schools are running lean
+## 1. Our Schools Are Efficient
 
 The BOE has suggested waste should be trimmed. However, the data shows Middletown is already operating far more leanly than its peers:
 
@@ -19,7 +19,7 @@ The BOE has suggested waste should be trimmed. However, the data shows Middletow
 - **Total Spending:** Is in the [33rd percentile](https://new-jersey-school-tges-data.streamlit.app/?district=Middletown+Twp&groups=G.+K-12&section=revenue&peers_only=true&ind=Total+Spending+Per+Pupil).
 - **The Bottom Line:** We are achieving top-tier academic results while spending significantly less than 80% of comparable districts. Further cuts do not "find efficiency"; they threaten the core educational product.
 
-## 2. Academic Excellence is Not an Accident
+## 2. Academic Excellence Is Not An Accident
 
 Middletown currently ranks in the top third of New Jersey districts. This is achieved through a specific investment strategy that the proposed closures would disrupt:
 
@@ -34,7 +34,7 @@ A common rebuttal for school closures is "excessive overhead" or "too many build
 - **Administrative Costs:** Despite salaries being competitive, the [per-pupil cost for administration is in the 14th percentile](https://new-jersey-school-tges-data.streamlit.app/?district=Middletown+Twp&groups=G.+K-12&section=spending&peers_only=true&ind=Total+Administration). This is because Middletown has a very high student-to-administrator ratio. Our leadership is already stretched thin.
 - **Operations & Maintenance:** Building spending is [only in the 32nd percentile](https://new-jersey-school-tges-data.streamlit.app/?district=Middletown+Twp&groups=G.+K-12&section=spending&peers_only=true&ind=Operations+%26+Maintenance). There is no data to suggest that Middletown is over-spending on facility maintenance relative to the state.
 
-## 4. The Economic Risk to Homeowners
+## 4. The Economic Risk To Homeowners
 
 Middletown has the [lowest total spend per pupil in Monmouth County](https://new-jersey-school-tges-data.streamlit.app/?district=Middletown+Twp&groups=G.+K-12&section=revenue&peers_only=true&counties=Monmouth&ind=Total+Spending+Per+Pupil), yet it has the highest local revenue contribution.
 
