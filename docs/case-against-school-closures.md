@@ -6,7 +6,6 @@ The Board of Education (BOE) has proposed closing two elementary schools and one
 
 **Navesink Elementary is [ranked 13th in the state](https://www.usnews.com/education/k12/new-jersey/navesink-elementary-school-245784). Navesink should not be closed—it should be studied.**
 
-<small>US News ranking: <a href="https://www.usnews.com/education/k12/new-jersey/navesink-elementary-school-245784" target="_blank" rel="noopener">www.usnews.com/.../navesink-elementary-school-245784</a></small>
 
 The following data, sourced from the NJ Taxpayers' Guide to Education Spending, challenges the necessity of these closures.
 
