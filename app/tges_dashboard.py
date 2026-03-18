@@ -1058,6 +1058,20 @@ def _revenue_mix_pie(rev_multi: pd.DataFrame, primary_district: str, year: int) 
 
 st.set_page_config(page_title="NJ School Finance Explorer", page_icon="🏫",
                    layout="wide", initial_sidebar_state="expanded")
+
+CASE_AGAINST_CLOSURES_URL = (
+    "https://docsify-this.net/?basePath=https://raw.githubusercontent.com/rloganbest/Middletown_Schools/main/docs"
+    "&homepage=case-against-school-closures.md#/?id=_2-academic-excellence-is-not-an-accident"
+)
+st.markdown(
+    f'<div style="text-align: center; margin-bottom: 1rem;">'
+    f'<a href="{CASE_AGAINST_CLOSURES_URL}" target="_blank" rel="noopener noreferrer" '
+    f'style="display: inline-block; padding: 0.65rem 1.5rem; font-size: 1.2rem; font-weight: 700; '
+    f'color: white; background: linear-gradient(135deg, #1d3557 0%, #457b9d 100%); '
+    f'border-radius: 8px; text-decoration: none; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">'
+    f'📖 Read: The Case Against Middletown School Closures</a></div>',
+    unsafe_allow_html=True,
+)
 st.title("🏫 NJ School Finance Explorer")
 st.caption(
     "Source: NJ Department of Education — Taxpayers' Guide to Education Spending (TGES), 2011–2025.  "

@@ -51,3 +51,7 @@ The data shows a district that is already highly optimized. Closing three school
 **Data Source:** NJ Department of Education Taxpayers' Guide to Education Spending (TGES).
 
 **View the Interactive Data:** [Middletown School Data Dashboard](https://new-jersey-school-tges-data.streamlit.app/)
+
+<div align="center" style="margin-top: 2rem; margin-bottom: 2rem;">
+<a href="https://new-jersey-school-tges-data.streamlit.app/?district=Middletown+Twp&groups=G.+K-12+%2F+3501+%2B&section=spending&peers_only=true&compare=&counties=&ind=Budgetary+Per-Pupil+Cost" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.75rem 1.75rem; font-size: 1.25rem; font-weight: 700; color: white; background: linear-gradient(135deg, #1d3557 0%, #457b9d 100%); border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">📊 Open NJ School Finance Explorer</a>
+</div>
