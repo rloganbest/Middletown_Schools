@@ -6,6 +6,7 @@ Run from project root:
 """
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
@@ -36,6 +37,27 @@ warnings.filterwarnings("ignore")
 
 # Sections that have their own table block (no standard single-column ranking)
 SECTIONS_WITH_DEDICATED_TABLE = ("🏛 Revenue Sources", "📊 Special Ed", "🏦 Fund Balances", "👥 Enrollment")
+
+# URL query param keys and section slugs for shareable links (| separates multiple values)
+URL_PARAM_DISTRICT = "district"
+URL_PARAM_GROUPS = "groups"
+URL_PARAM_SECTION = "section"
+URL_PARAM_PEERS_ONLY = "peers_only"
+URL_PARAM_COMPARE = "compare"
+URL_PARAM_COUNTIES = "counties"
+URL_PARAM_IND = "ind"
+URL_MULTI_SEP = "|"
+
+SECTION_SLUGS = {
+    "💰 Per Pupil Spending": "spending",
+    "👥 Enrollment": "enrollment",
+    "🏛 Revenue Sources": "revenue",
+    "👩‍🏫 Staffing Ratios": "ratios",
+    "💵 Staffing Salaries": "salaries",
+    "🏦 Fund Balances": "fund",
+    "📊 Special Ed": "specialed",
+}
+SECTION_FROM_SLUG = {v: k for k, v in SECTION_SLUGS.items()}
 
 
 def _normalize_county_filter(county_filter: list[str] | list[County] | None) -> list[str] | None:
@@ -297,6 +319,30 @@ def _peer_median(df: pd.DataFrame, col: str, peer_group: str):
     vals = pd.to_numeric(real[col].replace(list(NULL_VALS), None), errors="coerce").dropna()
     return vals.median() if len(vals) > 0 else None
 
+
+def _normalize_group(s: str) -> str:
+    """Strip and collapse internal whitespace so CSV and roster group labels match."""
+    if not s or not isinstance(s, str):
+        return ""
+    return " ".join(re.split(r"\s+", s.strip()))
+
+
+def _peer_groups_tuple(peer_groups: str | tuple[str, ...] | list[str]) -> tuple[str, ...]:
+    if isinstance(peer_groups, str):
+        return (_normalize_group(peer_groups),) if peer_groups else ()
+    return tuple(sorted({_normalize_group(g) for g in peer_groups if g and str(g).strip()}))
+
+
+def _peer_median_union(df: pd.DataFrame, col: str, peer_groups: str | tuple[str, ...] | list[str]):
+    """Median of col over real districts in any of the operating groups."""
+    groups = _peer_groups_tuple(peer_groups)
+    if not groups:
+        return None
+    grp = df[df["GROUP"].apply(_normalize_group).isin(groups)]
+    real = grp[pd.to_numeric(grp["DIST"], errors="coerce").notna()]
+    vals = pd.to_numeric(real[col].replace(list(NULL_VALS), None), errors="coerce").dropna()
+    return vals.median() if len(vals) > 0 else None
+
 # ── Cached data loaders ───────────────────────────────────────────────────────
 
 def _load_enrollment_2025(csv_dir: Path) -> pd.Series:
@@ -332,7 +378,8 @@ def load_roster() -> pd.DataFrame:
     return roster
 
 @st.cache_data(show_spinner="Computing peer statistics…")
-def build_stats(peer_group: str, fname: str, col: str, scale: float = 1) -> pd.DataFrame:
+def build_stats(peer_groups: str | tuple[str, ...], fname: str, col: str, scale: float = 1) -> pd.DataFrame:
+    groups = _peer_groups_tuple(peer_groups)
     rows = []
     for year in YEARS:
         csv_dir = get_csv_dir(year)
@@ -345,7 +392,7 @@ def build_stats(peer_group: str, fname: str, col: str, scale: float = 1) -> pd.D
         if col_u not in df.columns:
             continue
         df["_v"] = clean_num(df[col_u]) * scale
-        grp  = df[df["GROUP"].str.strip() == peer_group].copy()
+        grp = df[df["GROUP"].apply(_normalize_group).isin(groups)].copy()
         real = grp[pd.to_numeric(grp["DIST"], errors="coerce").notna()].copy()
         peer_vals = real["_v"].dropna()
         if len(peer_vals) < 5:
@@ -410,7 +457,8 @@ def load_state_avg_series(
 
 
 @st.cache_data(show_spinner=False)
-def load_multi_col_table(year: int, col_defs: list[tuple], peer_group: str,
+def load_multi_col_table(year: int, col_defs: list[tuple],
+                        peer_group: str | tuple[str, ...],
                         peers_only: bool = True) -> pd.DataFrame:
     """
     Load multiple value columns for districts in one table.
@@ -430,7 +478,8 @@ def load_multi_col_table(year: int, col_defs: list[tuple], peer_group: str,
         if col_u not in df.columns:
             continue
         if peers_only:
-            grp  = df[df["GROUP"].str.strip() == peer_group]
+            groups = _peer_groups_tuple(peer_group)
+            grp = df[df["GROUP"].apply(_normalize_group).isin(groups)]
             real = grp[pd.to_numeric(grp["DIST"], errors="coerce").notna()].copy()
         else:
             real = df[pd.to_numeric(df["DIST"], errors="coerce").notna()].copy()
@@ -445,7 +494,9 @@ def load_multi_col_table(year: int, col_defs: list[tuple], peer_group: str,
 
 @st.cache_data(show_spinner=False)
 def load_breakdown(year: int, child_labels: list[str],
-                   district: str, peer_group: str) -> pd.DataFrame:
+                   district: str, peer_group_for_median: str,
+                   selected_districts: list[str] | None = None) -> pd.DataFrame:
+    """Peer Median is always the primary district's peer group; Selected Median is the selected filter."""
     csv_dir = get_csv_dir(year)
     if csv_dir is None:
         return pd.DataFrame()
@@ -462,8 +513,13 @@ def load_breakdown(year: int, child_labels: list[str],
         if col_u not in df.columns:
             continue
         dist_val = _district_value(df, col_u, district)
-        peer_med = _peer_median(df, col_u, peer_group)
-        records.append({"label": label, "dist_val": dist_val, "peer_med": peer_med})
+        peer_med = _peer_median_union(df, col_u, peer_group_for_median)
+        selected_med = None
+        if selected_districts:
+            vals = [_district_value(df, col_u, d) for d in selected_districts]
+            vals = [v for v in vals if v is not None and np.isfinite(v)]
+            selected_med = float(np.median(vals)) if vals else None
+        records.append({"label": label, "dist_val": dist_val, "peer_med": peer_med, "selected_med": selected_med})
     if not records:
         return pd.DataFrame()
     result = pd.DataFrame(records)
@@ -474,7 +530,8 @@ def load_breakdown(year: int, child_labels: list[str],
 
 
 @st.cache_data(show_spinner=False)
-def load_subcomponent_cols(year: int, child_labels: list[str], peer_group: str) -> pd.DataFrame:
+def load_subcomponent_cols(year: int, child_labels: list[str],
+                           peer_group: str | tuple[str, ...]) -> pd.DataFrame:
     csv_dir = get_csv_dir(year)
     if csv_dir is None:
         return pd.DataFrame()
@@ -594,6 +651,16 @@ def _add_peer_median_trace(fig: go.Figure, years, p50, fmt: str) -> None:
         text=[fmt_val(v, fmt) for v in p50]))
 
 
+def _add_mean_trace(fig: go.Figure, years, mean_vals, fmt: str, name: str = "Average") -> None:
+    """Add a reference line for mean over time (e.g. average enrollment)."""
+    fig.add_trace(go.Scatter(
+        x=years, y=mean_vals, mode="lines",
+        line=dict(color="#457B9D", width=2, dash="dash"),
+        name=name,
+        hovertemplate="<b>%{x}</b><br>" + name + ": %{text}<extra></extra>",
+        text=[fmt_val(v, fmt) for v in mean_vals]))
+
+
 def _add_state_avg_trace(
     fig: go.Figure, years, state_avg_series: dict[int, float], fmt: str
 ) -> None:
@@ -624,25 +691,31 @@ def _add_compare_traces(fig: go.Figure, years, all_series, compare_names, fmt: s
 
 def _add_primary_trace(fig: go.Figure, years, primary_series, pctile_ranks,
                        primary_name: str, ns, fmt: str, *,
-                       show_value_as_label: bool = False) -> None:
+                       show_value_as_label: bool = False,
+                       simple_style: bool = False) -> None:
+    """Add primary district trace. simple_style=True: no percentile coloring/hover (e.g. for enrollment)."""
     pv = [primary_series.get(yr) for yr in years]
     pr_vals = [pctile_ranks.get(yr) for yr in years]
     if show_value_as_label:
         labels = [fmt_val(v, fmt) if v is not None and not (isinstance(v, float) and pd.isna(v)) else "" for v in pv]
     else:
         labels = [f"{p:.0f}%" if p is not None else "" for p in pr_vals]
-    hover = []
-    for yr, v, p in zip(years, pv, pr_vals):
-        if v is None or pd.isna(v):
-            hover.append("N/A")
-            continue
-        p_desc = _pctile_description(p)
-        n_peers = ns[list(years).index(yr)]
-        hover.append(f"{fmt_val(v, fmt)}<br>{p_desc}<br>vs {n_peers} peers")
-    dot_colors = [
-        "#E63946" if (p is not None and 25 <= p <= 75)
-        else "#E97D23" if (p is not None and 10 <= p <= 90)
-        else "#9B1D1D" for p in pr_vals]
+    if simple_style:
+        hover = [fmt_val(v, fmt) if v is not None and not (isinstance(v, float) and pd.isna(v)) else "N/A" for v in pv]
+        dot_colors = ["#E63946"] * len(years)
+    else:
+        hover = []
+        for yr, v, p in zip(years, pv, pr_vals):
+            if v is None or pd.isna(v):
+                hover.append("N/A")
+                continue
+            p_desc = _pctile_description(p)
+            n_peers = ns[list(years).index(yr)]
+            hover.append(f"{fmt_val(v, fmt)}<br>{p_desc}<br>vs {n_peers} peers")
+        dot_colors = [
+            "#E63946" if (p is not None and 25 <= p <= 75)
+            else "#E97D23" if (p is not None and 10 <= p <= 90)
+            else "#9B1D1D" for p in pr_vals]
     fig.add_trace(go.Scatter(
         x=years, y=pv, mode="lines+markers+text",
         line=dict(color="#E63946", width=2.5),
@@ -716,6 +789,46 @@ def make_chart(stats_df, primary_name, compare_names, fmt, y_label, title,
     return fig
 
 
+def make_enrollment_over_time_chart(stats_df, primary_name: str, fmt: str, y_label: str,
+                                    height: int = 450, *, x_title: str = "School Year") -> go.Figure:
+    """Chart of primary district enrollment over time with average (mean of that district's values) reference line."""
+    if stats_df.empty:
+        return go.Figure().update_layout(
+            title=dict(text="No data available", font=dict(size=PLOT_TITLE_FS),
+                       x=0.5, xanchor="center"))
+    years = stats_df.index.values
+    primary_series = extract_district_series(stats_df, primary_name)
+    pv = [primary_series.get(yr) for yr in years]
+    # Average = mean of search district's own enrollment over the time series
+    valid = [v for v in pv if v is not None and not (isinstance(v, float) and pd.isna(v))]
+    district_mean = float(np.mean(valid)) if valid else None
+    mean_vals = [district_mean] * len(years) if district_mean is not None else []
+    fig = go.Figure()
+    if mean_vals:
+        _add_mean_trace(fig, years, mean_vals, fmt, name=f"{primary_name} average")
+    fig.add_trace(go.Scatter(
+        x=years, y=pv, mode="lines+markers+text",
+        line=dict(color="#E63946", width=2.5),
+        marker=dict(size=9, color="#E63946", line=dict(color="white", width=1.5)),
+        text=[fmt_val(v, fmt) if v is not None and not (isinstance(v, float) and pd.isna(v)) else "" for v in pv],
+        textposition="top center",
+        textfont=dict(size=PLOT_MARKER_LABEL_FS, color="#333"),
+        name=primary_name,
+        hovertemplate="<b>%{x}</b><br>" + primary_name + ": %{customdata}<extra></extra>",
+        customdata=[fmt_val(v, fmt) if v is not None and not (isinstance(v, float) and pd.isna(v)) else "N/A" for v in pv]))
+    _chart_layout(fig, f"{primary_name} Enrollment over time", y_label, fmt, height, x_title=x_title)
+    # Add y-axis padding so value labels above/below points are not cut off
+    all_y = [v for v in pv if v is not None and np.isfinite(v)]
+    if mean_vals and district_mean is not None and np.isfinite(district_mean):
+        all_y.append(district_mean)
+    if all_y:
+        y_min, y_max = min(all_y), max(all_y)
+        span = y_max - y_min or 1
+        pad = max(span * 0.12, 400)
+        fig.update_layout(yaxis=dict(range=[y_min - pad, y_max + pad], autorange=False))
+    return fig
+
+
 def make_ranking_table(stats_df, highlight_districts, fmt, value_label="Value",
                        year=2025, county_filter=None, roster=None,
                        peers_only=True, subcols_df=None) -> pd.DataFrame:
@@ -732,7 +845,8 @@ def make_ranking_table(stats_df, highlight_districts, fmt, value_label="Value",
         if val is None or pd.isna(val):
             continue
         is_hl = dist in highlight_set
-        if peers_only and dist not in peer_set and not is_hl:
+        # Always filter to selected operating groups when we have a peer set (Operating Group filter).
+        if peer_set and dist not in peer_set and not is_hl:
             continue
         if counties and not is_hl and dist not in county_set:
             continue
@@ -787,7 +901,8 @@ def make_multi_col_ranking_table(multi_df, highlight_districts, fmt_map,
     df = df.dropna(subset=[sort_col]).copy()
 
     mask = pd.Series([True] * len(df), index=df.index)
-    if peers_only and peer_set:
+    # Always filter to selected operating groups when we have a peer set (Operating Group filter).
+    if peer_set:
         mask &= df["distname"].isin(peer_set) | df["distname"].isin(highlight_set)
     if counties and county_set:
         mask &= df["distname"].isin(county_set) | df["distname"].isin(highlight_set)
@@ -859,15 +974,17 @@ def _render_spending_breakdown(bd: pd.DataFrame, primary_district: str, child_la
     """Render breakdown table and pie for spending components."""
     col_tbl, col_pie = st.columns([1, 1])
     with col_tbl:
-        rows = [
-            {
+        rows = []
+        for _, r in bd.iterrows():
+            row = {
                 "Component": r["label"],
                 primary_district: fmt_val(r["dist_val"], "$"),
                 "Peer Median": fmt_val(r["peer_med"], "$"),
-                "% of Total": f"{r['pct']:.1f}%" if pd.notna(r["pct"]) else "—",
             }
-            for _, r in bd.iterrows()
-        ]
+            if "selected_med" in bd.columns:
+                row["Selected Median"] = fmt_val(r.get("selected_med"), "$")
+            row["% of Total"] = f"{r['pct']:.1f}%" if pd.notna(r["pct"]) else "—"
+            rows.append(row)
         tbl = pd.DataFrame(rows)
         n_cols = len(tbl.columns)
         st.dataframe(
@@ -945,86 +1062,214 @@ st.title("🏫 NJ School Finance Explorer")
 st.caption(
     "Source: NJ Department of Education — Taxpayers' Guide to Education Spending (TGES), 2011–2025.  "
     "Shaded band = middle 50% of peer districts (IQR). "
-    "Labels on each dot = that year's percentile rank within the peer group.")
+    "Labels on each dot = that year's percentile rank within the selected operating groups.  "
+    "**Share the current link** to open this view in a new session.")
 
 roster = load_roster()
+all_districts = sorted(roster["distname"].tolist())
+groups_list = sorted(roster["group"].dropna().unique().tolist())
+section_options = [
+    "💰 Per Pupil Spending",
+    "👥 Enrollment",
+    "🏛 Revenue Sources",
+    "👩‍🏫 Staffing Ratios",
+    "💵 Staffing Salaries",
+    "🏦 Fund Balances",
+    "📊 Special Ed",
+]
+default_district = (
+    District.MIDDLETOWN.display_name
+    if District.MIDDLETOWN.display_name in all_districts
+    else (all_districts[0] if all_districts else "")
+)
+
+
+def _apply_query_params_to_state() -> None:
+    """Initialize session state from URL query params only on first load (shared links).
+    After the first run, session state is the source of truth so GUI changes are not overwritten.
+    Do not overwrite state when we are about to apply 'force peers_only off' (preserve section etc.).
+    """
+    if st.session_state.get("_url_params_applied"):
+        return
+    if st.session_state.get("_pending_peers_only_off"):
+        return  # Rerun to force peers_only off; don't overwrite section/state from URL
+    q = st.query_params
+    if not q:
+        return
+    st.session_state["_url_params_applied"] = True
+    district = q.get(URL_PARAM_DISTRICT)
+    if district is not None:
+        val = district[0] if isinstance(district, list) else district
+        if val and val in all_districts:
+            st.session_state["primary_district"] = val
+    groups = q.get(URL_PARAM_GROUPS)
+    if groups is not None:
+        val = (groups[0] if isinstance(groups, list) else groups) or ""
+        names = [g.strip() for g in val.split(URL_MULTI_SEP) if g.strip()]
+        valid = [g for g in names if g in groups_list]
+        if valid:
+            st.session_state["comp_groups"] = valid
+    section_slug = q.get(URL_PARAM_SECTION)
+    if section_slug is not None:
+        val = section_slug[0] if isinstance(section_slug, list) else section_slug
+        if val and val in SECTION_FROM_SLUG:
+            st.session_state["section"] = SECTION_FROM_SLUG[val]
+    peers = q.get(URL_PARAM_PEERS_ONLY)
+    if peers is not None:
+        val = (peers[0] if isinstance(peers, list) else peers) or ""
+        st.session_state["peers_only"] = val.lower() in ("true", "1", "yes")
+    compare = q.get(URL_PARAM_COMPARE)
+    if compare is not None:
+        val = (compare[0] if isinstance(compare, list) else compare) or ""
+        names = [c.strip() for c in val.split(URL_MULTI_SEP) if c.strip()]
+        valid = [c for c in names if c in all_districts]
+        if valid:
+            st.session_state["compare"] = valid
+    counties = q.get(URL_PARAM_COUNTIES)
+    if counties is not None:
+        val = (counties[0] if isinstance(counties, list) else counties) or ""
+        names = [c.strip() for c in val.split(URL_MULTI_SEP) if c.strip()]
+        county_list = sorted(roster["county"].unique().tolist())
+        valid = [c for c in names if c in county_list]
+        if valid:
+            st.session_state["comp_counties"] = valid
+    ind = q.get(URL_PARAM_IND)
+    if ind is not None:
+        val = ind[0] if isinstance(ind, list) else ind
+        if val:
+            st.session_state["ind_label"] = val
+
+
+# Restore section (and other state) after a rerun triggered by "force peers_only off" so we don't jump back to Per Pupil Spending.
+if "_preserve_section" in st.session_state:
+    st.session_state["section"] = st.session_state.pop("_preserve_section")
+
+_apply_query_params_to_state()
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.header("📍 Primary District")
-    all_districts    = sorted(roster["distname"].tolist())
-    default_dist_idx = (
-        all_districts.index(District.MIDDLETOWN.display_name)
-        if District.MIDDLETOWN.display_name in all_districts
-        else 0
-    )
-    primary_district = st.selectbox("Search district", all_districts, index=default_dist_idx)
+    if "primary_district" not in st.session_state:
+        st.session_state["primary_district"] = default_district
+    primary_district = st.selectbox("Search district", all_districts, key="primary_district")
 
     peer_group_row = roster[roster["distname"] == primary_district]
     peer_group     = peer_group_row["group"].iloc[0] if not peer_group_row.empty else "G. K-12 / 3501 +"
     en_val = peer_group_row["enrollment"].iloc[0] if not peer_group_row.empty else None
     en_str = f"{en_val:,.0f}" if pd.notna(en_val) and en_val > 0 else "—"
-    st.caption(f"Peer group: **{peer_group}** · Enrollment (2024): **{en_str}**")
+    st.caption(f"Primary group: **{peer_group}** · Enrollment (2024): **{en_str}**")
+
+    # When the user changes Search district, reset to peers_only=True and operating group = that district's group.
+    _prev = st.session_state.get("_prev_primary_district")
+    if _prev is not None and _prev != primary_district:
+        st.session_state["_prev_primary_district"] = primary_district
+        st.session_state["peers_only"] = True
+        st.session_state["comp_groups"] = [peer_group]
+        st.rerun()
+    st.session_state["_prev_primary_district"] = primary_district
 
     st.divider()
     st.header("📊 Compare With")
-    peers_only   = st.toggle("Peers only", value=True)
+    # Apply pending state changes before widgets (Streamlit forbids changing a widget's key after it runs).
+    if "_pending_comp_groups" in st.session_state:
+        st.session_state["comp_groups"] = st.session_state.pop("_pending_comp_groups")
+    _force_peers_off = st.session_state.pop("_pending_peers_only_off", None)
+    if _force_peers_off:
+        st.session_state["peers_only"] = False
+    peers_only = st.toggle(
+        "Peers only",
+        value=False if _force_peers_off else st.session_state.get("peers_only", True),
+        key="peers_only",
+        help="When on, compare only to the search district's operating group (Operating groups is fixed).",
+    )
+    # When Peers only is on, fix operating groups to the search district's group and gray out the multiselect.
+    if peers_only:
+        st.session_state["comp_groups"] = [peer_group]
+    comp_groups = st.multiselect(
+        "Operating groups",
+        groups_list,
+        default=[peer_group],
+        key="comp_groups",
+        disabled=peers_only,
+        help="Charts (IQR, median, percentiles) use all districts in the selected groups. "
+        "Disabled when Peers only is on.",
+    )
+    # Inconsistent state (e.g. from URL): multiple groups but peers_only on — force peers_only off and rerun.
+    if len(comp_groups) > 1 and peers_only and not _force_peers_off:
+        st.session_state["_preserve_section"] = st.session_state.get("section")
+        st.session_state["_pending_peers_only_off"] = True
+        st.rerun()
+    analysis_groups = tuple(sorted(comp_groups)) if comp_groups else (peer_group,)
     counties_list = sorted(roster["county"].unique().tolist())
     comp_counties = st.multiselect("Filter by county (optional)", counties_list, key="comp_counties")
-    comp_roster   = roster.copy()
+    comp_roster = roster.copy()
     if peers_only:
-        comp_roster = comp_roster[comp_roster["group"] == peer_group]
+        gsel = list(comp_groups) if comp_groups else [peer_group]
+        comp_roster = comp_roster[comp_roster["group"].isin(gsel)]
+    elif comp_groups:
+        comp_roster = comp_roster[comp_roster["group"].isin(comp_groups)]
     if comp_counties:
         comp_roster = comp_roster[comp_roster["county"].isin(comp_counties)]
-    comp_options      = sorted([d for d in comp_roster["distname"].tolist() if d != primary_district])
+    # Add districts: show all districts (not filtered by operating group) so user can plot any district.
+    comp_options      = sorted([d for d in roster["distname"].tolist() if d != primary_district])
     compare_districts = st.multiselect("Add districts", comp_options, key="compare")
 
     st.divider()
     st.header("📋 Section")
-    section = st.radio("", [
-        "💰 Per Pupil Spending",
-        "👥 Enrollment",
-        "🏛 Revenue Sources",
-        "👩‍🏫 Staffing Ratios",
-        "💵 Staffing Salaries",
-        "🏦 Fund Balances",
-        "📊 Special Ed",
-    ], label_visibility="collapsed")
+    if "section" not in st.session_state:
+        st.session_state["section"] = section_options[0]
+    section = st.radio("", section_options, key="section", label_visibility="collapsed")
 
     st.divider()
 
-    # Section-specific controls
+    # Section-specific controls (key="ind_label" for URL persistence; default index when stored value not in options)
     if section == "💰 Per Pupil Spending":
-        ind_label = st.selectbox("Category", [i[2] for i in SPENDING_INDICATORS])
+        opts = [i[2] for i in SPENDING_INDICATORS]
+        idx = opts.index(st.session_state["ind_label"]) if st.session_state.get("ind_label") in opts else 0
+        ind_label = st.selectbox("Category", opts, index=idx, key="ind_label")
 
     elif section == "👥 Enrollment":
-        ind_label = st.selectbox("Chart", [i[2] for i in ENROLLMENT_INDICATORS])
+        opts = [i[2] for i in ENROLLMENT_INDICATORS]
+        idx = opts.index(st.session_state["ind_label"]) if st.session_state.get("ind_label") in opts else 0
+        ind_label = st.selectbox("Chart", opts, index=idx, key="ind_label")
 
     elif section == "🏛 Revenue Sources":
-        rev_chart_labels = [i[2] for i in REVENUE_INDICATORS]
-        default_rev_idx = rev_chart_labels.index("Total Spending Per Pupil") if "Total Spending Per Pupil" in rev_chart_labels else 0
-        ind_label = st.selectbox("Chart this revenue source", rev_chart_labels, index=default_rev_idx)
+        opts = [i[2] for i in REVENUE_INDICATORS]
+        default_rev_idx = opts.index("Total Spending Per Pupil") if "Total Spending Per Pupil" in opts else 0
+        idx = opts.index(st.session_state["ind_label"]) if st.session_state.get("ind_label") in opts else default_rev_idx
+        ind_label = st.selectbox("Chart this revenue source", opts, index=idx, key="ind_label")
 
     elif section == "👩‍🏫 Staffing Ratios":
-        ratio_labels = [i[2] for i in RATIO_INDICATORS]
-        ind_label    = st.selectbox("Chart this ratio", ratio_labels)
+        opts = [i[2] for i in RATIO_INDICATORS]
+        idx = opts.index(st.session_state["ind_label"]) if st.session_state.get("ind_label") in opts else 0
+        ind_label = st.selectbox("Chart this ratio", opts, index=idx, key="ind_label")
 
     elif section == "💵 Staffing Salaries":
-        sal_labels = [i[2] for i in SALARY_INDICATORS]
-        ind_label  = st.selectbox("Chart this salary", sal_labels)
+        opts = [i[2] for i in SALARY_INDICATORS]
+        idx = opts.index(st.session_state["ind_label"]) if st.session_state.get("ind_label") in opts else 0
+        ind_label = st.selectbox("Chart this salary", opts, index=idx, key="ind_label")
 
     elif section == "🏦 Fund Balances":
-        fund_labels = [i[2] for i in FUND_INDICATORS]
-        default_fund_idx = next(
-            (i for i, lbl in enumerate(fund_labels) if "General Fund Balance" in lbl), 0
-        )
-        ind_label = st.selectbox("Indicator", fund_labels, index=default_fund_idx)
+        opts = [i[2] for i in FUND_INDICATORS]
+        default_fund_idx = next((i for i, lbl in enumerate(opts) if "General Fund Balance" in lbl), 0)
+        idx = opts.index(st.session_state["ind_label"]) if st.session_state.get("ind_label") in opts else default_fund_idx
+        ind_label = st.selectbox("Indicator", opts, index=idx, key="ind_label")
 
     elif section == "📊 Special Ed":
-        vs_labels = [i[2] for i in VITSTAT_INDICATORS]
-        ind_label = st.selectbox("Chart this stat", vs_labels)
+        opts = [i[2] for i in VITSTAT_INDICATORS]
+        idx = opts.index(st.session_state["ind_label"]) if st.session_state.get("ind_label") in opts else 0
+        ind_label = st.selectbox("Chart this stat", opts, index=idx, key="ind_label")
 
     chart_height = st.slider("Chart height (px)", 400, 1000, 600, step=50)
+
+    # Persist current state to URL so the link can be shared
+    st.query_params[URL_PARAM_DISTRICT] = primary_district
+    st.query_params[URL_PARAM_GROUPS] = URL_MULTI_SEP.join(comp_groups) if comp_groups else ""
+    st.query_params[URL_PARAM_SECTION] = SECTION_SLUGS.get(section, "spending")
+    st.query_params[URL_PARAM_PEERS_ONLY] = "true" if peers_only else "false"
+    st.query_params[URL_PARAM_COMPARE] = URL_MULTI_SEP.join(compare_districts) if compare_districts else ""
+    st.query_params[URL_PARAM_COUNTIES] = URL_MULTI_SEP.join(comp_counties) if comp_counties else ""
+    st.query_params[URL_PARAM_IND] = ind_label
 
 # ── Resolve indicator metadata ────────────────────────────────────────────────
 all_ind_catalog = (SPENDING_INDICATORS + ENROLLMENT_INDICATORS + RATIO_INDICATORS + SALARY_INDICATORS
@@ -1034,10 +1279,10 @@ fname, col, label, fmt, y_label, scale = ind_meta
 
 # ── Load stats ────────────────────────────────────────────────────────────────
 with st.spinner("Loading data…"):
-    stats_df = build_stats(peer_group, fname, col, scale)
+    stats_df = build_stats(analysis_groups, fname, col, scale)
 
 if stats_df.empty:
-    st.error("No data found for this indicator and peer group.")
+    st.error("No data found for this indicator and selected operating groups.")
     st.stop()
 
 latest_year  = max(stats_df.index)
@@ -1049,17 +1294,28 @@ is_vitstat_chart = fname == VITSTAT_FILE
 x_title = "TGES release year" if is_vitstat_chart else "School Year"
 state_avg_series = load_state_avg_series(peer_group, fname, col, scale) if (fname, col) in STATE_AVG_COL else {}
 show_value_label = section in ("👥 Enrollment", "📊 Special Ed")
+chart_vs = (
+    analysis_groups[0] if len(analysis_groups) == 1
+    else f"{len(analysis_groups)} operating groups"
+)
+peer_ctx = analysis_groups if peers_only else peer_group
 fig = make_chart(stats_df, primary_district, compare_districts,
                  fmt, y_label,
-                 title=f"{ind_label}  ·  {primary_district} vs {peer_group}",
+                 title=f"{ind_label}  ·  {primary_district} vs {chart_vs}",
                  height=chart_height, x_title=x_title, state_avg_series=state_avg_series or None,
                  show_value_as_label=show_value_label)
 st.plotly_chart(fig, use_container_width=True)
 if is_vitstat_chart:
     st.caption("Vital Statistics: each point is a TGES release; data are latest actual (e.g. 2025 release = 2024 data).")
 
-# ── Enrollment: table ──────────────────────────────────────────────────────────
+# ── Enrollment: over-time chart + table ──────────────────────────────────────────
 if section == "👥 Enrollment":
+    st.divider()
+    st.subheader(f"{primary_district} Enrollment over time")
+    st.caption("Enrollment vs. this district's average over the time series.")
+    fig_over_time = make_enrollment_over_time_chart(
+        stats_df, primary_district, fmt, y_label, height=450, x_title=x_title)
+    st.plotly_chart(fig_over_time, use_container_width=True)
     st.divider()
     st.subheader(f"{latest_year} Enrollment Ranking")
     st.caption("★ marks selected districts. Rank 1 = smallest enrollment.")
@@ -1081,7 +1337,10 @@ if section == "💰 Per Pupil Spending" and ind_label in BREAKDOWN_MAP:
     st.divider()
     st.subheader(f"{latest_year} Spending Breakdown — {primary_district}")
     child_labels = BREAKDOWN_MAP[ind_label]
-    bd = load_breakdown(latest_year, child_labels, primary_district, peer_group)
+    # Selected Median = median over all districts in current filter (operating groups + county)
+    selected_set = comp_roster["distname"].tolist()
+    bd = load_breakdown(latest_year, child_labels, primary_district, peer_group,
+                       selected_districts=tuple(sorted(selected_set)) if selected_set else None)
     if not bd.empty:
         _render_spending_breakdown(bd, primary_district, child_labels)
 
@@ -1092,7 +1351,7 @@ if section == "🏛 Revenue Sources":
     st.caption("★ marks selected districts. Ranked by selected revenue source (lowest → highest).")
 
     with st.spinner("Loading revenue data…"):
-        rev_multi = load_multi_col_table(latest_year, REVENUE_INDICATORS, peer_group,
+        rev_multi = load_multi_col_table(latest_year, REVENUE_INDICATORS, peer_ctx,
                                          peers_only=peers_only)
 
     if not rev_multi.empty:
@@ -1118,11 +1377,11 @@ if section in ("👩‍🏫 Staffing Ratios", "💵 Staffing Salaries"):
     group_fmt  = "ratio" if section == "👩‍🏫 Staffing Ratios" else "salary"
     col_labels = [i[2] for i in ind_group]
 
-    st.subheader(f"{latest_year} Full Ranking — {section.split()[-1]} ({primary_district} peer group)")
+    st.subheader(f"{latest_year} Full Ranking — {section.split()[-1]} ({chart_vs})")
     st.caption("★ marks selected districts. Rank 1 = lowest value.")
 
     with st.spinner("Loading all columns…"):
-        multi_df = load_multi_col_table(latest_year, ind_group, peer_group,
+        multi_df = load_multi_col_table(latest_year, ind_group, peer_ctx,
                                         peers_only=peers_only)
 
     if not multi_df.empty:
@@ -1139,10 +1398,10 @@ if section in ("👩‍🏫 Staffing Ratios", "💵 Staffing Salaries"):
 
 elif section == "📊 Special Ed":
     # Multi-column table sorted by % Students in Special Ed
-    st.subheader(f"{latest_year} Special Ed Ranking ({primary_district} peer group)")
+    st.subheader(f"{latest_year} Special Ed Ranking ({chart_vs})")
     st.caption("★ marks selected districts. Rank 1 = lowest % in Special Ed.")
     with st.spinner("Loading Special Ed data…"):
-        multi_df = load_multi_col_table(latest_year, VITSTAT_INDICATORS, peer_group,
+        multi_df = load_multi_col_table(latest_year, VITSTAT_INDICATORS, peer_ctx,
                                         peers_only=peers_only)
     if not multi_df.empty:
         peer_dn = stats_df.loc[latest_year, "peer_distnames"] if latest_year in stats_df.index else set()
@@ -1157,7 +1416,7 @@ elif section == "🏦 Fund Balances":
     st.subheader(f"{latest_year} Fund Balances Ranking")
     st.caption("★ marks selected districts. Rank 1 = lowest value.")
     with st.spinner("Loading fund balance data…"):
-        multi_df = load_multi_col_table(latest_year, FUND_INDICATORS, peer_group,
+        multi_df = load_multi_col_table(latest_year, FUND_INDICATORS, peer_ctx,
                                         peers_only=peers_only)
     if not multi_df.empty:
         peer_dn = stats_df.loc[latest_year, "peer_distnames"] if latest_year in stats_df.index else set()
@@ -1185,7 +1444,7 @@ elif section not in SECTIONS_WITH_DEDICATED_TABLE:
                      and ALL_INDICATORS_MAP[c][1].upper() == parent_col)
         ]
         if children:
-            raw_sc = load_subcomponent_cols(latest_year, children, peer_group)
+            raw_sc = load_subcomponent_cols(latest_year, children, analysis_groups)
             if not raw_sc.empty:
                 subcols_df = raw_sc
 
@@ -1211,5 +1470,5 @@ elif section not in SECTIONS_WITH_DEDICATED_TABLE:
 st.divider()
 st.caption(
     "**How to read the chart:** Blue band = IQR (middle 50% of peer districts). "
-    "Dotted line = peer median. Numbers on each dot = percentile rank that year. "
+    "Dotted line = peer median. Numbers on each dot = percentile rank vs selected groups that year. "
     "Red = within IQR · Orange = outside IQR · Dark red = outside top/bottom 10%.")
