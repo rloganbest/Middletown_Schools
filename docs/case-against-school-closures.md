@@ -2,7 +2,7 @@
 
 <p align="center"><strong>A Budgetary Analysis for Middletown Parents</strong></p>
 
-The Board of Education (BOE) has proposed closing two elementary schools and one middle school to address a budget shortfall of less than $1 million—a figure representing less than 0.5% of the total budget. This extreme action by the BOE is not commensurate with the small deficit nor is it supported by the school district's own data as this document will show. **Navesink should not be closed—it should be studied.**
+The Board of Education (BOE) has proposed closing two elementary schools and one middle school to address a budget shortfall of less than $1 million—a figure representing less than 0.5% of the total budget. This extreme action by the BOE is not commensurate with the small deficit nor is it supported by the school district's own data as this document will show. **[Ranked 13th in the state](https://www.usnews.com/education/k12/new-jersey/navesink-elementary-school-245784), Navesink should not be closed—it should be studied.**
 
 The following data, sourced from the NJ Taxpayers' Guide to Education Spending, challenges the necessity of these closures.
 
@@ -36,7 +36,7 @@ A common rebuttal for school closures is "excessive overhead" or "too many build
 Middletown has the [lowest total spend per pupil in Monmouth County](https://new-jersey-school-tges-data.streamlit.app/?district=Middletown+Twp&groups=G.+K-12&section=revenue&peers_only=true&counties=Monmouth&ind=Total+Spending+Per+Pupil), yet it has the highest local revenue contribution.
 
 - **The Property Value Link:** School quality is the significant driver of property values in Middletown.
-- **The Warning:** Closing a school like Navesink Elementary—[ranked 13th in the state](https://www.usnews.com/education/k12/new-jersey/navesink-elementary-school-245784)—removes a primary incentive for families to move to the township. A decline in school rankings historically correlates with stagnating property values, which could lead to a genuine revenue crisis far exceeding $1 million.
+- **The Warning:** Closing a school like Navesink Elementary removes a primary incentive for families to move to the township. A decline in school rankings historically correlates with stagnating property values, which could lead to a genuine revenue crisis far exceeding $1 million.
 
 ---
 
