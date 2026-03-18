@@ -8,7 +8,7 @@ The following data, sourced from the NJ Taxpayers' Guide to Education Spending, 
 
 ---
 
-## 1. Our Schools are Underfunded
+## 1. Our Schools are running lean
 
 The BOE has suggested waste should be trimmed. However, the data shows Middletown is already operating far more leanly than its peers:
 
