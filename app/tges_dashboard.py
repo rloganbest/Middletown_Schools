@@ -33,6 +33,13 @@ import streamlit as st
 
 from app.tges_models import County, District
 
+BUDGET_ANALYSIS_PDF_PATH = PROJECT_ROOT / "docs" / "middletown-twp-public-schools-2026-budget-analysis.pdf"
+
+
+@st.cache_data
+def _load_budget_analysis_pdf() -> bytes:
+    return BUDGET_ANALYSIS_PDF_PATH.read_bytes()
+
 warnings.filterwarnings("ignore")
 
 # Sections that have their own table block (no standard single-column ranking)
@@ -958,7 +965,7 @@ def _render_ranking_dataframe(tbl: pd.DataFrame, fmt_map: dict, height: int = 60
         return
     st.dataframe(
         tbl.style.apply(lambda row: _style_highlight(row), axis=1),
-        use_container_width=True, hide_index=True, height=height,
+        width="stretch", hide_index=True, height=height,
         column_config=build_col_config(fmt_map),
     )
 
@@ -989,7 +996,7 @@ def _render_spending_breakdown(bd: pd.DataFrame, primary_district: str, child_la
         n_cols = len(tbl.columns)
         st.dataframe(
             tbl.style.apply(lambda row: _breakdown_table_style(row, child_labels[0], n_cols), axis=1),
-            use_container_width=True, hide_index=True,
+            width="stretch", hide_index=True,
         )
     with col_pie:
         # Exclude parent total (first row); pie shows components as % of Budgetary Per-Pupil Cost
@@ -1015,7 +1022,7 @@ def _render_spending_breakdown(bd: pd.DataFrame, primary_district: str, child_la
                 paper_bgcolor="white",
                 hoverlabel=dict(font_size=PLOT_AXIS_TICK_FS),
             )
-            st.plotly_chart(fig_pie, use_container_width=True)
+            st.plotly_chart(fig_pie, width="stretch")
 
 
 def _revenue_mix_pie(rev_multi: pd.DataFrame, primary_district: str, year: int) -> None:
@@ -1051,7 +1058,7 @@ def _revenue_mix_pie(rev_multi: pd.DataFrame, primary_district: str, year: int) 
         paper_bgcolor="white",
         hoverlabel=dict(font_size=PLOT_AXIS_TICK_FS),
     )
-    st.plotly_chart(fig_pie, use_container_width=True)
+    st.plotly_chart(fig_pie, width="stretch")
 
 
 # ── Streamlit App ─────────────────────────────────────────────────────────────
@@ -1059,19 +1066,38 @@ def _revenue_mix_pie(rev_multi: pd.DataFrame, primary_district: str, year: int) 
 st.set_page_config(page_title="NJ School Finance Explorer", page_icon="🏫",
                    layout="wide", initial_sidebar_state="expanded")
 
-CASE_AGAINST_CLOSURES_URL = (
-    "https://docsify-this.net/?basePath=https://raw.githubusercontent.com/rloganbest/Middletown_Schools/main/docs"
-    "&homepage=case-against-school-closures.md#/?id=_2-academic-excellence-is-not-an-accident"
-)
 st.markdown(
-    f'<div style="text-align: center; margin-bottom: 1rem;">'
-    f'<a href="{CASE_AGAINST_CLOSURES_URL}" target="_blank" rel="noopener noreferrer" '
-    f'style="display: inline-block; padding: 0.65rem 1.5rem; font-size: 1.2rem; font-weight: 700; '
-    f'color: white; background: linear-gradient(135deg, #1d3557 0%, #457b9d 100%); '
-    f'border-radius: 8px; text-decoration: none; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">'
-    f'📖 Read: The Case Against Middletown School Closures</a></div>',
+    """
+    <style>
+    div[data-testid="stDownloadButton"] button {
+        background-color: #E63946 !important;
+        color: #ffffff !important;
+        border: 1px solid #c1121f !important;
+        font-weight: 700 !important;
+        box-shadow: 0 2px 10px rgba(230, 57, 70, 0.45) !important;
+    }
+    div[data-testid="stDownloadButton"] button:hover {
+        background-color: #d62839 !important;
+        border-color: #a30f1a !important;
+    }
+    </style>
+    """,
     unsafe_allow_html=True,
 )
+_col_l, _col_c, _col_r = st.columns([1, 3, 1])
+with _col_c:
+    if BUDGET_ANALYSIS_PDF_PATH.is_file():
+        st.download_button(
+            label="Download Middletown Twp Public Schools 2026 Budget Analysis",
+            data=_load_budget_analysis_pdf(),
+            file_name="Middletown Twp Public Schools 2026 Budget Analysis.pdf",
+            mime="application/pdf",
+            use_container_width=True,
+        )
+    else:
+        st.warning(
+            "Budget analysis PDF not found. Expected: docs/middletown-twp-public-schools-2026-budget-analysis.pdf"
+        )
 st.title("🏫 NJ School Finance Explorer")
 st.caption(
     "Source: NJ Department of Education — Taxpayers' Guide to Education Spending (TGES), 2011–2025.  "
@@ -1232,7 +1258,7 @@ with st.sidebar:
     st.header("📋 Section")
     if "section" not in st.session_state:
         st.session_state["section"] = section_options[0]
-    section = st.radio("", section_options, key="section", label_visibility="collapsed")
+    section = st.radio("Section", section_options, key="section", label_visibility="collapsed")
 
     st.divider()
 
@@ -1318,7 +1344,7 @@ fig = make_chart(stats_df, primary_district, compare_districts,
                  title=f"{ind_label}  ·  {primary_district} vs {chart_vs}",
                  height=chart_height, x_title=x_title, state_avg_series=state_avg_series or None,
                  show_value_as_label=show_value_label)
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width="stretch")
 if is_vitstat_chart:
     st.caption("Vital Statistics: each point is a TGES release; data are latest actual (e.g. 2025 release = 2024 data).")
 
@@ -1329,7 +1355,7 @@ if section == "👥 Enrollment":
     st.caption("Enrollment vs. this district's average over the time series.")
     fig_over_time = make_enrollment_over_time_chart(
         stats_df, primary_district, fmt, y_label, height=450, x_title=x_title)
-    st.plotly_chart(fig_over_time, use_container_width=True)
+    st.plotly_chart(fig_over_time, width="stretch")
     st.divider()
     st.subheader(f"{latest_year} Enrollment Ranking")
     st.caption("★ marks selected districts. Rank 1 = smallest enrollment.")
@@ -1342,7 +1368,7 @@ if section == "👥 Enrollment":
         rank_fmt_map = {ind_label: fmt}
         st.dataframe(
             ranking.style.apply(lambda row: _style_highlight(row), axis=1),
-            use_container_width=True, hide_index=True, height=600,
+            width="stretch", hide_index=True, height=600,
             column_config=build_col_config(rank_fmt_map),
         )
 
@@ -1476,7 +1502,7 @@ elif section not in SECTIONS_WITH_DEDICATED_TABLE:
                 rank_fmt_map[c] = fmt
         st.dataframe(
             ranking.style.apply(lambda row: _style_highlight(row), axis=1),
-            use_container_width=True, hide_index=True, height=600,
+            width="stretch", hide_index=True, height=600,
             column_config=build_col_config(rank_fmt_map),
         )
 
